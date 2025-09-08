@@ -1,11 +1,11 @@
 | Cliente | Atendente | Administração | Fornecedor |
 |---------|-----------|----------------|------------|
-| A1 - Consultar medicamentos ofertados | B1 - Consultar estoque | C1 - Consultar estoque | D1 - Consultar requisições da farmácia |
-| A2 - Receber alertas de interação medicamentosa | B2 - Verificar interações medicamentosas | C2 - Pedir fornecimento | D2 - Obter histórico de produtos fornecidos |
-| A3 - Realizar/Alterar cadastro | B3 - Consultar histórico de compra do cliente | C3 - Consultar histórico de vendas | D3 - Alterar cadastro |
-| A4 - Cadastrar vacinas/data | B4 - Registrar transação de venda | C4 - Consultar histórico de fornecimento | |
-| A5 - Consultar vacinas | B5 - Consultar histórico de vendas | C5 - Cadastrar produtos e interações | |
-| A6 - Cadastrar/Alterar histórico de saúde (enfermidades, alergias, etc) | B6 - Cadastrar/Alterar cadastro de cliente | C6 - Cadastrar fornecedor | |
-| A7 - Consultar histórico de saúde | | C7 - Consultar produtos e interações | |
-| A8 - Registar lembrete | | | |
-| A9 - Receber lembrete registrado | | | |
+| 1 - Consultar medicamentos ofertados | 10 - Consultar estoque | 16 - Consultar estoque | 23 - Consultar requisições da farmácia |
+| 2 - Receber alertas de interação medicamentosa | 11 - Verificar interações medicamentosas | 17 - Pedir fornecimento | 24 - Obter histórico de produtos fornecidos |
+| 3 - Realizar/Alterar cadastro | 12 - Consultar histórico de compra do cliente | 18 - Consultar histórico de vendas | 25 - Alterar cadastro |
+| 4 - Cadastrar vacinas/data | 13 - Registrar transação de venda | 19 - Consultar histórico de fornecimento | |
+| 5 - Consultar vacinas | 14 - Consultar histórico de vendas | 20 - Cadastrar produtos e interações | |
+| 6 - Cadastrar/Alterar histórico de saúde (enfermidades, alergias, etc) | 15 - Cadastrar/Alterar cadastro de cliente | 21 - Cadastrar fornecedor | |
+| 7 - Consultar histórico de saúde | | 22 - Consultar produtos e interações | |
+| 8 - Registar lembrete | | | |
+| 9 - Receber lembrete registrado | | | |
