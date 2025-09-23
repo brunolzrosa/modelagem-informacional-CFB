@@ -45,3 +45,6 @@ CREATE TABLE ProdutoPrateleira (
     FOREIGN KEY (IDProduto) REFERENCES Produto(IDProduto),
     FOREIGN KEY (IDPrateleira) REFERENCES Prateleira(IDPrateleira)
 );
+
+-- Adiciona a restrição UNIQUE à coluna NomeEnferm na tabela Enfermidades
+ALTER TABLE public.Enfermidades ADD CONSTRAINT uq_enfermidades_nomeenferm UNIQUE (NomeEnferm);
