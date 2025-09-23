@@ -5,7 +5,7 @@
 -- na tabela Dim_Tempo, já calculando todos os atributos necessários
 -- como dia da semana, mês, trimestre e ano.
 
-INSERT INTO Dim_Tempo (
+INSERT INTO dw.Dim_Tempo (
     PK_Tempo,
     Data_Completa,
     Ano,

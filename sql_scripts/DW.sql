@@ -1,17 +1,16 @@
 -- ===================================================================
--- DATA WAREHOUSE - CFB FARMÁCIA 
+-- DATA WAREHOUSE - VERSÃO DDL FINAL E CORRIGIDA
+-- Adicionadas as restrições UNIQUE para o ETL Incremental
 -- ===================================================================
-
+DROP SCHEMA IF EXISTS dw CASCADE; 
 CREATE SCHEMA IF NOT EXISTS dw;
 
 -- ========================
--- Tabela Dim_Tempo
--- ========================
--- DESCRIÇÃO: Dimensão de calendário para análises baseadas em tempo.
+-- Tabela dw.Dim_Tempo
 -- ========================
 CREATE TABLE dw.Dim_Tempo (
-  PK_Tempo INT PRIMARY KEY, -- Ex: 20250923 para 23/09/2025
-  Data_Completa DATE NOT NULL,
+  PK_Tempo INT PRIMARY KEY,
+  Data_Completa DATE NOT NULL UNIQUE,
   Dia_Semana VARCHAR(20) NOT NULL,
   Dia_do_Mes INT NOT NULL,
   Mes INT NOT NULL,
@@ -22,9 +21,7 @@ CREATE TABLE dw.Dim_Tempo (
 );
 
 -- ========================
--- Tabela Dim_Endereco
--- ========================
--- DESCRIÇÃO: Armazena as informações geográficas dos clientes.
+-- Tabela dw.Dim_Endereco
 -- ========================
 CREATE TABLE dw.Dim_Endereco (
   PK_Endereco INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -32,73 +29,58 @@ CREATE TABLE dw.Dim_Endereco (
   Bairro VARCHAR(255) NOT NULL,
   Municipio VARCHAR(255) NOT NULL,
   Nome_UF VARCHAR(100) NOT NULL,
-  Sigla_UF CHAR(2) NOT NULL
+  Sigla_UF CHAR(2) NOT NULL,
+  -- A chave única para um endereço é a combinação de seus campos
+  CONSTRAINT uq_dim_endereco_completo UNIQUE (Logradouro, Bairro, Municipio, Sigla_UF)
 );
+
 -- ========================
--- Tabela Dim_Cliente
--- ========================
--- DESCRIÇÃO: Contém os dados descritivos dos seus clientes.
+-- Tabela dw.Dim_Cliente
 -- ========================
 CREATE TABLE dw.Dim_Cliente (
   PK_Cliente INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  IDCliente_Original INT NOT NULL,
+  IDCliente_Original INT NOT NULL UNIQUE, -- RESTRIÇÃO ADICIONADA
   Nome_Cliente VARCHAR(255) NOT NULL,
   Email_Cliente VARCHAR(200) NOT NULL
 );
 
 -- ========================
--- Tabela Dim_Categoria
--- ========================
--- DESCRIÇÃO: Armazena os nomes das categorias dos produtos.
--- Derivada diretamente da tabela Categoria.
+-- Tabela dw.Dim_Categoria
 -- ========================
 CREATE TABLE dw.Dim_Categoria (
   PK_Categoria INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  IDCategoria_Original INT NOT NULL,
+  IDCategoria_Original INT NOT NULL UNIQUE, -- RESTRIÇÃO ADICIONADA
   Nome_Categoria VARCHAR(255) NOT NULL
 );
 
 -- ========================
--- Tabela Dim_Produto
--- ========================
--- DESCRIÇÃO: Contém os detalhes dos produtos.
+-- Tabela dw.Dim_Produto
 -- ========================
 CREATE TABLE dw.Dim_Produto (
   PK_Produto INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  IDProduto_Original INT NOT NULL,
+  IDProduto_Original INT NOT NULL UNIQUE, -- RESTRIÇÃO ADICIONADA
   Nome_Produto VARCHAR(255) NOT NULL,
   Descricao_Produto VARCHAR(500),
-  Indicacao VARCHAR(255),       -- vem da tabela Medicamento
-  Contraindicacao VARCHAR(255)  -- vm da tabela Medicamento
+  Indicacao VARCHAR(255),
+  Contraindicacao VARCHAR(255)
 );
 
 -- ========================
--- Tabela Fato_Receita
--- ========================
--- DESCRIÇÃO: A tabela central. Cada linha representa um produto
--- comprado por um cliente em uma data específica.
+-- Tabela dw.Fato_Receita
 -- ========================
 CREATE TABLE dw.Fato_Receita (
-  -- Chaves Estrangeiras das dimensões
   FK_Tempo INT NOT NULL,
   FK_Endereco INT NOT NULL,
   FK_Cliente INT NOT NULL,
   FK_Categoria INT NOT NULL,
   FK_Produto INT NOT NULL,
-
-  -- Métricas 
   Valor_Vendido NUMERIC(10, 2) NOT NULL,
   Quantidade_Vendida INT NOT NULL,
+  IDCompra_Original INT UNIQUE, -- RESTRIÇÃO ADICIONADA
 
-  -- Chave da compra original 
-  IDCompra_Original INT,
-
-  -- chaves estrangeiras
   FOREIGN KEY (FK_Tempo) REFERENCES dw.Dim_Tempo(PK_Tempo),
   FOREIGN KEY (FK_Endereco) REFERENCES dw.Dim_Endereco(PK_Endereco),
   FOREIGN KEY (FK_Cliente) REFERENCES dw.Dim_Cliente(PK_Cliente),
   FOREIGN KEY (FK_Categoria) REFERENCES dw.Dim_Categoria(PK_Categoria),
   FOREIGN KEY (FK_Produto) REFERENCES dw.Dim_Produto(PK_Produto)
 );
-
-

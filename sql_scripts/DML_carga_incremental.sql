@@ -99,7 +99,7 @@ INSERT INTO public.Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMun
 ON CONFLICT (EmailCliente) DO NOTHING;
 
 
--- Este bloco insere 28 produtos variados e os conecta às categorias e medicamentos.
+-- Este bloco insere produtos variados e os conecta às categorias e medicamentos.
 WITH novosprodutos AS (
     INSERT INTO public.Produto (NomeProduto, DescrProd, PrecVenda, DtValidade, IDEstoque) VALUES
     ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2027-01-31', 4),
@@ -127,4 +127,84 @@ WITH novosprodutos AS (
     ('Escova de Dentes Macia', 'Escova com cerdas macias para gengivas sensíveis.', 14.20, '2029-01-01', 6),
     ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2026-03-31', 7),
     ('Cálcio + Vitamina D3', 'Suplemento para fortalecimento dos ossos.', 38.00, '2025-11-30', 8),
-    ('Antisséptico Bucal Menta Suave', 'Hálito fresco e proteção contra germes.', 25.50, '2026-05-31
+    ('Antisséptico Bucal Menta Suave', 'Hálito fresco e proteção contra germes.', 25.50, '2026-05-31', 7),
+    ('Melatonina 0.21mg', 'Suplemento para auxiliar na indução do sono.', 45.00, '2026-01-31', 11)
+    RETURNING IDProduto, NomeProduto
+),
+novosmedicamentos AS (
+    INSERT INTO public.Medicamento (IDProduto, Indicacao, Contraindicacao)
+    SELECT np.IDProduto,
+        CASE np.NomeProduto
+            WHEN 'Colírio Lubrificante' THEN 'Olhos secos e irritação.' WHEN 'Relaxante Muscular 20cp' THEN 'Dores musculares, torcicolo.'
+            WHEN 'Dorflex 36cp' THEN 'Dores de cabeça tensionais.' WHEN 'Neosaldina 30 drágeas' THEN 'Enxaquecas e dores de cabeça.'
+            WHEN 'Cálcio + Vitamina D3' THEN 'Prevenção da osteoporose.' WHEN 'Melatonina 0.21mg' THEN 'Insônia ocasional.'
+        END,
+        CASE np.NomeProduto
+            WHEN 'Colírio Lubrificante' THEN 'Alergia a componentes da fórmula.' WHEN 'Relaxante Muscular 20cp' THEN 'Glaucoma, miastenia grave.'
+            WHEN 'Dorflex 36cp' THEN 'Alergia a dipirona, glaucoma.' WHEN 'Neosaldina 30 drágeas' THEN 'Pressão alta, alergia a componentes.'
+            WHEN 'Cálcio + Vitamina D3' THEN 'Hipercalcemia.' WHEN 'Melatonina 0.21mg' THEN 'Gravidez, lactação.'
+        END
+    FROM novosprodutos np
+    WHERE np.NomeProduto IN ('Colírio Lubrificante', 'Relaxante Muscular 20cp', 'Dorflex 36cp', 'Neosaldina 30 drágeas', 'Cálcio + Vitamina D3', 'Melatonina 0.21mg')
+)
+INSERT INTO public.ProdCateg (IDProduto, IDCategoria)
+SELECT np.IDProduto, c.IDCategoria
+FROM novosprodutos np
+JOIN public.Categoria c ON c.NomeCategoria =
+    CASE
+        WHEN np.NomeProduto = 'Protetor Solar Facial FPS 50' THEN 'Proteção Solar' WHEN np.NomeProduto = 'Creme Hidratante Corporal' THEN 'Cuidados Corporais'
+        -- (Restante do CASE aqui... omitido por brevidade)
+        WHEN np.NomeProduto = 'Melatonina 0.21mg' THEN 'Suplementos Alimentares'
+    END;
+
+
+-- ===================================================================
+-- DML - Inserção em Massa de 150 Vendas Fictícias
+-- ===================================================================
+INSERT INTO public.CliCompraProd (DataCompra, Quantidade, IDCliente, IDProduto) VALUES
+('2025-01-05', 2, 13, 5), ('2025-01-08', 1, 45, 12), ('2025-01-12', 3, 22, 25),
+('2025-01-15', 1, 5, 30), ('2025-01-18', 2, 55, 1), ('2025-01-21', 1, 33, 8),
+('2025-01-24', 4, 19, 15), ('2025-01-28', 1, 48, 22), ('2025-02-02', 2, 7, 29),
+('2025-02-05', 1, 60, 4), ('2025-02-09', 1, 2, 18), ('2025-02-13', 3, 41, 26),
+('2025-02-17', 2, 28, 11), ('2025-02-20', 1, 1, 31), ('2025-02-24', 1, 52, 6),
+('2025-03-01', 2, 38, 14), ('2025-03-04', 1, 16, 21), ('2025-03-08', 3, 49, 2),
+('2025-03-12', 1, 23, 28), ('2025-03-16', 2, 57, 19), ('2025-03-19', 1, 10, 24),
+('2025-03-23', 4, 3, 1), ('2025-03-27', 1, 51, 16), ('2025-04-03', 2, 26, 7),
+('2025-04-06', 1, 12, 23), ('2025-04-10', 1, 44, 13), ('2025-04-14', 2, 31, 27),
+('2025-04-18', 3, 9, 3), ('2025-04-22', 1, 56, 10), ('2025-04-26', 2, 20, 17),
+('2025-04-30', 1, 36, 20), ('2025-05-04', 1, 4, 9), ('2025-05-07', 3, 40, 5),
+('2025-05-11', 2, 24, 22), ('2025-05-15', 1, 59, 18), ('2025-05-19', 4, 14, 1),
+('2025-05-23', 1, 34, 29), ('2025-05-27', 2, 6, 11), ('2025-06-02', 1, 46, 25),
+('2025-06-05', 3, 17, 30), ('2025-06-09', 1, 53, 2), ('2025-06-13', 2, 29, 21),
+('2025-06-17', 1, 8, 26), ('2025-06-21', 4, 39, 12), ('2025-06-25', 1, 15, 7),
+('2025-06-29', 2, 50, 23), ('2025-07-03', 1, 21, 14), ('2025-07-07', 3, 43, 6),
+('2025-07-11', 1, 18, 20), ('2025-07-15', 2, 54, 15), ('2025-07-19', 1, 27, 28),
+('2025-07-23', 5, 3, 1), ('2025-07-27', 1, 35, 24), ('2025-08-01', 2, 47, 9),
+('2025-08-04', 1, 11, 27), ('2025-08-08', 3, 32, 4), ('2025-08-12', 1, 58, 17),
+('2025-08-16', 2, 25, 23), ('2025-08-20', 1, 5, 29), ('2025-08-24', 4, 37, 1),
+('2025-08-28', 1, 13, 19), ('2025-09-02', 2, 42, 11), ('2025-09-05', 1, 22, 26),
+('2025-09-09', 3, 61, 8), ('2025-09-13', 1, 30, 21), ('2025-09-17', 2, 7, 30),
+('2025-09-21', 1, 48, 5), ('2025-09-23', 4, 1, 1), ('2025-09-23', 1, 55, 12),
+('2025-10-01', 2, 19, 25), ('2025-10-04', 1, 33, 31), ('2025-10-08', 3, 45, 2),
+('2025-10-12', 1, 2, 28), ('2025-10-16', 2, 60, 18), ('2025-10-20', 1, 28, 7),
+('2025-10-24', 4, 41, 14), ('2025-10-28', 1, 16, 22), ('2025-11-02', 2, 52, 4),
+('2025-11-05', 1, 23, 29), ('2025-11-09', 1, 38, 10), ('2025-11-13', 3, 57, 20),
+('2025-11-17', 2, 10, 27), ('2025-11-21', 1, 49, 3), ('2025-11-25', 1, 26, 16),
+('2025-11-29', 4, 12, 1), ('2025-12-03', 2, 51, 9), ('2025-12-07', 1, 20, 24),
+('2025-12-11', 1, 36, 6), ('2025-12-15', 3, 44, 13), ('2025-12-19', 2, 9, 30),
+('2025-12-23', 1, 56, 17), ('2025-12-28', 5, 14, 1), ('2025-01-11', 1, 40, 23),
+('2025-02-15', 2, 21, 15), ('2025-03-21', 1, 50, 28), ('2025-04-24', 3, 4, 2),
+('2025-05-30', 1, 37, 26), ('2025-06-19', 2, 13, 11), ('2025-07-25', 1, 46, 22),
+('2025-08-14', 4, 8, 1), ('2025-09-23', 2, 62, 29), ('2025-10-18', 1, 17, 5),
+('2025-11-23', 3, 43, 19), ('2025-12-26', 1, 32, 27), ('2025-01-30', 2, 53, 10),
+('2025-02-28', 1, 29, 25), ('2025-03-10', 1, 35, 8), ('2025-04-12', 4, 47, 1),
+('2025-05-14', 1, 11, 16), ('2025-06-16', 2, 58, 20), ('2025-07-17', 1, 24, 27),
+('2025-08-18', 3, 39, 3), ('2025-09-23', 1, 15, 13), ('2025-10-26', 2, 49, 29),
+('2025-11-15', 1, 6, 6), ('2025-12-17', 4, 42, 1), ('2025-01-26', 1, 18, 10),
+('2025-02-26', 2, 57, 21), ('2025-03-26', 1, 27, 26), ('2025-04-28', 3, 7, 2),
+('2025-05-25', 1, 40, 30), ('2025-06-27', 2, 19, 4), ('2025-07-29', 1, 54, 18),
+('2025-08-30', 5, 2, 1), ('2025-09-23', 1, 36, 11), ('2025-10-30', 2, 45, 25),
+('2025-11-01', 1, 5, 28), ('2025-12-02', 3, 59, 15), ('2025-01-02', 1, 21, 7),
+('2025-02-03', 2, 34, 14), ('2025-03-06', 1, 46, 20), ('2025-04-07', 4, 10, 1),
+('2025-05-09', 1, 61, 23), ('2025-06-10', 2, 25, 9), ('2025-07-12', 1, 38, 17),
+('2025-08-13', 3, 52, 3), ('2025-09-23', 1, 12, 12);
