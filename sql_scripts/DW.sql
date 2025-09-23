@@ -2,12 +2,14 @@
 -- DATA WAREHOUSE - CFB FARMÁCIA 
 -- ===================================================================
 
+CREATE SCHEMA IF NOT EXISTS dw;
+
 -- ========================
 -- Tabela Dim_Tempo
 -- ========================
 -- DESCRIÇÃO: Dimensão de calendário para análises baseadas em tempo.
 -- ========================
-CREATE TABLE Dim_Tempo (
+CREATE TABLE dw.Dim_Tempo (
   PK_Tempo INT PRIMARY KEY, -- Ex: 20250923 para 23/09/2025
   Data_Completa DATE NOT NULL,
   Dia_Semana VARCHAR(20) NOT NULL,
@@ -24,7 +26,7 @@ CREATE TABLE Dim_Tempo (
 -- ========================
 -- DESCRIÇÃO: Armazena as informações geográficas dos clientes.
 -- ========================
-CREATE TABLE Dim_Endereco (
+CREATE TABLE dw.Dim_Endereco (
   PK_Endereco INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   Logradouro VARCHAR(255) NOT NULL,
   Bairro VARCHAR(255) NOT NULL,
@@ -37,7 +39,7 @@ CREATE TABLE Dim_Endereco (
 -- ========================
 -- DESCRIÇÃO: Contém os dados descritivos dos seus clientes.
 -- ========================
-CREATE TABLE Dim_Cliente (
+CREATE TABLE dw.Dim_Cliente (
   PK_Cliente INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   IDCliente_Original INT NOT NULL,
   Nome_Cliente VARCHAR(255) NOT NULL,
@@ -50,7 +52,7 @@ CREATE TABLE Dim_Cliente (
 -- DESCRIÇÃO: Armazena os nomes das categorias dos produtos.
 -- Derivada diretamente da tabela Categoria.
 -- ========================
-CREATE TABLE Dim_Categoria (
+CREATE TABLE dw.Dim_Categoria (
   PK_Categoria INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   IDCategoria_Original INT NOT NULL,
   Nome_Categoria VARCHAR(255) NOT NULL
@@ -61,7 +63,7 @@ CREATE TABLE Dim_Categoria (
 -- ========================
 -- DESCRIÇÃO: Contém os detalhes dos produtos.
 -- ========================
-CREATE TABLE Dim_Produto (
+CREATE TABLE dw.Dim_Produto (
   PK_Produto INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   IDProduto_Original INT NOT NULL,
   Nome_Produto VARCHAR(255) NOT NULL,
@@ -76,7 +78,7 @@ CREATE TABLE Dim_Produto (
 -- DESCRIÇÃO: A tabela central. Cada linha representa um produto
 -- comprado por um cliente em uma data específica.
 -- ========================
-CREATE TABLE Fato_Receita (
+CREATE TABLE dw.Fato_Receita (
   -- Chaves Estrangeiras das dimensões
   FK_Tempo INT NOT NULL,
   FK_Endereco INT NOT NULL,
@@ -92,9 +94,11 @@ CREATE TABLE Fato_Receita (
   IDCompra_Original INT,
 
   -- chaves estrangeiras
-  FOREIGN KEY (FK_Tempo) REFERENCES Dim_Tempo(PK_Tempo),
-  FOREIGN KEY (FK_Endereco) REFERENCES Dim_Endereco(PK_Endereco),
-  FOREIGN KEY (FK_Cliente) REFERENCES Dim_Cliente(PK_Cliente),
-  FOREIGN KEY (FK_Categoria) REFERENCES Dim_Categoria(PK_Categoria),
-  FOREIGN KEY (FK_Produto) REFERENCES Dim_Produto(PK_Produto)
+  FOREIGN KEY (FK_Tempo) REFERENCES dw.Dim_Tempo(PK_Tempo),
+  FOREIGN KEY (FK_Endereco) REFERENCES dw.Dim_Endereco(PK_Endereco),
+  FOREIGN KEY (FK_Cliente) REFERENCES dw.Dim_Cliente(PK_Cliente),
+  FOREIGN KEY (FK_Categoria) REFERENCES dw.Dim_Categoria(PK_Categoria),
+  FOREIGN KEY (FK_Produto) REFERENCES dw.Dim_Produto(PK_Produto)
 );
+
+
