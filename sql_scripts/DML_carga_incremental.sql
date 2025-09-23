@@ -2,7 +2,7 @@
 -- SCRIPT MESTRE DE POPULAÇÃO DA BASE DE DADOS TRANSACIONAL 
 -- ====================================================================================
 
--- Bloco 1: Categorias 
+--  Categorias 
 -- Insere todas as categorias de uma vez. Se uma já existir, ela é ignorada.
 INSERT INTO public.Categoria (NomeCategoria) VALUES
 ('Analgesicos'), ('Antibióticos'), ('Vacinas'), ('Anti-inflamatórios'),
@@ -23,7 +23,7 @@ INSERT INTO public.Categoria (NomeCategoria) VALUES
 ON CONFLICT (NomeCategoria) DO NOTHING;
 
 
--- Bloco 2: Fornecedores 
+-- Fornecedores 
 -- Insere os fornecedores. Se um CNPJ já existir, ele é ignorado.
 INSERT INTO public.Fornecedor (NomeFornecedor, CNPJ) VALUES
 ('Med-Log Distribuidora', '25.159.753/0001-01'),
@@ -37,15 +37,14 @@ INSERT INTO public.Fornecedor (NomeFornecedor, CNPJ) VALUES
 ON CONFLICT (CNPJ) DO NOTHING;
 
 
--- Bloco 3: Estoques 
+-- Estoques 
 -- Insere os múltiplos locais de estoque.
 INSERT INTO public.Estoque (IDMunicipio) VALUES
 (48), (23), (9), (35), (1), (3), (5), (7), (11), (13), (15), (17), (19),
 (21), (25), (27), (29), (31), (33), (39), (47);
 
 
--- Bloco 4: Clientes
--- Insere os 50 clientes. Se um email já existir, ele é ignorado.
+-- Clientes
 INSERT INTO public.Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMunicipio) VALUES
 ('Helena Martins', 'helena.martins@email.com', 'senha123', 'Rua das Gaivotas, 101', 'Jardim Oceânico', 35),
 ('Miguel Pereira', 'miguel.pereira@email.com', 'senha123', 'Avenida das Américas, 202', 'Barra da Tijuca', 35),
@@ -95,11 +94,238 @@ INSERT INTO public.Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMun
 ('Benjamin Oliveira', 'benjamin.oliveira@email.com', 'senha123', 'Largo Coração de Jesus, 4646', 'Santa Efigênia', 48),
 ('Clarice Souza', 'clarice.souza@email.com', 'senha123', 'Alameda Glete, 4747', 'Santa Efigênia', 48),
 ('Sebastião Costa', 'sebastiao.costa@email.com', 'senha123', 'Rua das Palmeiras, 4848', 'Santa Cecília', 48),
-('Lavínia Pereira', 'lavinia.pereira@email.com', 'senha123', 'Rua Martim Francisco, 4949', 'Santa Cecília', 48)
+('Lavínia Pereira', 'lavinia.pereira@email.com', 'senha123', 'Rua Martim Francisco, 4949', 'Santa Cecília', 48),
+('Felipe Barros', 'felipe.barros@email.com', 'senha123', 'Rua Conde de Bonfim, 5050', 'Tijuca', 35),
+('Gabriela Azevedo', 'gabriela.azevedo@email.com', 'senha123', 'Avenida Angélica, 5151', 'Higienópolis', 48),
+('Vinicius Cardoso', 'vinicius.cardoso@email.com', 'senha123', 'Rua da Passagem, 5252', 'Botafogo', 35),
+('Larissa Monteiro', 'larissa.monteiro@email.com', 'senha123', 'Rua Haddock Lobo, 5353', 'Jardins', 48),
+('Diego Pinto', 'diego.pinto@email.com', 'senha123', 'Praia do Flamengo, 5454', 'Flamengo', 35),
+('Amanda Correia', 'amanda.correia@email.com', 'senha123', 'Avenida Rebouças, 5555', 'Pinheiros', 48),
+('Leandro Teixeira', 'leandro.teixeira@email.com', 'senha123', 'Rua Marquês de Abrantes, 5656', 'Flamengo', 35),
+('Bruna Campos', 'bruna.campos@email.com', 'senha123', 'Rua dos Pinheiros, 5757', 'Pinheiros', 48),
+('Marcelo Rocha', 'marcelo.rocha@email.com', 'senha123', 'Rua General Glicério, 5858', 'Laranjeiras', 35),
+('Juliana Dias', 'juliana.dias@email.com', 'senha123', 'Avenida Brigadeiro Luís Antônio, 5959', 'Jardim Paulista', 48),
+('Ricardo Vieira', 'ricardo.vieira@email.com', 'senha123', 'Rua São Clemente, 6060', 'Botafogo', 35),
+('Patrícia Duarte', 'patricia.duarte@email.com', 'senha123', 'Rua Augusta, 6161', 'Cerqueira César', 48),
+('Eduardo Cunha', 'eduardo.cunha@email.com', 'senha123', 'Avenida Nossa Senhora de Copacabana, 6262', 'Copacabana', 35),
+('Vanessa Neves', 'vanessa.neves@email.com', 'senha123', 'Alameda Jaú, 6363', 'Jardim Paulista', 48),
+('Fábio Pires', 'fabio.pires@email.com', 'senha123', 'Rua Barata Ribeiro, 6464', 'Copacabana', 35),
+('Carolina Macedo', 'carolina.macedo@email.com', 'senha123', 'Rua Frei Caneca, 6565', 'Consolação', 48),
+('André Morais', 'andre.morais@email.com', 'senha123', 'Rua Voluntários da Pátria, 6666', 'Botafogo', 35),
+('Márcia Freitas', 'marcia.freitas@email.com', 'senha123', 'Avenida do Ibirapuera, 6767', 'Moema', 48),
+('Raul Ramos', 'raul.ramos@email.com', 'senha123', 'Rua Real Grandeza, 6868', 'Botafogo', 35),
+('Tatiane Lopes', 'tatiane.lopes@email.com', 'senha123', 'Avenida Santo Amaro, 6969', 'Vila Nova Conceição', 48),
+('Igor Resende', 'igor.resende@email.com', 'senha123', 'Rua Sorocaba, 7070', 'Botafogo', 35),
+('Renata Brandão', 'renata.brandao@email.com', 'senha123', 'Rua Joaquim Floriano, 7171', 'Itaim Bibi', 48),
+('Sérgio Siqueira', 'sergio.siqueira@email.com', 'senha123', 'Rua Pinheiro Guimarães, 7272', 'Botafogo', 35),
+('Débora Moreira', 'debora.moreira@email.com', 'senha123', 'Avenida 9 de Julho, 7373', 'Jardim Paulista', 48),
+('Vitor Drumond', 'vitor.drumond@email.com', 'senha123', 'Rua Dezenove de Fevereiro, 7474', 'Botafogo', 35),
+('Sandra Fogaça', 'sandra.fogaca@email.com', 'senha123', 'Rua Tabapuã, 7575', 'Itaim Bibi', 48),
+('Leonardo Paiva', 'leonardo.paiva@email.com', 'senha123', 'Rua da Glória, 7676', 'Glória', 35),
+('Cristiane Andrade', 'cristiane.andrade@email.com', 'senha123', 'Avenida Brasil, 7777', 'Jardim América', 48),
+('Alexandre Viana', 'alexandre.viana@email.com', 'senha123', 'Rua do Russel, 7878', 'Glória', 35),
+('Daniela Borges', 'daniela.borges@email.com', 'senha123', 'Rua da Mooca, 7979', 'Mooca', 48),
+('Fernando Queiroz', 'fernando.queiroz@email.com', 'senha123', 'Largo do Machado, 8080', 'Catete', 35),
+('Aline Peixoto', 'aline.peixoto@email.com', 'senha123', 'Avenida Paes de Barros, 8181', 'Mooca', 48),
+('Paulo Cordeiro', 'paulo.cordeiro@email.com', 'senha123', 'Rua do Riachuelo, 8282', 'Lapa', 35),
+('Adriana Dantas', 'adriana.dantas@email.com', 'senha123', 'Rua do Oratório, 8383', 'Mooca', 48),
+('Jonas Magalhães', 'jonas.magalhaes@email.com', 'senha123', 'Avenida Mem de Sá, 8484', 'Lapa', 35),
+('Gisele Bezerra', 'gisele.bezerra@email.com', 'senha123', 'Rua da Bresser, 8585', 'Brás', 48),
+('Carlos Santana', 'carlos.santana@email.com', 'senha123', 'Rua Taylor, 8686', 'Lapa', 35),
+('Eliane Xavier', 'eliane.xavier@email.com', 'senha123', 'Largo da Concórdia, 8787', 'Brás', 48),
+('Roberto Salgado', 'roberto.salgado@email.com', 'senha123', 'Rua dos Inválidos, 8888', 'Centro', 35),
+('Simone Pimenta', 'simone.pimenta@email.com', 'senha123', 'Rua Maria Marcolina, 8989', 'Brás', 48),
+('Marcos Valente', 'marcos.valente@email.com', 'senha123', 'Praça da Cruz Vermelha, 9090', 'Centro', 35),
+('Cláudia Chaves', 'claudia.chaves@email.com', 'senha123', 'Rua Oriente, 9191', 'Brás', 48),
+('Tiago Tavares', 'tiago.tavares@email.com', 'senha123', 'Rua Haddock Lobo, 9292', 'Tijuca', 35),
+('Fernanda Guerra', 'fernanda.guerra@email.com', 'senha123', 'Rua Miller, 9393', 'Brás', 48),
+('José Padilha', 'jose.padilha@email.com', 'senha123', 'Rua Afonso Pena, 9494', 'Tijuca', 35),
+('Paula Franco', 'paula.franco@email.com', 'senha123', 'Avenida Celso Garcia, 9595', 'Tatuapé', 48),
+('Anderson Melo', 'anderson.melo@email.com', 'senha123', 'Rua Barão de Mesquita, 9696', 'Tijuca', 35),
+('Regina Bastos', 'regina.bastos@email.com', 'senha123', 'Rua Tuiuti, 9797', 'Tatuapé', 48),
+('William Farias', 'william.farias@email.com', 'senha123', 'Rua Uruguai, 9898', 'Tijuca', 35),
+('Cintia Arruda', 'cintia.arruda@email.com', 'senha123', 'Rua Itapura, 9999', 'Tatuapé', 48)
 ON CONFLICT (EmailCliente) DO NOTHING;
 
+-- mais categorias
+INSERT INTO public.Categoria (NomeCategoria) VALUES
+('Testes e Diagnósticos'),
+('Cuidados Femininos'),
+('Proteção e Segurança')
+ON CONFLICT (NomeCategoria) DO NOTHING;
 
--- Este bloco insere produtos variados e os conecta às categorias e medicamentos.
+---- produtos
+WITH novosprodutos AS (
+    INSERT INTO public.Produto (NomeProduto, DescrProd, PrecVenda, DtValidade, IDEstoque) VALUES
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2026-11-30', 10),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2027-05-31', 11),
+    ('Lenços Umedecidos Antissépticos', 'Pacote com 20 lenços para higienização das mãos.', 15.00, '2026-09-30', 12),
+    ('Ômega 3 1000mg 120 cápsulas', 'Suplemento de óleo de peixe rico em EPA e DHA.', 89.90, '2027-02-28', 13),
+    ('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2026-10-31', 14),
+    ('Seringa Descartável 5ml com Agulha', 'Produto estéril para aplicação de medicamentos.', 2.50, '2028-12-31', 15),
+    ('Algodão em Bolas 100g', 'Algodão hidrófilo para higiene e cuidados com a pele.', 7.20, '2029-01-01', 16),
+    ('Aparelho de Pressão Digital de Pulso', 'Monitoramento prático e rápido da pressão arterial.', 180.00, '2031-01-01', 17),
+    ('Pasta de Dente Gengivas Sensíveis', 'Creme dental para alívio da sensibilidade.', 12.50, '2026-07-31', 18),
+    ('Enxaguante Bucal Sem Álcool', 'Proteção anticáries e hálito fresco prolongado.', 22.90, '2027-03-31', 19),
+    ('Absorvente Noturno Suave (16 un)', 'Cobertura suave com maior poder de absorção.', 14.80, '2028-01-01', 20),
+    ('Coenzima Q10 100mg', 'Suplemento antioxidante para saúde cardiovascular.', 95.00, '2026-08-31', 21),
+    ('Pomada para Picada de Inseto', 'Alívio imediato da coceira e irritação.', 25.40, '2027-04-30', 22),
+    ('Sal de Frutas (Antiácido)', 'Antiácido para alívio de azia e má digestão.', 8.90, '2026-06-30', 23),
+    ('Gase Estéril Pacote (10 un)', 'Compressas de gaze para curativos.', 9.50, '2029-03-31', 4),
+    ('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2027-01-01', 5),
+    ('Álcool em Gel 70% 500ml', 'Antisséptico para as mãos com hidratante.', 18.00, '2026-12-31', 6),
+    ('Bolsa Térmica Gel Quente/Fria', 'Bolsa reutilizável para alívio de dores e lesões.', 35.00, '2032-01-01', 7),
+    ('Cortador de Unha Aço Inox', 'Cortador de unhas de alta precisão e durabilidade.', 11.20, '2035-01-01', 8),
+    ('Curativo Adesivo à Prova D''água', 'Caixa com 20 curativos resistentes à água.', 13.90, '2028-06-30', 9),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-01-15', 1),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-02-20', 2),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-03-10', 3),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-04-25', 4),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-05-15', 5),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-06-20', 6),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-07-10', 7),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-08-25', 8),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-09-15', 1),
+    ('Dorflex 36cp', 'Analgésico e relaxante muscular.', 23.50, '2027-10-20', 2),
+
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-02-01', 3),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-03-05', 4),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-04-10', 5),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-05-20', 6),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-06-01', 7),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-07-05', 8),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-08-10', 1),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-09-20', 2),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-10-01', 3),
+    ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-11-05', 4),
+
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2027-10-01', 5),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2027-11-05', 6),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2027-12-10', 7),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-01-20', 8),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-02-01', 1),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-03-05', 2),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-04-10', 3),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-05-20', 4),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-06-01', 5),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-07-05', 6),
+
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-01-15', 7),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-02-20', 8),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-03-10', 1),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-04-25', 2),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-05-15', 3),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-06-20', 4),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-07-10', 5),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-08-25', 6),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-09-15', 7),
+    ('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2028-10-20', 8),
+
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-05-01', 1),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-06-05', 2),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-07-10', 3),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-08-20', 4),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-09-01', 5),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-10-05', 6),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-11-10', 7),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2027-12-20', 8),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-01-01', 1),
+    ('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-02-05', 2),
+
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-01-10', 3),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-02-15', 4),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-03-20', 5),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-04-25', 6),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-05-30', 7),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-06-05', 8),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-07-10', 1),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-08-15', 2),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-09-20', 3),
+    ('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2027-10-25', 4),
+
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-03-01', 5),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-04-05', 6),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-05-10', 7),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-06-15', 8),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-07-20', 1),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-08-25', 2),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-09-01', 3),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-10-05', 4),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-11-10', 5),
+    ('Creme Dental Branqueador', 'Auxilia no clareamento dos dentes.', 9.50, '2027-12-15', 6),
+
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-01-01', 7),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-02-05', 8),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-03-10', 1),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-04-15', 2),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-05-20', 3),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-06-25', 4),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-07-01', 5),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-08-05', 6),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-09-10', 7),
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-10-15', 8),
+
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2027-11-01', 1),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2027-12-05', 2),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-01-10', 3),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-02-15', 4),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-03-20', 5),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-04-25', 6),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-05-01', 7),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-06-05', 8),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-07-10', 1),
+    ('Teste de Gravidez Digital', 'Resultado rápido e preciso com indicador de semanas.', 45.90, '2028-08-15', 2),
+
+    ('Preservativo Pacote Leve 8 Pague 6', 'Preservativos de látex, lubrificados.', 15.00, '2030-01-01', 3),
+    ('Preservativo Pacote Leve 8 Pague 6', 'Preservativos de látex, lubrificados.', 15.00, '2030-02-05', 4),
+    ('Preservativo Pacote Leve 8 Pague 6', 'Preservativos de látex, lubrificados.', 15.00, '2030-03-10', 5),
+    ('Preservativo Pacote Leve 8 Pague 6', 'Preservativos de látex, lubrificados.', 15.00, '2030-04-15', 6)
+
+    RETURNING IDProduto, NomeProduto
+),
+novosmedicamentos AS (
+    INSERT INTO public.Medicamento (IDProduto, Indicacao, Contraindicacao)
+    SELECT np.IDProduto,
+        CASE np.NomeProduto
+            WHEN 'Analgésico Infantil em Gotas' THEN 'Febre e dores leves a moderadas em crianças.'
+            WHEN 'Pomada para Picada de Inseto' THEN 'Alívio sintomático de picadas de insetos.'
+            WHEN 'Sal de Frutas (Antiácido)' THEN 'Azia, má digestão e excesso de acidez no estômago.'
+        END,
+        CASE np.NomeProduto
+            WHEN 'Analgésico Infantil em Gotas' THEN 'Alergia ao paracetamol ou componentes.'
+            WHEN 'Pomada para Picada de Inseto' THEN 'Não aplicar em feridas abertas ou pele com bolhas.'
+            WHEN 'Sal de Frutas (Antiácido)' THEN 'Hipertensão, problemas renais.'
+        END
+    FROM novosprodutos np
+    WHERE np.NomeProduto IN ('Analgésico Infantil em Gotas', 'Pomada para Picada de Inseto', 'Sal de Frutas (Antiácido)')
+)
+INSERT INTO public.ProdCateg (IDProduto, IDCategoria)
+SELECT np.IDProduto, c.IDCategoria
+FROM novosprodutos np
+JOIN public.Categoria c ON c.NomeCategoria =
+    CASE
+        WHEN np.NomeProduto = 'Vitamina C Efervescente 1g' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Teste de Gravidez Digital' THEN 'Testes e Diagnósticos'
+        WHEN np.NomeProduto = 'Lenços Umedecidos Antissépticos' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto = 'Ômega 3 1000mg 120 cápsulas' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Analgésico Infantil em Gotas' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Seringa Descartável 5ml com Agulha' THEN 'Equipamentos de Saúde'
+        WHEN np.NomeProduto = 'Algodão em Bolas 100g' THEN 'Primeiros Socorros'
+        WHEN np.NomeProduto = 'Aparelho de Pressão Digital de Pulso' THEN 'Equipamentos de Saúde'
+        WHEN np.NomeProduto = 'Pasta de Dente Gengivas Sensíveis' THEN 'Higiene Bucal'
+        WHEN np.NomeProduto = 'Enxaguante Bucal Sem Álcool' THEN 'Higiene Bucal'
+        WHEN np.NomeProduto = 'Absorvente Noturno Suave (16 un)' THEN 'Cuidados Femininos'
+        WHEN np.NomeProduto = 'Coenzima Q10 100mg' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Pomada para Picada de Inseto' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Sal de Frutas (Antiácido)' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Gase Estéril Pacote (10 un)' THEN 'Primeiros Socorros'
+        WHEN np.NomeProduto = 'Máscara de Proteção N95' THEN 'Proteção e Segurança'
+        WHEN np.NomeProduto = 'Álcool em Gel 70% 500ml' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto = 'Bolsa Térmica Gel Quente/Fria' THEN 'Ortopédicos'
+        WHEN np.NomeProduto = 'Cortador de Unha Aço Inox' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto = 'Curativo Adesivo à Prova D''água' THEN 'Primeiros Socorros'
+    END;
+
 WITH novosprodutos AS (
     INSERT INTO public.Produto (NomeProduto, DescrProd, PrecVenda, DtValidade, IDEstoque) VALUES
     ('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2027-01-31', 4),
@@ -135,14 +361,20 @@ novosmedicamentos AS (
     INSERT INTO public.Medicamento (IDProduto, Indicacao, Contraindicacao)
     SELECT np.IDProduto,
         CASE np.NomeProduto
-            WHEN 'Colírio Lubrificante' THEN 'Olhos secos e irritação.' WHEN 'Relaxante Muscular 20cp' THEN 'Dores musculares, torcicolo.'
-            WHEN 'Dorflex 36cp' THEN 'Dores de cabeça tensionais.' WHEN 'Neosaldina 30 drágeas' THEN 'Enxaquecas e dores de cabeça.'
-            WHEN 'Cálcio + Vitamina D3' THEN 'Prevenção da osteoporose.' WHEN 'Melatonina 0.21mg' THEN 'Insônia ocasional.'
+            WHEN 'Colírio Lubrificante' THEN 'Olhos secos e irritação.'
+            WHEN 'Relaxante Muscular 20cp' THEN 'Dores musculares, torcicolo.'
+            WHEN 'Dorflex 36cp' THEN 'Dores de cabeça tensionais.'
+            WHEN 'Neosaldina 30 drágeas' THEN 'Enxaquecas e dores de cabeça.'
+            WHEN 'Cálcio + Vitamina D3' THEN 'Prevenção da osteoporose.'
+            WHEN 'Melatonina 0.21mg' THEN 'Insônia ocasional.'
         END,
         CASE np.NomeProduto
-            WHEN 'Colírio Lubrificante' THEN 'Alergia a componentes da fórmula.' WHEN 'Relaxante Muscular 20cp' THEN 'Glaucoma, miastenia grave.'
-            WHEN 'Dorflex 36cp' THEN 'Alergia a dipirona, glaucoma.' WHEN 'Neosaldina 30 drágeas' THEN 'Pressão alta, alergia a componentes.'
-            WHEN 'Cálcio + Vitamina D3' THEN 'Hipercalcemia.' WHEN 'Melatonina 0.21mg' THEN 'Gravidez, lactação.'
+            WHEN 'Colírio Lubrificante' THEN 'Alergia a componentes da fórmula.'
+            WHEN 'Relaxante Muscular 20cp' THEN 'Glaucoma, miastenia grave.'
+            WHEN 'Dorflex 36cp' THEN 'Alergia a dipirona, glaucoma.'
+            WHEN 'Neosaldina 30 drágeas' THEN 'Pressão alta, alergia a componentes.'
+            WHEN 'Cálcio + Vitamina D3' THEN 'Hipercalcemia.'
+            WHEN 'Melatonina 0.21mg' THEN 'Gravidez, lactação.'
         END
     FROM novosprodutos np
     WHERE np.NomeProduto IN ('Colírio Lubrificante', 'Relaxante Muscular 20cp', 'Dorflex 36cp', 'Neosaldina 30 drágeas', 'Cálcio + Vitamina D3', 'Melatonina 0.21mg')
@@ -152,14 +384,304 @@ SELECT np.IDProduto, c.IDCategoria
 FROM novosprodutos np
 JOIN public.Categoria c ON c.NomeCategoria =
     CASE
-        WHEN np.NomeProduto = 'Protetor Solar Facial FPS 50' THEN 'Proteção Solar' WHEN np.NomeProduto = 'Creme Hidratante Corporal' THEN 'Cuidados Corporais'
-        -- (Restante do CASE aqui... omitido por brevidade)
+        WHEN np.NomeProduto = 'Protetor Solar Facial FPS 50' THEN 'Proteção Solar'
+        WHEN np.NomeProduto = 'Creme Hidratante Corporal' THEN 'Cuidados Corporais'
+        WHEN np.NomeProduto = 'Kit de Curativos Avançado' THEN 'Primeiros Socorros'
+        WHEN np.NomeProduto = 'Whey Protein Concentrado 900g' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Shampoo Anticaspa' THEN 'Cuidados com o Cabelo'
+        WHEN np.NomeProduto = 'Termômetro Digital Infravermelho' THEN 'Equipamentos de Saúde'
+        WHEN np.NomeProduto = 'Fraldas Infantis Pacote G' THEN 'Infantil'
+        WHEN np.NomeProduto = 'Tiras para Glicosímetro (50 un)' THEN 'Equipamentos de Saúde'
+        WHEN np.NomeProduto = 'Colírio Lubrificante' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Relaxante Muscular 20cp' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Repelente de Insetos Loção' THEN 'Proteção Solar'
+        WHEN np.NomeProduto = 'Protetor Labial com Manteiga de Cacau' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto = 'Fio Dental Menta 50m' THEN 'Higiene Bucal'
+        WHEN np.NomeProduto = 'Sabonete Líquido Antisséptico' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto = 'Multivitamínico A-Z Homem' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Creme para Assaduras' THEN 'Infantil'
+        WHEN np.NomeProduto = 'Gel para Dores Musculares' THEN 'Cuidados Corporais'
+        WHEN np.NomeProduto = 'Barra de Proteína Chocolate' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Água Micelar de Limpeza Facial' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto = 'Tala para Punho Ajustável' THEN 'Ortopédicos'
+        WHEN np.NomeProduto = 'Dorflex 36cp' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Neosaldina 30 drágeas' THEN 'Medicamentos'
+        WHEN np.NomeProduto = 'Escova de Dentes Macia' THEN 'Higiene Bucal'
+        WHEN np.NomeProduto = 'Creme Dental Branqueador' THEN 'Higiene Bucal'
+        WHEN np.NomeProduto = 'Cálcio + Vitamina D3' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto = 'Antisséptico Bucal Menta Suave' THEN 'Higiene Bucal'
         WHEN np.NomeProduto = 'Melatonina 0.21mg' THEN 'Suplementos Alimentares'
     END;
 
 
+-- Garante que as novas categorias necessárias existam.
+INSERT INTO public.Categoria (NomeCategoria) VALUES
+('Cuidados Masculinos'),
+('Cosméticos')
+ON CONFLICT (NomeCategoria) DO NOTHING;
+
+
+WITH novosprodutos AS (
+    INSERT INTO public.Produto (NomeProduto, DescrProd, PrecVenda, DtValidade, IDEstoque) VALUES
+    ('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2027-08-31', 4),
+    ('Xarope para Tosse Seca 120ml', 'Xarope para alívio da tosse seca e irritativa.', 25.50, '2026-09-30', 5),
+    ('Xarope Expectorante 120ml', 'Auxilia na eliminação do catarro em gripes e resfriados.', 27.80, '2026-10-31', 6),
+    ('Descongestionante Nasal Adulto', 'Solução nasal para alívio da congestão.', 15.20, '2027-01-31', 7),
+    ('Pastilhas para Garganta Sabor Mel e Limão', 'Alívio para dor e irritação na garganta.', 12.00, '2026-05-31', 8),
+    ('Gel Anti-inflamatório para Dor Muscular', 'Gel tópico para tratamento de dores e inflamações locais.', 33.00, '2027-04-30', 9),
+    ('Esmalte para Tratamento de Micose de Unha', 'Esmalte terapêutico antifúngico.', 55.40, '2026-11-30', 10),
+    ('Creme para Tratamento de Hemorroidas', 'Pomada para alívio da dor e desconforto.', 42.00, '2026-08-31', 11),
+    ('Laxante Suave em Comprimidos', 'Indicado para casos de prisão de ventre ocasional.', 14.75, '2027-07-31', 12),
+    ('Antidiarreico 12cp', 'Controle rápido dos sintomas da diarreia.', 21.90, '2027-06-30', 13),
+    ('Comprimido para Enjoo e Vômito (Dramin)', 'Prevenção e tratamento de náuseas, tonturas e vômitos.', 9.80, '2026-12-31', 14),
+    ('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2027-09-30', 15),
+    ('Sulfato Ferroso + Ácido Fólico', 'Suplemento para prevenção e tratamento de anemias.', 23.50, '2026-04-30', 16),
+    ('Magnésio Quelato 60 cápsulas', 'Suplemento mineral para saúde muscular e óssea.', 58.00, '2027-03-31', 17),
+    ('Zinco Quelato 60 cápsulas', 'Suplemento para fortalecimento do sistema imunológico.', 49.90, '2027-02-28', 18),
+    ('Complexo B 100 cápsulas', 'Complexo de vitaminas B para energia e saúde neural.', 45.00, '2027-05-31', 19),
+    ('Colágeno Hidrolisado em Pó 300g', 'Suplemento para firmeza da pele, cabelos e unhas.', 85.00, '2026-07-31', 20),
+    ('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2027-10-31', 21),
+    ('BCAA em Pó 200g Sabor Limão', 'Aminoácidos para recuperação muscular pós-treino.', 75.00, '2026-06-30', 22),
+    ('Vitamina D3 2000 UI 60 cápsulas', 'Suplemento para imunidade e saúde óssea.', 42.80, '2027-11-30', 23),
+    ('Gummy de Vitamina para Cabelo e Unha', 'Suplemento em goma para fortalecimento capilar.', 65.00, '2026-10-31', 4),
+    ('Desodorante Aerosol Sem Perfume', 'Proteção 48h contra o suor, sem fragrância.', 16.50, '2027-12-31', 5),
+    ('Espuma de Barbear Pele Sensível', 'Espuma densa para um barbear suave e sem irritação.', 28.00, '2028-01-31', 6),
+    ('Loção Pós-Barba Hidratante', 'Acalma e hidrata a pele após o barbear.', 32.00, '2028-02-29', 7),
+    ('Hastes Flexíveis com Pontas de Algodão (Cotonetes) 150un', 'Para higiene de áreas delicadas.', 8.50, '2030-01-01', 8),
+    ('Talco Antisséptico para os Pés', 'Previne odores e mantém os pés secos.', 13.90, '2028-03-31', 9),
+    ('Creme Esfoliante Facial Suave', 'Remove células mortas e impurezas da pele.', 38.00, '2026-09-30', 10),
+    ('Máscara Facial de Argila Verde', 'Controle de oleosidade e efeito detox para a pele.', 25.00, '2026-08-31', 11),
+    ('Sabonete Líquido Íntimo Feminino', 'Higiene e proteção com pH balanceado.', 22.50, '2027-04-30', 12),
+    ('Preservativo Pacote Leve 8 Pague 6', 'Preservativos de látex, lubrificados.', 15.00, '2029-05-31', 13),
+    ('Lubrificante Íntimo à Base de Água 50g', 'Lubrificação discreta e segura.', 20.00, '2028-06-30', 14),
+    ('Chupeta Ortodôntica 6-18 meses', 'Design que respeita o desenvolvimento oral do bebê.', 28.90, '2030-03-31', 15),
+    ('Mamadeira Anti-Cólica 260ml', 'Sistema que reduz a ingestão de ar e as cólicas.', 45.00, '2030-04-30', 16),
+    ('Fórmula Infantil para Lactentes 800g', 'Leite em pó para bebês de 0 a 6 meses.', 68.00, '2026-05-31', 17),
+    ('Lenços Umedecidos para Recém-Nascido', 'Fórmula suave com 99% de água, sem perfume.', 18.00, '2027-02-28', 18),
+    ('Termômetro de Banheira em formato de Peixe', 'Mede a temperatura da água do banho do bebê.', 22.00, '2035-01-01', 19),
+    ('Pomada para Assadura de Uso Diário', 'Cria uma camada protetora na pele do bebê.', 29.50, '2026-11-30', 20),
+    ('Atadura Elástica de Compressão 10cm', 'Para enfaixamentos e suporte a articulações.', 17.00, '2031-05-31', 21),
+    ('Esparadrapo Impermeável Branco', 'Fixação de curativos, alta resistência.', 9.00, '2029-06-30', 22),
+    ('Solução de Iodo 10% Antisséptico', 'Antisséptico tópico para curativos.', 11.50, '2027-01-31', 23),
+    ('Nebulizador e Inalador Portátil a Pilha', 'Para tratamento de doenças respiratórias.', 250.00, '2032-06-30', 4),
+    ('Oxímetro de Dedo Portátil', 'Mede a saturação de oxigênio no sangue e pulso.', 150.00, '2032-07-31', 5),
+    ('Soro Fisiológico 0.9% 500ml', 'Para limpeza de ferimentos, olhos e nariz.', 8.00, '2027-08-31', 6),
+    ('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2026-12-31', 7),
+    ('Creme Anti-idade Noturno Revitalizante', 'Hidrata e reduz linhas de expressão durante a noite.', 95.00, '2027-09-30', 8),
+    ('Protetor Solar Corporal FPS 30 200ml', 'Proteção UVA/UVB resistente à água.', 48.00, '2027-03-31', 9),
+    ('Removedor de Maquiagem Bifásico', 'Remove maquiagem à prova d''água sem esforço.', 35.00, '2027-06-30', 10),
+    ('Esmalte de Unha Hipoalergênico Cor "Vinho"', 'Cor intensa e fórmula que minimiza alergias.', 9.90, '2028-08-31', 11),
+    ('Removedor de Esmalte sem Acetona', 'Remove o esmalte sem ressecar as unhas.', 7.50, '2028-09-30', 12),
+    ('Pinça de Sobrancelha Ponta Diagonal', 'Aço inox para alta precisão na remoção de pelos.', 14.00, '2035-01-01', 13),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-01-01', 1),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-02-05', 2),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-03-10', 3),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-04-15', 4),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-05-20', 5),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-06-25', 6),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-07-01', 7),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-08-05', 8),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-09-10', 9),
+('Loratadina 10mg 12cp', 'Antialérgico para alívio de sintomas de rinite e urticária.', 18.90, '2028-10-15', 10),
+
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-01-01', 11),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-02-05', 12),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-03-10', 13),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-04-15', 14),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-05-20', 15),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-06-25', 16),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-07-01', 17),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-08-05', 18),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-09-10', 19),
+('Whey Protein Concentrado 900g', 'Suplemento para ganho de massa muscular.', 150.00, '2028-10-15', 20),
+
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-01-01', 1),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-02-05', 2),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-03-10', 3),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-04-15', 4),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-05-20', 5),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-06-25', 6),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-07-01', 7),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-08-05', 8),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-09-10', 9),
+('Fraldas Infantis Pacote G', 'Pacote com 48 fraldas, ajuste confortável.', 45.75, '2029-10-15', 10),
+
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-12-01', 11),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2028-12-05', 12),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-01-10', 13),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-01-15', 14),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-02-20', 15),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-02-25', 16),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-03-01', 17),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-03-05', 18),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-04-10', 19),
+('Protetor Solar Facial FPS 50', 'Proteção alta contra raios UVA/UVB, toque seco.', 55.90, '2029-04-15', 20),
+
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-08-01', 1),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-08-05', 2),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-09-10', 3),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-09-15', 4),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-10-20', 5),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-10-25', 6),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-11-01', 7),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-11-05', 8),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-12-10', 9),
+('Tylenol Sinus 24cp', 'Analgésico e descongestionante para gripes e sinusite.', 29.90, '2028-12-15', 10),
+
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-01-01', 11),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-01-05', 12),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-02-10', 13),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-02-15', 14),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-03-20', 15),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-03-25', 16),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-04-01', 17),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-04-05', 18),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-05-10', 19),
+('Vitamina C Efervescente 1g', 'Suplemento alimentar de vitamina C, sabor laranja.', 28.50, '2028-05-15', 20),
+
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-01-01', 1),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-02-05', 2),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-03-10', 3),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-04-15', 4),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-05-20', 5),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-06-25', 6),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-07-01', 7),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-08-05', 8),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-09-10', 9),
+('Creatina Monohidratada 300g', 'Suplemento para aumento de força e desempenho físico.', 99.90, '2029-10-15', 10),
+
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-06-01', 11),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-06-05', 12),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-07-10', 13),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-07-15', 14),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-08-20', 15),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-08-25', 16),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-09-01', 17),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-09-05', 18),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-10-10', 19),
+('Sérum Facial com Vitamina C Pura', 'Antioxidante que uniformiza o tom da pele.', 120.00, '2027-10-15', 20),
+
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-01-01', 1),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-02-05', 2),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-03-10', 3),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-04-15', 4),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-05-20', 5),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-06-25', 6),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-07-01', 7),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-08-05', 8),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-09-10', 9),
+('Analgésico Infantil em Gotas', 'Alívio de febre e dores para crianças, sabor frutas.', 19.80, '2027-10-15', 10),
+
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-01-01', 11),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-02-05', 12),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-03-10', 13),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-04-15', 14),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-05-20', 15),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-06-25', 16),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-07-01', 17),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-08-05', 18),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-09-10', 19),
+('Máscara de Proteção N95', 'Máscara com alta capacidade de filtragem de partículas.', 6.00, '2028-10-15', 20)
+    RETURNING IDProduto, NomeProduto
+),
+novosmedicamentos AS (
+    INSERT INTO public.Medicamento (IDProduto, Indicacao, Contraindicacao)
+    SELECT np.IDProduto,
+        CASE np.NomeProduto
+            WHEN 'Loratadina 10mg 12cp' THEN 'Rinite alérgica, urticária e outras alergias.'
+            WHEN 'Xarope para Tosse Seca 120ml' THEN 'Tosse de origem alérgica ou irritativa, sem catarro.'
+            WHEN 'Xarope Expectorante 120ml' THEN 'Tosse produtiva, para facilitar a expectoração.'
+            WHEN 'Descongestionante Nasal Adulto' THEN 'Congestão nasal em resfriados, rinites e sinusites.'
+            WHEN 'Pastilhas para Garganta Sabor Mel e Limão' THEN 'Alívio temporário da dor de garganta.'
+            WHEN 'Gel Anti-inflamatório para Dor Muscular' THEN 'Lesões musculares, contusões, torcicolos.'
+            WHEN 'Esmalte para Tratamento de Micose de Unha' THEN 'Onicomicoses (micoses de unha).'
+            WHEN 'Creme para Tratamento de Hemorroidas' THEN 'Alívio sintomático de hemorroidas externas.'
+            WHEN 'Laxante Suave em Comprimidos' THEN 'Constipação intestinal ocasional.'
+            WHEN 'Antidiarreico 12cp' THEN 'Diarreias agudas não infecciosas.'
+            WHEN 'Comprimido para Enjoo e Vômito (Dramin)' THEN 'Cinetose (enjoo de movimento), náuseas.'
+            WHEN 'Tylenol Sinus 24cp' THEN 'Dores e congestão nasal associadas à sinusite.'
+        END,
+        CASE np.NomeProduto
+            WHEN 'Loratadina 10mg 12cp' THEN 'Hipersensibilidade à loratadina.'
+            WHEN 'Xarope para Tosse Seca 120ml' THEN 'Não usar em caso de tosse produtiva (com catarro).'
+            WHEN 'Xarope Expectorante 120ml' THEN 'Hipersensibilidade a componentes da fórmula.'
+            WHEN 'Descongestionante Nasal Adulto' THEN 'Não usar por mais de 3 dias consecutivos. Hipertensão.'
+            WHEN 'Pastilhas para Garganta Sabor Mel e Limão' THEN 'Diabéticos devem usar com cautela (contém açúcar).'
+            WHEN 'Gel Anti-inflamatório para Dor Muscular' THEN 'Não aplicar sobre feridas abertas. Alergia a AINEs.'
+            WHEN 'Esmalte para Tratamento de Micose de Unha' THEN 'Alergia ao princípio ativo.'
+            WHEN 'Creme para Tratamento de Hemorroidas' THEN 'Infecções virais ou fúngicas na área.'
+            WHEN 'Laxante Suave em Comprimidos' THEN 'Obstrução intestinal, dores abdominais intensas.'
+            WHEN 'Antidiarreico 12cp' THEN 'Não indicado para diarreias com sangue ou febre alta.'
+            WHEN 'Comprimido para Enjoo e Vômito (Dramin)' THEN 'Glaucoma, asma aguda. Causa sonolência.'
+            WHEN 'Tylenol Sinus 24cp' THEN 'Alergia a paracetamol, glaucoma, hipertensão grave.'
+        END
+    FROM novosprodutos np
+    WHERE np.NomeProduto IN (
+        'Loratadina 10mg 12cp', 'Xarope para Tosse Seca 120ml', 'Xarope Expectorante 120ml', 'Descongestionante Nasal Adulto',
+        'Pastilhas para Garganta Sabor Mel e Limão', 'Gel Anti-inflamatório para Dor Muscular', 'Esmalte para Tratamento de Micose de Unha',
+        'Creme para Tratamento de Hemorroidas', 'Laxante Suave em Comprimidos', 'Antidiarreico 12cp',
+        'Comprimido para Enjoo e Vômito (Dramin)', 'Tylenol Sinus 24cp'
+    )
+)
+INSERT INTO public.ProdCateg (IDProduto, IDCategoria)
+SELECT np.IDProduto, c.IDCategoria
+FROM novosprodutos np
+JOIN public.Categoria c ON c.NomeCategoria =
+    CASE
+        WHEN np.NomeProduto LIKE 'Loratadina%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Xarope para Tosse Seca%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Xarope Expectorante%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Descongestionante Nasal%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Pastilhas para Garganta%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Gel Anti-inflamatório%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Esmalte para Tratamento de Micose%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Creme para Tratamento de Hemorroidas%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Laxante Suave%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Antidiarreico%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Comprimido para Enjoo%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Tylenol Sinus%' THEN 'Medicamentos'
+        WHEN np.NomeProduto LIKE 'Sulfato Ferroso%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Magnésio Quelato%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Zinco Quelato%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Complexo B%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Colágeno Hidrolisado%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Creatina Monohidratada%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'BCAA em Pó%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Vitamina D3%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Gummy de Vitamina%' THEN 'Suplementos Alimentares'
+        WHEN np.NomeProduto LIKE 'Desodorante Aerosol%' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto LIKE 'Espuma de Barbear%' THEN 'Cuidados Masculinos'
+        WHEN np.NomeProduto LIKE 'Loção Pós-Barba%' THEN 'Cuidados Masculinos'
+        WHEN np.NomeProduto LIKE 'Hastes Flexíveis%' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto LIKE 'Talco Antisséptico para os Pés%' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto LIKE 'Creme Esfoliante Facial%' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto LIKE 'Máscara Facial de Argila Verde%' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto LIKE 'Sabonete Líquido Íntimo Feminino%' THEN 'Cuidados Femininos'
+        WHEN np.NomeProduto LIKE 'Preservativo Pacote%' THEN 'Proteção e Segurança'
+        WHEN np.NomeProduto LIKE 'Lubrificante Íntimo%' THEN 'Higiene Pessoal'
+        WHEN np.NomeProduto LIKE 'Chupeta Ortodôntica%' THEN 'Infantil'
+        WHEN np.NomeProduto LIKE 'Mamadeira Anti-Cólica%' THEN 'Infantil'
+        WHEN np.NomeProduto LIKE 'Fórmula Infantil para Lactentes%' THEN 'Infantil'
+        WHEN np.NomeProduto LIKE 'Lenços Umedecidos para Recém-Nascido%' THEN 'Infantil'
+        WHEN np.NomeProduto LIKE 'Termômetro de Banheira%' THEN 'Infantil'
+        WHEN np.NomeProduto LIKE 'Pomada para Assadura de Uso Diário%' THEN 'Infantil'
+        WHEN np.NomeProduto LIKE 'Atadura Elástica%' THEN 'Ortopédicos'
+        WHEN np.NomeProduto LIKE 'Esparadrapo Impermeável%' THEN 'Primeiros Socorros'
+        WHEN np.NomeProduto LIKE 'Solução de Iodo%' THEN 'Primeiros Socorros'
+        WHEN np.NomeProduto LIKE 'Nebulizador e Inalador%' THEN 'Equipamentos de Saúde'
+        WHEN np.NomeProduto LIKE 'Oxímetro de Dedo%' THEN 'Equipamentos de Saúde'
+        WHEN np.NomeProduto LIKE 'Soro Fisiológico%' THEN 'Primeiros Socorros'
+        WHEN np.NomeProduto LIKE 'Sérum Facial com Vitamina C%' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto LIKE 'Creme Anti-idade Noturno%' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto LIKE 'Protetor Solar Corporal%' THEN 'Proteção Solar'
+        WHEN np.NomeProduto LIKE 'Removedor de Maquiagem%' THEN 'Cuidados com a Pele'
+        WHEN np.NomeProduto LIKE 'Esmalte de Unha Hipoalergênico%' THEN 'Cosméticos'
+        WHEN np.NomeProduto LIKE 'Removedor de Esmalte sem Acetona%' THEN 'Cosméticos'
+        WHEN np.NomeProduto LIKE 'Pinça de Sobrancelha%' THEN 'Cosméticos'
+    END;
+
 -- ===================================================================
--- DML - Inserção em Massa de 150 Vendas Fictícias
+-- DML - Inserção em Massa de Vendas Fictícias
 -- ===================================================================
 INSERT INTO public.CliCompraProd (DataCompra, Quantidade, IDCliente, IDProduto) VALUES
 ('2025-01-05', 2, 13, 5), ('2025-01-08', 1, 45, 12), ('2025-01-12', 3, 22, 25),
@@ -207,4 +729,84 @@ INSERT INTO public.CliCompraProd (DataCompra, Quantidade, IDCliente, IDProduto) 
 ('2025-11-01', 1, 5, 28), ('2025-12-02', 3, 59, 15), ('2025-01-02', 1, 21, 7),
 ('2025-02-03', 2, 34, 14), ('2025-03-06', 1, 46, 20), ('2025-04-07', 4, 10, 1),
 ('2025-05-09', 1, 61, 23), ('2025-06-10', 2, 25, 9), ('2025-07-12', 1, 38, 17),
-('2025-08-13', 3, 52, 3), ('2025-09-23', 1, 12, 12);
+('2025-08-13', 3, 52, 3), ('2025-09-23', 1, 12, 12),('2025-01-03', 2, 73, 41),
+('2025-01-04', 1, 88, 55), ('2025-01-06', 3, 15, 2),
+('2025-01-07', 1, 99, 33), ('2025-01-09', 2, 4, 48), ('2025-01-10', 1, 68, 19),
+('2025-01-13', 4, 29, 1), ('2025-01-14', 1, 81, 50), ('2025-01-16', 2, 37, 27),
+('2025-01-17', 1, 95, 7), ('2025-01-20', 3, 53, 38), ('2025-01-22', 1, 11, 44),
+('2025-01-23', 2, 77, 13), ('2025-01-25', 1, 62, 58), ('2025-01-27', 1, 23, 22),
+('2025-01-29', 2, 91, 3), ('2025-01-31', 1, 49, 40), ('2025-02-01', 3, 8, 17),
+('2025-02-04', 1, 72, 51), ('2025-02-06', 2, 33, 29), ('2025-02-07', 1, 89, 5),
+('2025-02-08', 4, 1, 1), ('2025-02-10', 1, 66, 36), ('2025-02-11', 2, 25, 45),
+('2025-02-12', 1, 84, 11), ('2025-02-14', 1, 43, 53), ('2025-02-16', 2, 98, 24),
+('2025-02-18', 3, 18, 9), ('2025-02-19', 1, 59, 31), ('2025-02-21', 2, 3, 47),
+('2025-02-22', 1, 76, 15), ('2025-02-23', 1, 51, 57), ('2025-02-25', 3, 28, 6),
+('2025-02-26', 2, 86, 34), ('2025-02-27', 1, 14, 49), ('2025-03-02', 4, 47, 1),
+('2025-03-03', 1, 93, 20), ('2025-03-05', 2, 21, 42), ('2025-03-06', 1, 79, 10),
+('2025-03-07', 3, 6, 52), ('2025-03-09', 1, 64, 26), ('2025-03-11', 2, 39, 39),
+('2025-03-13', 1, 96, 4), ('2025-03-14', 1, 31, 46), ('2025-03-15', 2, 83, 18),
+('2025-03-17', 3, 12, 32), ('2025-03-18', 1, 56, 54), ('2025-03-20', 2, 27, 23),
+('2025-03-22', 1, 92, 8), ('2025-03-24', 4, 42, 1), ('2025-03-25', 1, 70, 37),
+('2025-03-26', 2, 17, 43), ('2025-03-28', 1, 88, 12), ('2025-03-29', 3, 35, 56),
+('2025-03-30', 1, 54, 28), ('2025-04-01', 2, 9, 35), ('2025-04-02', 1, 75, 5),
+('2025-04-04', 1, 45, 41), ('2025-04-05', 2, 97, 16), ('2025-04-07', 3, 22, 30),
+('2025-04-08', 1, 69, 50), ('2025-04-09', 2, 5, 25), ('2025-04-11', 1, 82, 2),
+('2025-04-13', 4, 34, 1), ('2025-04-15', 1, 100, 48), ('2025-04-16', 2, 63, 21),
+('2025-04-17', 1, 26, 55), ('2025-04-19', 3, 71, 14), ('2025-04-20', 1, 48, 39),
+('2025-04-21', 2, 90, 7), ('2025-04-23', 1, 16, 51), ('2025-04-25', 1, 67, 29),
+('2025-04-27', 2, 32, 4), ('2025-04-29', 3, 87, 33), ('2025-04-30', 1, 20, 47),
+('2025-05-01', 2, 74, 19), ('2025-05-02', 1, 50, 58), ('2025-05-03', 4, 13, 1),
+('2025-05-05', 1, 85, 36), ('2025-05-06', 2, 24, 42), ('2025-05-08', 1, 61, 10),
+('2025-05-10', 3, 36, 53), ('2025-05-12', 1, 94, 26), ('2025-05-13', 2, 41, 40),
+('2025-05-16', 1, 78, 8), ('2025-05-17', 1, 52, 45), ('2025-05-18', 2, 99, 17),
+('2025-05-20', 3, 2, 32), ('2025-05-21', 1, 58, 56), ('2025-05-22', 2, 30, 23),
+('2025-05-24', 1, 80, 6), ('2025-05-26', 4, 46, 1), ('2025-05-28', 1, 65, 38),
+('2025-05-29', 2, 10, 44), ('2025-05-31', 1, 73, 14), ('2025-06-01', 3, 44, 57),
+('2025-06-03', 1, 19, 28), ('2025-06-04', 2, 88, 52), ('2025-06-06', 1, 55, 31),
+('2025-06-07', 3, 29, 9), ('2025-06-08', 1, 91, 49), ('2025-06-11', 2, 7, 24),
+('2025-06-12', 4, 66, 1), ('2025-06-14', 1, 40, 41), ('2025-06-15', 2, 81, 16),
+('2025-06-17', 1, 1, 54), ('2025-06-18', 3, 57, 3), ('2025-06-20', 1, 33, 46),
+('2025-06-22', 2, 75, 20), ('2025-06-23', 1, 48, 58), ('2025-06-24', 1, 96, 27),
+('2025-06-26', 2, 20, 37), ('2025-06-27', 1, 68, 8), ('2025-06-28', 3, 11, 43),
+('2025-06-30', 1, 84, 13), ('2025-07-01', 2, 53, 50), ('2025-07-02', 1, 25, 30),
+('2025-07-04', 4, 72, 1), ('2025-07-05', 1, 4, 34), ('2025-07-06', 2, 93, 11),
+('2025-07-08', 1, 38, 48), ('2025-07-09', 1, 63, 22), ('2025-07-10', 2, 15, 53),
+('2025-07-13', 3, 89, 6), ('2025-07-14', 1, 42, 32), ('2025-07-16', 2, 99, 51),
+('2025-07-17', 1, 28, 17), ('2025-07-18', 1, 77, 56), ('2025-07-20', 3, 50, 5),
+('2025-07-21', 2, 23, 35), ('2025-07-22', 1, 60, 45), ('2025-07-24', 4, 9, 1),
+('2025-07-26', 1, 71, 25), ('2025-07-28', 2, 36, 40), ('2025-07-29', 1, 86, 15),
+('2025-07-30', 3, 12, 55), ('2025-08-01', 1, 67, 29), ('2025-08-02', 2, 31, 38),
+('2025-08-03', 1, 95, 2), ('2025-08-05', 1, 51, 44), ('2025-08-06', 2, 22, 19),
+('2025-08-07', 3, 79, 7), ('2025-08-09', 1, 18, 52), ('2025-08-10', 2, 83, 23),
+('2025-08-11', 1, 41, 57), ('2025-08-13', 5, 6, 1), ('2025-08-15', 1, 92, 28),
+('2025-08-17', 2, 30, 42), ('2025-08-19', 1, 65, 10), ('2025-08-21', 3, 10, 49),
+('2025-08-22', 1, 87, 21), ('2025-08-23', 2, 34, 39), ('2025-08-25', 1, 98, 4),
+('2025-08-26', 1, 56, 47), ('2025-08-27', 2, 27, 18), ('2025-08-29', 3, 73, 31),
+('2025-08-30', 1, 49, 54), ('2025-08-31', 2, 94, 24), ('2025-09-01', 1, 14, 8),
+('2025-09-02', 4, 69, 1), ('2025-09-03', 1, 39, 36), ('2025-09-04', 2, 85, 43),
+('2025-09-05', 1, 17, 12), ('2025-09-06', 3, 62, 55), ('2025-09-07', 1, 32, 26),
+('2025-09-08', 2, 78, 33), ('2025-09-09', 1, 5, 2), ('2025-09-10', 1, 58, 46),
+('2025-09-11', 2, 26, 16), ('2025-09-12', 3, 76, 30), ('2025-09-13', 1, 43, 50),
+('2025-09-14', 2, 97, 22), ('2025-09-15', 1, 21, 58), ('2025-09-16', 4, 16, 1),
+('2025-09-17', 1, 70, 34), ('2025-09-18', 2, 35, 41), ('2025-09-19', 1, 80, 11),
+('2025-09-20', 3, 13, 53), ('2025-09-21', 1, 64, 25), ('2025-09-22', 2, 37, 37),
+('2025-09-22', 1, 82, 7), ('2025-09-22', 1, 54, 48), ('2025-09-23', 2, 100, 19),
+('2025-09-23', 3, 45, 9), ('2025-09-23', 1, 90, 35), ('2025-09-23', 2, 24, 51),
+('2025-09-23', 1, 74, 14), ('2025-09-23', 4, 3, 1), ('2025-09-23', 1, 61, 29),
+('2025-01-15', 2, 88, 75), ('2025-01-19', 1, 12, 105), ('2025-01-23', 3, 45, 99),
+('2025-01-28', 1, 92, 63), ('2025-02-02', 2, 2, 112), ('2025-02-05', 1, 67, 81),
+('2025-02-10', 4, 33, 1), ('2025-02-14', 1, 78, 92), ('2025-02-18', 2, 21, 125),
+('2025-02-22', 1, 58, 78), ('2025-02-27', 3, 19, 101), ('2025-03-03', 1, 85, 88),
+('2025-03-08', 2, 40, 117), ('2025-03-12', 1, 99, 69), ('2025-03-17', 1, 14, 95),
+('2025-03-21', 2, 73, 83), ('2025-03-26', 1, 30, 128), ('2025-04-01', 3, 5, 110),
+('2025-04-05', 1, 64, 73), ('2025-04-10', 2, 28, 98), ('2025-04-14', 1, 81, 104),
+('2025-04-19', 4, 1, 1), ('2025-04-23', 1, 53, 65), ('2025-04-28', 2, 17, 122),
+('2025-05-02', 1, 96, 77), ('2025-05-07', 1, 38, 108), ('2025-05-11', 2, 62, 91),
+('2025-05-16', 3, 25, 85), ('2025-05-20', 1, 77, 115), ('2025-05-25', 2, 43, 70),
+('2025-05-30', 1, 90, 120), ('2025-06-03', 4, 22, 1), ('2025-06-08', 1, 69, 89),
+('2025-06-12', 2, 11, 111), ('2025-06-17', 1, 55, 68), ('2025-06-21', 3, 3, 102),
+('2025-06-26', 1, 88, 76), ('2025-07-01', 2, 34, 118), ('2025-07-05', 1, 71, 93),
+('2025-07-10', 1, 16, 126), ('2025-07-15', 2, 59, 82), ('2025-07-20', 3, 8, 97),
+('2025-07-25', 1, 94, 64), ('2025-07-30', 2, 29, 109), ('2025-08-05', 1, 75, 124),
+('2025-08-11', 4, 48, 1), ('2025-08-18', 1, 9, 80), ('2025-08-26', 2, 66, 114),
+('2025-09-04', 1, 36, 96), ('2025-09-15', 3, 50, 121);
