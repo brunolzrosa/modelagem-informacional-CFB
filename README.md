@@ -72,6 +72,14 @@ O diretório `sql_scripts/` contém todos os arquivos necessários para criar, p
 
 ### Como Executar
 
+0. **Conexão ao PostgreSQL:**
+
+      * Acesse o terminal do PostgreSQL com o comando:
+        ```bash
+        psql -h 10.61.49.146 -p 5432 -U cfb_mi -d cfb_dw
+        ```
+        senha: `1234567890`
+
 1.  **Criação das Estruturas:**
 
       * Execute `DDL_OPER.sql` para criar o banco de dados transacional.
