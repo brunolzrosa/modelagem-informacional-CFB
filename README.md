@@ -65,10 +65,8 @@ O diretório `sql_scripts/` contém todos os arquivos necessários para criar, p
 
   * `DDL_OPER.sql`: Cria as tabelas do banco de dados operacional (Schema `oper`).
   * `DDL_DW.sql`: Cria as tabelas do Data Warehouse (Schema `dw`).
-# TODO
-  * `DML_insert_data.sql`: Script inicial para popular o banco de dados `oper` com dados básicos (UFs, municípios, categorias, clientes, etc.).
-  * `DML_carga_vendas.sql`: Insere um grande volume de vendas fictícias no banco de dados operacional para simular um histórico transacional.
-# ENDTODO
+  * `DML_tables_auxiliary.sql`: Script para ´popular a tabela de UF.
+  * `DML_transactions.sql`: Script inicial para popular o banco de dados `oper` com dados básicos (municípios, categorias, clientes, etc.).
   * `DML_DW_insert_dates.sql`: Popula a dimensão `DimCalendario` do Data Warehouse com um intervalo de datas.
   * `ETL_adding_new_data.sql`: Script de ETL (Extração, Transformação e Carga) que realiza a carga incremental de dados do schema `oper` para o `dw`.
 
@@ -81,10 +79,7 @@ O diretório `sql_scripts/` contém todos os arquivos necessários para criar, p
 
 2.  **Carga de Dados Iniciais:**
 
-# TODO
-      * Execute `DML_insert_data.sql` para popular o banco operacional com dados essenciais.
-      * Execute `DML_carga_vendas.sql` para popular o banco com um histórico de vendas.
-# ENDTODO
+      * Execute `DML_transactions.sql` para popular o banco operacional com dados essenciais.
       * Execute `DML_DW_insert_dates.sql` para popular a dimensão de calendário do DW.
 
 3.  **Processo de ETL:**
@@ -102,4 +97,6 @@ Para executar, utilize o comando `\i` no terminal `psql`, por exemplo:
 
 ```sql
 \i gerar_csv_detalhada.sql;
+\i gerar_csv_agredada.sql;
 ```
+
