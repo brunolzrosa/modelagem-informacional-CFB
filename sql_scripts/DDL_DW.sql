@@ -4,8 +4,6 @@
 ===========================
 */
 
--- By Bruno Rosa
-
 DROP SCHEMA IF EXISTS dw CASCADE; 
 CREATE SCHEMA IF NOT EXISTS dw;
 
