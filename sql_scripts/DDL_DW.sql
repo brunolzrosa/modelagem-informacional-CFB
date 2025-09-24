@@ -66,7 +66,7 @@ CREATE TABLE dw.FatoReceitaAgregada (
     KeyProduto INT NOT NULL REFERENCES dw.DimProduto(KeyProduto),
     KeyCategoria INT NOT NULL REFERENCES dw.DimCategoria(KeyCategoria),
     PRIMARY KEY (KeyCalendario, KeyCliente, KeyProduto, KeyCategoria)
-)
+);
 
 CREATE TABLE dw.FatoReceitaDetalhada (
     IDPedido INT NOT NULL,
@@ -80,5 +80,5 @@ CREATE TABLE dw.FatoReceitaDetalhada (
     KeyProduto INT NOT NULL REFERENCES dw.DimProduto(KeyProduto),
     KeyCategoria INT NOT NULL REFERENCES dw.DimCategoria(KeyCategoria),
     PRIMARY KEY (IDPedido, KeyProduto)
-)
+);
 

@@ -6,7 +6,6 @@
 -- como dia da semana, mês, trimestre e ano.
 
 INSERT INTO dw.DimCalendario (
-    KeyCalendario,
     DataCompleta,
     Ano,
     Trimestre,
@@ -16,9 +15,6 @@ INSERT INTO dw.DimCalendario (
     DiaDaSemana
 )
 SELECT
-    -- Cria uma chave primária numérica no formato YYYYMMDD 
-    TO_CHAR(dt, 'YYYYMMDD')::INT AS KeyCalendario,
-    
     -- A data completa
     dt AS DataCompleta,
     

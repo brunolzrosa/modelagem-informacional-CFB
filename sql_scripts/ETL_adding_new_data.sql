@@ -146,7 +146,7 @@ WHERE
 -- Fato Receita Agregada
 WITH VendasAgregadas AS (
     SELECT
-        venda.DataHoraCompra::date,
+        venda.DataHoraCompra::date as DataAgregada,
         venda.IDCliente,
         venda.IDProduto,
         pc.IDCategoria,
