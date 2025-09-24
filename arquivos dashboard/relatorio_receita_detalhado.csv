@@ -1,612 +1,644 @@
 idpedido,data_hora_compra,dia_da_compra,nomecliente,municipio,uf,nomeproduto,nomecategoria,qtdprodutosvendidos,valorreceita
+139,2024-01-04 00:00:00,2024-01-04,Roberto Salgado,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+140,2024-01-06 00:00:00,2024-01-06,Júlia Oliveira,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+141,2024-01-07 00:00:00,2024-01-07,Cintia Arruda,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+142,2024-01-09 00:00:00,2024-01-09,Arthur Rodrigues,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
+143,2024-01-10 00:00:00,2024-01-10,Raul Ramos,Rio de Janeiro,RJ,Cortador de Unha Aço Inox,Higiene Pessoal,1,11.20
+144,2024-01-13 00:00:00,2024-01-13,Letícia Santos,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+145,2024-01-14 00:00:00,2024-01-14,Aline Peixoto,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+146,2024-01-16 00:00:00,2024-01-16,Esther Lima,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+147,2024-01-17 00:00:00,2024-01-17,Paula Franco,São Paulo,SP,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
+148,2024-01-20 00:00:00,2024-01-20,Larissa Monteiro,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
+149,2024-01-22 00:00:00,2024-01-22,Sophia Mendes,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+150,2024-01-23 00:00:00,2024-01-23,Cristiane Andrade,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,2,50.80
+151,2024-01-25 00:00:00,2024-01-25,Eduardo Cunha,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+152,2024-01-27 00:00:00,2024-01-27,Yasmin Barbosa,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+153,2024-01-29 00:00:00,2024-01-29,Cláudia Chaves,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,2,30.00
+154,2024-01-31 00:00:00,2024-01-31,Lavínia Pereira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+155,2024-02-01 00:00:00,2024-02-01,Bernardo Gonçalves,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,3,54.00
+156,2024-02-04 00:00:00,2024-02-04,Sérgio Siqueira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+157,2024-02-06 00:00:00,2024-02-06,Melissa Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+158,2024-02-07 00:00:00,2024-02-07,Simone Pimenta,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
+159,2024-02-08 00:00:00,2024-02-08,Helena Martins,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+160,2024-02-10 00:00:00,2024-02-10,André Morais,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+161,2024-02-11 00:00:00,2024-02-11,Mariana Ribeiro,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
+162,2024-02-12 00:00:00,2024-02-12,Jonas Magalhães,Rio de Janeiro,RJ,Absorvente Noturno Suave (16 un),Cuidados Femininos,1,14.80
+163,2024-02-14 00:00:00,2024-02-14,Antonella Cavalcanti,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+164,2024-02-16 00:00:00,2024-02-16,William Farias,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+165,2024-02-18 00:00:00,2024-02-18,Gabriel Pereira,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,3,37.50
+166,2024-02-19 00:00:00,2024-02-19,Juliana Dias,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+167,2024-02-21 00:00:00,2024-02-21,Alice Ferreira,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
+168,2024-02-22 00:00:00,2024-02-22,Leonardo Paiva,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,1,9.50
+169,2024-02-23 00:00:00,2024-02-23,Gabriela Azevedo,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+170,2024-02-25 00:00:00,2024-02-25,Guilherme Cavalcanti,São Paulo,SP,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,3,7.50
+171,2024-02-26 00:00:00,2024-02-26,Carlos Santana,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+172,2024-02-27 00:00:00,2024-02-27,Lorenzo Silva,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+173,2024-03-02 00:00:00,2024-03-02,Clarice Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+174,2024-03-03 00:00:00,2024-03-03,Fernanda Guerra,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
+175,2024-03-05 00:00:00,2024-03-05,Beatriz Almeida,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
+176,2024-03-06 00:00:00,2024-03-06,Daniela Borges,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
+177,2024-03-07 00:00:00,2024-03-07,Heitor Lima,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
+178,2024-03-09 00:00:00,2024-03-09,Fábio Pires,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+179,2024-03-11 00:00:00,2024-03-11,Rebeca Gonçalves,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+180,2024-03-13 00:00:00,2024-03-13,Anderson Melo,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,1,89.90
+181,2024-03-14 00:00:00,2024-03-14,Ana Júlia Oliveira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+182,2024-03-15 00:00:00,2024-03-15,Adriana Dantas,São Paulo,SP,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,2,70.00
+183,2024-03-17 00:00:00,2024-03-17,Theo Cavalcanti,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
+184,2024-03-18 00:00:00,2024-03-18,Leandro Teixeira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+185,2024-03-20 00:00:00,2024-03-20,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+186,2024-03-22 00:00:00,2024-03-22,Tiago Tavares,Rio de Janeiro,RJ,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
+187,2024-03-24 00:00:00,2024-03-24,Calebe Mendes,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+188,2024-03-25 00:00:00,2024-03-25,Igor Resende,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+189,2024-03-26 00:00:00,2024-03-26,Luiza Costa,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
+190,2024-03-28 00:00:00,2024-03-28,Roberto Salgado,Rio de Janeiro,RJ,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
+191,2024-03-29 00:00:00,2024-03-29,Sarah Rodrigues,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
+192,2024-03-30 00:00:00,2024-03-30,Diego Pinto,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+193,2024-04-01 00:00:00,2024-04-01,Valentina Ribeiro,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+194,2024-04-02 00:00:00,2024-04-02,Sandra Fogaça,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
+195,2024-04-04 00:00:00,2024-04-04,Isabelly Silva,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+196,2024-04-05 00:00:00,2024-04-05,Regina Bastos,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,2,12.00
+197,2024-04-07 00:00:00,2024-04-07,Matheus Lima,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,3,70.50
+198,2024-04-08 00:00:00,2024-04-08,Tatiane Lopes,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+199,2024-04-09 00:00:00,2024-04-09,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+200,2024-04-11 00:00:00,2024-04-11,Paulo Cordeiro,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
+201,2024-04-13 00:00:00,2024-04-13,Emanuel Pereira,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+202,2024-04-15 00:00:00,2024-04-15,Sofia Lima,Município Genérico 23,RR,Tylenol Sinus 24cp,Analgesicos,1,29.90
 378,2025-01-02 00:00:00,2025-01-02,Isabelly Silva,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
-129,2025-01-02 00:00:00,2025-01-02,Beatriz Almeida,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
 377,2025-01-02 00:00:00,2025-01-02,Roberto Salgado,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-379,2025-01-03 00:00:00,2025-01-03,Matheus Lima,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,1,6.00
 380,2025-01-03 00:00:00,2025-01-03,Laura Almeida,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,3,89.70
-138,2025-01-03 00:00:00,2025-01-03,Débora Moreira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-382,2025-01-04 00:00:00,2025-01-04,Melissa Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+379,2025-01-03 00:00:00,2025-01-03,Matheus Lima,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,1,6.00
 381,2025-01-04 00:00:00,2025-01-04,Amanda Correia,São Paulo,SP,Água Micelar de Limpeza Facial,Cuidados Faciais,1,42.00
-139,2025-01-04 00:00:00,2025-01-04,Roberto Salgado,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-1,2025-01-05 00:00:00,2025-01-05,Isabella Santos,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,2,39.60
-384,2025-01-05 00:00:00,2025-01-05,Sebastião Costa,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+382,2025-01-04 00:00:00,2025-01-04,Melissa Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 383,2025-01-05 00:00:00,2025-01-05,Maria Clara Rodrigues,Rio de Janeiro,RJ,Termômetro de Banheira em formato de Peixe,Acessórios de Saúde,1,22.00
-140,2025-01-06 00:00:00,2025-01-06,Júlia Oliveira,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
-386,2025-01-06 00:00:00,2025-01-06,Ricardo Vieira,Rio de Janeiro,RJ,Creme Dental Branqueador,Higiene Bucal Avançada,2,19.00
+384,2025-01-05 00:00:00,2025-01-05,Sebastião Costa,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 385,2025-01-06 00:00:00,2025-01-06,Manuela Barbosa,São Paulo,SP,Creatina Monohidratada 300g,Nutrição Esportiva,1,99.90
-388,2025-01-07 00:00:00,2025-01-07,Elisa Nogueira,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,3,18.00
-141,2025-01-07 00:00:00,2025-01-07,Cintia Arruda,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+386,2025-01-06 00:00:00,2025-01-06,Ricardo Vieira,Rio de Janeiro,RJ,Creme Dental Branqueador,Higiene Bucal Avançada,2,19.00
 387,2025-01-07 00:00:00,2025-01-07,Miguel Pereira,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-390,2025-01-08 00:00:00,2025-01-08,Helena Martins,Rio de Janeiro,RJ,BCAA em Pó 200g Sabor Limão,Nutrição Esportiva,2,150.00
-2,2025-01-08 00:00:00,2025-01-08,Isabelly Silva,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
+388,2025-01-07 00:00:00,2025-01-07,Elisa Nogueira,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,3,18.00
 389,2025-01-08 00:00:00,2025-01-08,Guilherme Cavalcanti,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-392,2025-01-09 00:00:00,2025-01-09,Isaac Barbosa,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
+390,2025-01-08 00:00:00,2025-01-08,Helena Martins,Rio de Janeiro,RJ,BCAA em Pó 200g Sabor Limão,Nutrição Esportiva,2,150.00
 391,2025-01-09 00:00:00,2025-01-09,Vinicius Cardoso,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
-142,2025-01-09 00:00:00,2025-01-09,Arthur Rodrigues,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
+392,2025-01-09 00:00:00,2025-01-09,Isaac Barbosa,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
 394,2025-01-10 00:00:00,2025-01-10,Lavínia Pereira,São Paulo,SP,Sérum Facial com Vitamina C Pura,Cuidados Faciais,3,360.00
-143,2025-01-10 00:00:00,2025-01-10,Raul Ramos,Rio de Janeiro,RJ,Cortador de Unha Aço Inox,Higiene Pessoal,1,11.20
 393,2025-01-10 00:00:00,2025-01-10,Pedro Souza,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
-93,2025-01-11 00:00:00,2025-01-11,Daniel Ribeiro,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-395,2025-01-11 00:00:00,2025-01-11,Yasmin Barbosa,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 396,2025-01-11 00:00:00,2025-01-11,Bruna Campos,São Paulo,SP,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,2,70.00
+395,2025-01-11 00:00:00,2025-01-11,Yasmin Barbosa,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 398,2025-01-12 00:00:00,2025-01-12,Alice Ferreira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-3,2025-01-12 00:00:00,2025-01-12,Matheus Lima,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,3,70.50
 397,2025-01-12 00:00:00,2025-01-12,Davi Nogueira,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,1,45.75
-144,2025-01-13 00:00:00,2025-01-13,Letícia Santos,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-399,2025-01-13 00:00:00,2025-01-13,Gabriela Azevedo,São Paulo,SP,Tiras para Glicosímetro (50 un),Equipamentos Médicos,1,65.00
 400,2025-01-13 00:00:00,2025-01-13,Rafael Nogueira,Rio de Janeiro,RJ,Sérum Facial com Vitamina C Pura,Cuidados Faciais,2,240.00
-145,2025-01-14 00:00:00,2025-01-14,Aline Peixoto,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+399,2025-01-13 00:00:00,2025-01-13,Gabriela Azevedo,São Paulo,SP,Tiras para Glicosímetro (50 un),Equipamentos Médicos,1,65.00
 402,2025-01-14 00:00:00,2025-01-14,Rodrigo Santos,São Paulo,SP,Fórmula Infantil para Lactentes 800g,Saúde Infantil,3,204.00
 401,2025-01-14 00:00:00,2025-01-14,Theo Cavalcanti,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-403,2025-01-15 00:00:00,2025-01-15,Ana Júlia Oliveira,São Paulo,SP,Escova de Dentes Macia,Higiene Bucal Avançada,1,14.20
-327,2025-01-15 00:00:00,2025-01-15,Roberto Salgado,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,2,57.00
 404,2025-01-15 00:00:00,2025-01-15,Valentina Ribeiro,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-4,2025-01-15 00:00:00,2025-01-15,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+327,2025-01-15 00:00:00,2025-01-15,Roberto Salgado,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,2,57.00
+403,2025-01-15 00:00:00,2025-01-15,Ana Júlia Oliveira,São Paulo,SP,Escova de Dentes Macia,Higiene Bucal Avançada,1,14.20
 406,2025-01-16 00:00:00,2025-01-16,Lucas Ferreira,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 405,2025-01-16 00:00:00,2025-01-16,Leandro Teixeira,Rio de Janeiro,RJ,Magnésio Quelato 60 cápsulas,Vitaminas,1,58.00
-146,2025-01-16 00:00:00,2025-01-16,Esther Lima,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 407,2025-01-17 00:00:00,2025-01-17,Cauã Almeida,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,2,19.00
 408,2025-01-17 00:00:00,2025-01-17,Arthur Rodrigues,Rio de Janeiro,RJ,Removedor de Esmalte sem Acetona,Cosméticos,3,22.50
-147,2025-01-17 00:00:00,2025-01-17,Paula Franco,São Paulo,SP,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
-409,2025-01-18 00:00:00,2025-01-18,Daniel Ribeiro,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,1,19.80
 410,2025-01-18 00:00:00,2025-01-18,Nicolas Gonçalves,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-5,2025-01-18 00:00:00,2025-01-18,Amanda Correia,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,2,57.00
+409,2025-01-18 00:00:00,2025-01-18,Daniel Ribeiro,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,1,19.80
+412,2025-01-19 00:00:00,2025-01-19,Lorenzo Silva,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
 328,2025-01-19 00:00:00,2025-01-19,Theo Cavalcanti,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 411,2025-01-19 00:00:00,2025-01-19,Juliana Dias,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-412,2025-01-19 00:00:00,2025-01-19,Lorenzo Silva,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
 414,2025-01-20 00:00:00,2025-01-20,Heitor Lima,Rio de Janeiro,RJ,Hastes Flexíveis com Pontas de Algodão (Cotonetes) 150un,Higiene Pessoal,1,8.50
 413,2025-01-20 00:00:00,2025-01-20,Emanuel Pereira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-148,2025-01-20 00:00:00,2025-01-20,Larissa Monteiro,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
-416,2025-01-21 00:00:00,2025-01-21,Luiza Costa,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,3,56.70
 415,2025-01-21 00:00:00,2025-01-21,Benjamin Oliveira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-6,2025-01-21 00:00:00,2025-01-21,Melissa Costa,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
-149,2025-01-22 00:00:00,2025-01-22,Sophia Mendes,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-417,2025-01-22 00:00:00,2025-01-22,Larissa Monteiro,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
+416,2025-01-21 00:00:00,2025-01-21,Luiza Costa,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,3,56.70
 418,2025-01-22 00:00:00,2025-01-22,Letícia Santos,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,4,79.20
-419,2025-01-23 00:00:00,2025-01-23,Bernardo Gonçalves,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-150,2025-01-23 00:00:00,2025-01-23,Cristiane Andrade,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,2,50.80
-420,2025-01-23 00:00:00,2025-01-23,Felipe Barros,Rio de Janeiro,RJ,Oxímetro de Dedo Portátil,Equipamentos Médicos,2,300.00
+417,2025-01-22 00:00:00,2025-01-22,Larissa Monteiro,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 329,2025-01-23 00:00:00,2025-01-23,Isabelly Silva,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,3,56.70
-7,2025-01-24 00:00:00,2025-01-24,Maria Clara Rodrigues,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,4,38.00
+419,2025-01-23 00:00:00,2025-01-23,Bernardo Gonçalves,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+420,2025-01-23 00:00:00,2025-01-23,Felipe Barros,Rio de Janeiro,RJ,Oxímetro de Dedo Portátil,Equipamentos Médicos,2,300.00
 421,2025-01-24 00:00:00,2025-01-24,Beatriz Almeida,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Vitaminas,1,28.50
 422,2025-01-24 00:00:00,2025-01-24,Antonella Cavalcanti,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
 424,2025-01-25 00:00:00,2025-01-25,Diego Pinto,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,3,56.70
 423,2025-01-25 00:00:00,2025-01-25,Gabriel Pereira,São Paulo,SP,Esmalte para Tratamento de Micose de Unha,Cabelos e Unhas,2,110.80
-151,2025-01-25 00:00:00,2025-01-25,Eduardo Cunha,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-425,2025-01-26 00:00:00,2025-01-26,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-117,2025-01-26 00:00:00,2025-01-26,Gabriel Pereira,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
 426,2025-01-26 00:00:00,2025-01-26,Sarah Rodrigues,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+425,2025-01-26 00:00:00,2025-01-26,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 428,2025-01-27 00:00:00,2025-01-27,Sophia Mendes,São Paulo,SP,Sérum Facial com Vitamina C Pura,Cuidados Faciais,2,240.00
 427,2025-01-27 00:00:00,2025-01-27,Clarice Souza,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-152,2025-01-27 00:00:00,2025-01-27,Yasmin Barbosa,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 429,2025-01-28 00:00:00,2025-01-28,Bruno Souza,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
-330,2025-01-28 00:00:00,2025-01-28,Tiago Tavares,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-8,2025-01-28 00:00:00,2025-01-28,Sebastião Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 430,2025-01-28 00:00:00,2025-01-28,Marcelo Rocha,Rio de Janeiro,RJ,Sabonete Líquido Íntimo Feminino,Saúde da Mulher,1,22.50
-432,2025-01-29 00:00:00,2025-01-29,Esther Lima,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,3,450.00
+330,2025-01-28 00:00:00,2025-01-28,Tiago Tavares,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 431,2025-01-29 00:00:00,2025-01-29,Mariana Ribeiro,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
-153,2025-01-29 00:00:00,2025-01-29,Cláudia Chaves,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,2,30.00
-433,2025-01-30 00:00:00,2025-01-30,Isabella Santos,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-105,2025-01-30 00:00:00,2025-01-30,Larissa Monteiro,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,2,45.80
+432,2025-01-29 00:00:00,2025-01-29,Esther Lima,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,3,450.00
 434,2025-01-30 00:00:00,2025-01-30,Calebe Mendes,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,4,24.00
-154,2025-01-31 00:00:00,2025-01-31,Lavínia Pereira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+433,2025-01-30 00:00:00,2025-01-30,Isabella Santos,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 435,2025-01-31 00:00:00,2025-01-31,Matheus Lima,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 436,2025-01-31 00:00:00,2025-01-31,Patrícia Duarte,São Paulo,SP,Gase Estéril Pacote (10 un),Primeiros Socorros,2,19.00
-155,2025-02-01 00:00:00,2025-02-01,Bernardo Gonçalves,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,3,54.00
 437,2025-02-01 00:00:00,2025-02-01,Enzo Silva,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 438,2025-02-01 00:00:00,2025-02-01,Manuela Barbosa,São Paulo,SP,Creme Hidratante Corporal,Cuidados Corporais,1,32.50
-9,2025-02-02 00:00:00,2025-02-02,Manuela Barbosa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+331,2025-02-02 00:00:00,2025-02-02,Miguel Pereira,Rio de Janeiro,RJ,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,2,30.00
 439,2025-02-02 00:00:00,2025-02-02,Sebastião Costa,São Paulo,SP,Removedor de Maquiagem Bifásico,Cosméticos,2,70.00
 440,2025-02-02 00:00:00,2025-02-02,Maria Clara Rodrigues,Rio de Janeiro,RJ,Sérum Facial com Vitamina C Pura,Cuidados Faciais,3,360.00
-331,2025-02-02 00:00:00,2025-02-02,Miguel Pereira,Rio de Janeiro,RJ,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,2,30.00
 442,2025-02-03 00:00:00,2025-02-03,Guilherme Cavalcanti,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 441,2025-02-03 00:00:00,2025-02-03,Felipe Barros,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
-130,2025-02-03 00:00:00,2025-02-03,Emanuel Pereira,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,2,17.80
-444,2025-02-04 00:00:00,2025-02-04,Letícia Santos,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
-156,2025-02-04 00:00:00,2025-02-04,Sérgio Siqueira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 443,2025-02-04 00:00:00,2025-02-04,Vanessa Neves,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
+444,2025-02-04 00:00:00,2025-02-04,Letícia Santos,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
+332,2025-02-05 00:00:00,2025-02-05,Márcia Freitas,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
 445,2025-02-05 00:00:00,2025-02-05,Marcos Valente,Rio de Janeiro,RJ,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
 446,2025-02-05 00:00:00,2025-02-05,Gabriela Azevedo,São Paulo,SP,Gummy de Vitamina para Cabelo e Unha,Cabelos e Unhas,1,65.00
-332,2025-02-05 00:00:00,2025-02-05,Márcia Freitas,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
-10,2025-02-05 00:00:00,2025-02-05,Ricardo Vieira,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,1,89.90
-157,2025-02-06 00:00:00,2025-02-06,Melissa Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 448,2025-02-06 00:00:00,2025-02-06,Theo Cavalcanti,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
 447,2025-02-06 00:00:00,2025-02-06,William Farias,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Vitaminas,2,57.00
 450,2025-02-07 00:00:00,2025-02-07,Elisa Nogueira,São Paulo,SP,Colírio Lubrificante,Saúde Ocular e Colírios,4,88.00
 449,2025-02-07 00:00:00,2025-02-07,Raul Ramos,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-158,2025-02-07 00:00:00,2025-02-07,Simone Pimenta,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
-159,2025-02-08 00:00:00,2025-02-08,Helena Martins,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-452,2025-02-08 00:00:00,2025-02-08,Esther Lima,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 451,2025-02-08 00:00:00,2025-02-08,Aline Peixoto,São Paulo,SP,Multivitamínico A-Z Homem,Saúde do Homem,1,49.90
-454,2025-02-09 00:00:00,2025-02-09,Cintia Arruda,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
+452,2025-02-08 00:00:00,2025-02-08,Esther Lima,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 453,2025-02-09 00:00:00,2025-02-09,Cristiane Andrade,São Paulo,SP,Creatina Monohidratada 300g,Nutrição Esportiva,1,99.90
-11,2025-02-09 00:00:00,2025-02-09,Miguel Pereira,Rio de Janeiro,RJ,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,1,35.00
-456,2025-02-10 00:00:00,2025-02-10,Amanda Correia,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,3,89.70
-160,2025-02-10 00:00:00,2025-02-10,André Morais,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-455,2025-02-10 00:00:00,2025-02-10,Miguel Pereira,Rio de Janeiro,RJ,Antidiarreico 12cp,Saúde Digestiva,2,43.80
+454,2025-02-09 00:00:00,2025-02-09,Cintia Arruda,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 333,2025-02-10 00:00:00,2025-02-10,Melissa Costa,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+455,2025-02-10 00:00:00,2025-02-10,Miguel Pereira,Rio de Janeiro,RJ,Antidiarreico 12cp,Saúde Digestiva,2,43.80
+456,2025-02-10 00:00:00,2025-02-10,Amanda Correia,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,3,89.70
 457,2025-02-11 00:00:00,2025-02-11,Yasmin Barbosa,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
-161,2025-02-11 00:00:00,2025-02-11,Mariana Ribeiro,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
 458,2025-02-11 00:00:00,2025-02-11,Carolina Macedo,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-460,2025-02-12 00:00:00,2025-02-12,Sérgio Siqueira,Rio de Janeiro,RJ,Creatina Monohidratada 300g,Nutrição Esportiva,2,199.80
-162,2025-02-12 00:00:00,2025-02-12,Jonas Magalhães,Rio de Janeiro,RJ,Absorvente Noturno Suave (16 un),Cuidados Femininos,1,14.80
 459,2025-02-12 00:00:00,2025-02-12,Melissa Costa,São Paulo,SP,Esparadrapo Impermeável Branco,Primeiros Socorros,1,9.00
+460,2025-02-12 00:00:00,2025-02-12,Sérgio Siqueira,Rio de Janeiro,RJ,Creatina Monohidratada 300g,Nutrição Esportiva,2,199.80
 461,2025-02-13 00:00:00,2025-02-13,Isabelly Silva,São Paulo,SP,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,1,15.00
-12,2025-02-13 00:00:00,2025-02-13,Elisa Nogueira,São Paulo,SP,Dorflex 36cp,Analgesicos,3,70.50
 462,2025-02-13 00:00:00,2025-02-13,Roberto Salgado,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
+334,2025-02-14 00:00:00,2025-02-14,Alexandre Viana,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 464,2025-02-14 00:00:00,2025-02-14,Vinicius Cardoso,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 463,2025-02-14 00:00:00,2025-02-14,Lorenzo Silva,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,2,39.60
-163,2025-02-14 00:00:00,2025-02-14,Antonella Cavalcanti,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-334,2025-02-14 00:00:00,2025-02-14,Alexandre Viana,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-94,2025-02-15 00:00:00,2025-02-15,Beatriz Almeida,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,2,19.00
-466,2025-02-15 00:00:00,2025-02-15,Tatiane Lopes,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,4,24.00
 465,2025-02-15 00:00:00,2025-02-15,Enzo Silva,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,1,45.75
+466,2025-02-15 00:00:00,2025-02-15,Tatiane Lopes,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,4,24.00
 468,2025-02-16 00:00:00,2025-02-16,Daniela Borges,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,2,36.00
-164,2025-02-16 00:00:00,2025-02-16,William Farias,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
 467,2025-02-16 00:00:00,2025-02-16,Daniel Ribeiro,São Paulo,SP,Repelente de Insetos Loção,Repelentes e Inseticidas,1,19.90
-470,2025-02-17 00:00:00,2025-02-17,Regina Bastos,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 469,2025-02-17 00:00:00,2025-02-17,Leandro Teixeira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Vitaminas,1,28.50
-13,2025-02-17 00:00:00,2025-02-17,Guilherme Cavalcanti,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
+470,2025-02-17 00:00:00,2025-02-17,Regina Bastos,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 472,2025-02-18 00:00:00,2025-02-18,Eduardo Cunha,Rio de Janeiro,RJ,Creatina Monohidratada 300g,Nutrição Esportiva,3,299.70
-335,2025-02-18 00:00:00,2025-02-18,Beatriz Almeida,Rio de Janeiro,RJ,Repelente de Insetos Loção,Repelentes e Inseticidas,2,39.80
-165,2025-02-18 00:00:00,2025-02-18,Gabriel Pereira,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,3,37.50
 471,2025-02-18 00:00:00,2025-02-18,Maria Clara Rodrigues,Rio de Janeiro,RJ,Sérum Facial com Vitamina C Pura,Cuidados Faciais,2,240.00
-166,2025-02-19 00:00:00,2025-02-19,Juliana Dias,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-473,2025-02-19 00:00:00,2025-02-19,Ana Júlia Oliveira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+335,2025-02-18 00:00:00,2025-02-18,Beatriz Almeida,Rio de Janeiro,RJ,Repelente de Insetos Loção,Repelentes e Inseticidas,2,39.80
 474,2025-02-19 00:00:00,2025-02-19,Renata Brandão,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-14,2025-02-20 00:00:00,2025-02-20,Helena Martins,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-476,2025-02-20 00:00:00,2025-02-20,Paulo Cordeiro,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+473,2025-02-19 00:00:00,2025-02-19,Ana Júlia Oliveira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 475,2025-02-20 00:00:00,2025-02-20,Calebe Mendes,São Paulo,SP,Colágeno Hidrolisado em Pó 300g,Dermocosméticos,1,85.00
+476,2025-02-20 00:00:00,2025-02-20,Paulo Cordeiro,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
 478,2025-02-21 00:00:00,2025-02-21,Fábio Pires,Rio de Janeiro,RJ,Xarope Expectorante 120ml,Analgesicos,1,27.80
-167,2025-02-21 00:00:00,2025-02-21,Alice Ferreira,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
 477,2025-02-21 00:00:00,2025-02-21,Rafael Nogueira,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-168,2025-02-22 00:00:00,2025-02-22,Leonardo Paiva,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,1,9.50
-479,2025-02-22 00:00:00,2025-02-22,Isaac Barbosa,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
 480,2025-02-22 00:00:00,2025-02-22,Leonardo Paiva,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,3,450.00
+479,2025-02-22 00:00:00,2025-02-22,Isaac Barbosa,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
 336,2025-02-22 00:00:00,2025-02-22,Marcelo Rocha,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
-481,2025-02-23 00:00:00,2025-02-23,Helena Martins,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 482,2025-02-23 00:00:00,2025-02-23,Felipe Barros,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,4,119.60
-169,2025-02-23 00:00:00,2025-02-23,Gabriela Azevedo,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-484,2025-02-24 00:00:00,2025-02-24,Sophia Mendes,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
+481,2025-02-23 00:00:00,2025-02-23,Helena Martins,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 483,2025-02-24 00:00:00,2025-02-24,José Padilha,Rio de Janeiro,RJ,Shampoo Anticaspa,Cabelos e Unhas,1,28.90
-15,2025-02-24 00:00:00,2025-02-24,Vinicius Cardoso,Rio de Janeiro,RJ,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,1,2.50
+484,2025-02-24 00:00:00,2025-02-24,Sophia Mendes,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 486,2025-02-25 00:00:00,2025-02-25,Jonas Magalhães,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 485,2025-02-25 00:00:00,2025-02-25,Antonella Cavalcanti,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,1,19.80
-170,2025-02-25 00:00:00,2025-02-25,Guilherme Cavalcanti,São Paulo,SP,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,3,7.50
 487,2025-02-26 00:00:00,2025-02-26,Guilherme Cavalcanti,São Paulo,SP,Chupeta Ortodôntica 6-18 meses,Saúde Infantil,2,57.80
-171,2025-02-26 00:00:00,2025-02-26,Carlos Santana,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-118,2025-02-26 00:00:00,2025-02-26,Bruna Campos,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 488,2025-02-26 00:00:00,2025-02-26,Raul Ramos,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Vitaminas,3,85.50
+489,2025-02-27 00:00:00,2025-02-27,Matheus Lima,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 337,2025-02-27 00:00:00,2025-02-27,Maria Clara Rodrigues,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
 490,2025-02-27 00:00:00,2025-02-27,Juliana Dias,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-489,2025-02-27 00:00:00,2025-02-27,Matheus Lima,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-172,2025-02-27 00:00:00,2025-02-27,Lorenzo Silva,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-106,2025-02-28 00:00:00,2025-02-28,Letícia Santos,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 491,2025-02-28 00:00:00,2025-02-28,Cintia Arruda,São Paulo,SP,Espuma de Barbear Pele Sensível,Cuidados Masculinos,1,28.00
 492,2025-02-28 00:00:00,2025-02-28,Bernardo Gonçalves,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
-493,2025-03-01 00:00:00,2025-03-01,Clarice Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
-16,2025-03-01 00:00:00,2025-03-01,Isaac Barbosa,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,2,17.80
 494,2025-03-01 00:00:00,2025-03-01,Gisele Bezerra,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-496,2025-03-02 00:00:00,2025-03-02,Sérgio Siqueira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
-173,2025-03-02 00:00:00,2025-03-02,Clarice Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+493,2025-03-01 00:00:00,2025-03-01,Clarice Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
 495,2025-03-02 00:00:00,2025-03-02,Enzo Silva,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
-498,2025-03-03 00:00:00,2025-03-03,Patrícia Duarte,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,4,24.00
-174,2025-03-03 00:00:00,2025-03-03,Fernanda Guerra,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
-338,2025-03-03 00:00:00,2025-03-03,Gisele Bezerra,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
+496,2025-03-02 00:00:00,2025-03-02,Sérgio Siqueira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 497,2025-03-03 00:00:00,2025-03-03,Maria Clara Rodrigues,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-499,2025-03-04 00:00:00,2025-03-04,Esther Lima,São Paulo,SP,Colírio Lubrificante,Saúde Ocular e Colírios,1,22.00
-17,2025-03-04 00:00:00,2025-03-04,Pedro Souza,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+338,2025-03-03 00:00:00,2025-03-03,Gisele Bezerra,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
+498,2025-03-03 00:00:00,2025-03-03,Patrícia Duarte,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,4,24.00
 500,2025-03-04 00:00:00,2025-03-04,Leonardo Paiva,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
-501,2025-03-05 00:00:00,2025-03-05,Diego Pinto,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,1,45.75
+499,2025-03-04 00:00:00,2025-03-04,Esther Lima,São Paulo,SP,Colírio Lubrificante,Saúde Ocular e Colírios,1,22.00
 502,2025-03-05 00:00:00,2025-03-05,Regina Bastos,São Paulo,SP,Gel Anti-inflamatório para Dor Muscular,Anti-inflamatórios,1,33.00
-175,2025-03-05 00:00:00,2025-03-05,Beatriz Almeida,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
-131,2025-03-06 00:00:00,2025-03-06,Benjamin Oliveira,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
+501,2025-03-05 00:00:00,2025-03-05,Diego Pinto,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,1,45.75
 503,2025-03-06 00:00:00,2025-03-06,Luiza Costa,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 504,2025-03-06 00:00:00,2025-03-06,Ricardo Vieira,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Saúde Infantil,3,59.40
-176,2025-03-06 00:00:00,2025-03-06,Daniela Borges,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
 505,2025-03-07 00:00:00,2025-03-07,Melissa Costa,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
-177,2025-03-07 00:00:00,2025-03-07,Heitor Lima,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 506,2025-03-07 00:00:00,2025-03-07,Sandra Fogaça,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 339,2025-03-08 00:00:00,2025-03-08,Daniel Ribeiro,São Paulo,SP,Kit de Curativos Avançado,Primeiros Socorros,2,50.00
-18,2025-03-08 00:00:00,2025-03-08,Lavínia Pereira,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
 508,2025-03-08 00:00:00,2025-03-08,Fernando Queiroz,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
 507,2025-03-08 00:00:00,2025-03-08,Elisa Nogueira,São Paulo,SP,Máscara Facial de Argila Verde,Cuidados Faciais,1,25.00
-510,2025-03-09 00:00:00,2025-03-09,Vanessa Neves,São Paulo,SP,Solução de Iodo 10% Antisséptico,Primeiros Socorros,1,11.50
-178,2025-03-09 00:00:00,2025-03-09,Fábio Pires,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 509,2025-03-09 00:00:00,2025-03-09,Yasmin Barbosa,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-107,2025-03-10 00:00:00,2025-03-10,Sarah Rodrigues,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
+510,2025-03-09 00:00:00,2025-03-09,Vanessa Neves,São Paulo,SP,Solução de Iodo 10% Antisséptico,Primeiros Socorros,1,11.50
 512,2025-03-10 00:00:00,2025-03-10,Daniela Borges,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,3,85.50
 511,2025-03-10 00:00:00,2025-03-10,Rebeca Gonçalves,São Paulo,SP,Creatina Monohidratada 300g,Nutrição Esportiva,2,199.80
 513,2025-03-11 00:00:00,2025-03-11,Laura Almeida,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 514,2025-03-11 00:00:00,2025-03-11,Vinicius Cardoso,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,4,24.00
-179,2025-03-11 00:00:00,2025-03-11,Rebeca Gonçalves,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+340,2025-03-12 00:00:00,2025-03-12,Cintia Arruda,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 516,2025-03-12 00:00:00,2025-03-12,Theo Cavalcanti,São Paulo,SP,Pinça de Sobrancelha Ponta Diagonal,Cosméticos,2,28.00
 515,2025-03-12 00:00:00,2025-03-12,Fernanda Guerra,São Paulo,SP,Gel para Dores Musculares,Relaxantes Musculares,1,35.40
-340,2025-03-12 00:00:00,2025-03-12,Cintia Arruda,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-19,2025-03-12 00:00:00,2025-03-12,Yasmin Barbosa,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-180,2025-03-13 00:00:00,2025-03-13,Anderson Melo,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,1,89.90
-517,2025-03-13 00:00:00,2025-03-13,Isabelly Silva,São Paulo,SP,Sérum Facial com Vitamina C Pura,Cuidados Faciais,1,120.00
 518,2025-03-13 00:00:00,2025-03-13,Roberto Salgado,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-181,2025-03-14 00:00:00,2025-03-14,Ana Júlia Oliveira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+517,2025-03-13 00:00:00,2025-03-13,Isabelly Silva,São Paulo,SP,Sérum Facial com Vitamina C Pura,Cuidados Faciais,1,120.00
 520,2025-03-14 00:00:00,2025-03-14,Tatiane Lopes,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,3,137.25
 519,2025-03-14 00:00:00,2025-03-14,Lívia Mendes,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
-182,2025-03-15 00:00:00,2025-03-15,Adriana Dantas,São Paulo,SP,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,2,70.00
-522,2025-03-15 00:00:00,2025-03-15,Alexandre Viana,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 521,2025-03-15 00:00:00,2025-03-15,Isaac Barbosa,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-523,2025-03-16 00:00:00,2025-03-16,Lavínia Pereira,São Paulo,SP,Lenços Umedecidos para Recém-Nascido,Saúde Infantil,1,18.00
-20,2025-03-16 00:00:00,2025-03-16,Bruna Campos,São Paulo,SP,Cortador de Unha Aço Inox,Higiene Pessoal,2,22.40
+522,2025-03-15 00:00:00,2025-03-15,Alexandre Viana,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 524,2025-03-16 00:00:00,2025-03-16,Simone Pimenta,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-341,2025-03-17 00:00:00,2025-03-17,Lorenzo Silva,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
+523,2025-03-16 00:00:00,2025-03-16,Lavínia Pereira,São Paulo,SP,Lenços Umedecidos para Recém-Nascido,Saúde Infantil,1,18.00
 526,2025-03-17 00:00:00,2025-03-17,Bruna Campos,São Paulo,SP,Protetor Solar Corporal FPS 30 200ml,Proteção Solar,1,48.00
-183,2025-03-17 00:00:00,2025-03-17,Theo Cavalcanti,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
 525,2025-03-17 00:00:00,2025-03-17,Lorenzo Silva,São Paulo,SP,Fio Dental Menta 50m,Higiene Bucal Avançada,1,6.80
-527,2025-03-18 00:00:00,2025-03-18,Sarah Rodrigues,São Paulo,SP,Creatina Monohidratada 300g,Nutrição Esportiva,2,199.80
-184,2025-03-18 00:00:00,2025-03-18,Leandro Teixeira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+341,2025-03-17 00:00:00,2025-03-17,Lorenzo Silva,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 528,2025-03-18 00:00:00,2025-03-18,Vitor Drumond,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,3,89.70
-21,2025-03-19 00:00:00,2025-03-19,Davi Nogueira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-530,2025-03-19 00:00:00,2025-03-19,Eduardo Cunha,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,4,24.00
+527,2025-03-18 00:00:00,2025-03-18,Sarah Rodrigues,São Paulo,SP,Creatina Monohidratada 300g,Nutrição Esportiva,2,199.80
 529,2025-03-19 00:00:00,2025-03-19,Nicolas Gonçalves,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-185,2025-03-20 00:00:00,2025-03-20,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
-531,2025-03-20 00:00:00,2025-03-20,Daniel Ribeiro,São Paulo,SP,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,1,15.00
+530,2025-03-19 00:00:00,2025-03-19,Eduardo Cunha,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,4,24.00
 532,2025-03-20 00:00:00,2025-03-20,Adriana Dantas,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,2,27.80
-342,2025-03-21 00:00:00,2025-03-21,Débora Moreira,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,2,19.00
-95,2025-03-21 00:00:00,2025-03-21,Felipe Barros,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+531,2025-03-20 00:00:00,2025-03-20,Daniel Ribeiro,São Paulo,SP,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,1,15.00
 534,2025-03-21 00:00:00,2025-03-21,Leandro Teixeira,Rio de Janeiro,RJ,Laxante Suave em Comprimidos,Saúde Digestiva,1,14.75
 533,2025-03-21 00:00:00,2025-03-21,Valentina Ribeiro,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
+342,2025-03-21 00:00:00,2025-03-21,Débora Moreira,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,2,19.00
 536,2025-03-22 00:00:00,2025-03-22,Renata Brandão,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,3,18.00
 535,2025-03-22 00:00:00,2025-03-22,Bruno Souza,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
-186,2025-03-22 00:00:00,2025-03-22,Tiago Tavares,Rio de Janeiro,RJ,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
-537,2025-03-23 00:00:00,2025-03-23,Lucas Ferreira,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 538,2025-03-23 00:00:00,2025-03-23,Ricardo Vieira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-22,2025-03-23 00:00:00,2025-03-23,Alice Ferreira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+537,2025-03-23 00:00:00,2025-03-23,Lucas Ferreira,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 539,2025-03-24 00:00:00,2025-03-24,Paula Franco,São Paulo,SP,Antisséptico Bucal Menta Suave,Higiene Bucal Avançada,1,25.50
 540,2025-03-24 00:00:00,2025-03-24,Pedro Souza,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
-187,2025-03-24 00:00:00,2025-03-24,Calebe Mendes,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-188,2025-03-25 00:00:00,2025-03-25,Igor Resende,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 541,2025-03-25 00:00:00,2025-03-25,Benjamin Oliveira,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
 542,2025-03-25 00:00:00,2025-03-25,Carlos Santana,Rio de Janeiro,RJ,Creme para Assaduras,Saúde Infantil,1,21.75
-189,2025-03-26 00:00:00,2025-03-26,Luiza Costa,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-119,2025-03-26 00:00:00,2025-03-26,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-543,2025-03-26 00:00:00,2025-03-26,Ana Júlia Oliveira,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 544,2025-03-26 00:00:00,2025-03-26,Raul Ramos,Rio de Janeiro,RJ,Sérum Facial com Vitamina C Pura,Cuidados Faciais,3,360.00
 343,2025-03-26 00:00:00,2025-03-26,Enzo Silva,São Paulo,SP,Sabonete Líquido Antisséptico,Higiene Pessoal,1,12.30
-545,2025-03-27 00:00:00,2025-03-27,Mariana Ribeiro,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
+543,2025-03-26 00:00:00,2025-03-26,Ana Júlia Oliveira,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 546,2025-03-27 00:00:00,2025-03-27,Fábio Pires,Rio de Janeiro,RJ,Removedor de Esmalte sem Acetona,Cosméticos,4,30.00
-23,2025-03-27 00:00:00,2025-03-27,Gabriela Azevedo,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,1,6.00
-190,2025-03-28 00:00:00,2025-03-28,Roberto Salgado,Rio de Janeiro,RJ,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
-547,2025-03-28 00:00:00,2025-03-28,Rebeca Gonçalves,São Paulo,SP,Soro Fisiológico 0.9% 500ml,Primeiros Socorros,1,8.00
+545,2025-03-27 00:00:00,2025-03-27,Mariana Ribeiro,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 548,2025-03-28 00:00:00,2025-03-28,Daniela Borges,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,2,17.80
-191,2025-03-29 00:00:00,2025-03-29,Sarah Rodrigues,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
+547,2025-03-28 00:00:00,2025-03-28,Rebeca Gonçalves,São Paulo,SP,Soro Fisiológico 0.9% 500ml,Primeiros Socorros,1,8.00
 549,2025-03-29 00:00:00,2025-03-29,Larissa Monteiro,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,1,28.50
 550,2025-03-29 00:00:00,2025-03-29,Anderson Melo,Rio de Janeiro,RJ,Escova de Dentes Macia,Higiene Bucal Avançada,1,14.20
-552,2025-03-30 00:00:00,2025-03-30,Marcelo Rocha,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Saúde Infantil,3,59.40
-192,2025-03-30 00:00:00,2025-03-30,Diego Pinto,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 551,2025-03-30 00:00:00,2025-03-30,Júlia Oliveira,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
+552,2025-03-30 00:00:00,2025-03-30,Marcelo Rocha,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Saúde Infantil,3,59.40
 553,2025-03-31 00:00:00,2025-03-31,Emanuel Pereira,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 554,2025-03-31 00:00:00,2025-03-31,Leonardo Paiva,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-556,2025-04-01 00:00:00,2025-04-01,Paulo Cordeiro,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-344,2025-04-01 00:00:00,2025-04-01,Laura Almeida,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
-193,2025-04-01 00:00:00,2025-04-01,Valentina Ribeiro,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
 555,2025-04-01 00:00:00,2025-04-01,Calebe Mendes,São Paulo,SP,Vitamina D3 2000 UI 60 cápsulas,Vitaminas,1,42.80
+344,2025-04-01 00:00:00,2025-04-01,Laura Almeida,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+556,2025-04-01 00:00:00,2025-04-01,Paulo Cordeiro,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
 558,2025-04-02 00:00:00,2025-04-02,Márcia Freitas,São Paulo,SP,Zinco Quelato 60 cápsulas,Vitaminas,1,49.90
 557,2025-04-02 00:00:00,2025-04-02,Letícia Santos,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-194,2025-04-02 00:00:00,2025-04-02,Sandra Fogaça,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
-560,2025-04-03 00:00:00,2025-04-03,Sandra Fogaça,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,3,85.50
-24,2025-04-03 00:00:00,2025-04-03,Rafael Nogueira,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,2,14.40
 559,2025-04-03 00:00:00,2025-04-03,Cauã Almeida,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
-561,2025-04-04 00:00:00,2025-04-04,Gabriela Azevedo,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-195,2025-04-04 00:00:00,2025-04-04,Isabelly Silva,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+560,2025-04-03 00:00:00,2025-04-03,Sandra Fogaça,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,3,85.50
 562,2025-04-04 00:00:00,2025-04-04,Tiago Tavares,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,4,24.00
-196,2025-04-05 00:00:00,2025-04-05,Regina Bastos,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,2,12.00
-563,2025-04-05 00:00:00,2025-04-05,Bernardo Gonçalves,São Paulo,SP,Xarope para Tosse Seca 120ml,Analgesicos,1,25.50
+561,2025-04-04 00:00:00,2025-04-04,Gabriela Azevedo,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
 564,2025-04-05 00:00:00,2025-04-05,Felipe Barros,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
 345,2025-04-05 00:00:00,2025-04-05,Fábio Pires,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
+563,2025-04-05 00:00:00,2025-04-05,Bernardo Gonçalves,São Paulo,SP,Xarope para Tosse Seca 120ml,Analgesicos,1,25.50
 565,2025-04-06 00:00:00,2025-04-06,Marcos Valente,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 566,2025-04-06 00:00:00,2025-04-06,Sophia Mendes,São Paulo,SP,Loção Pós-Barba Hidratante,Cuidados Masculinos,1,32.00
-25,2025-04-06 00:00:00,2025-04-06,Theo Cavalcanti,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-567,2025-04-07 00:00:00,2025-04-07,Isabelly Silva,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
-197,2025-04-07 00:00:00,2025-04-07,Matheus Lima,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,3,70.50
-132,2025-04-07 00:00:00,2025-04-07,Davi Nogueira,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 568,2025-04-07 00:00:00,2025-04-07,Gisele Bezerra,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,3,59.40
-198,2025-04-08 00:00:00,2025-04-08,Tatiane Lopes,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-569,2025-04-08 00:00:00,2025-04-08,Enzo Silva,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
+567,2025-04-07 00:00:00,2025-04-07,Isabelly Silva,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
 570,2025-04-08 00:00:00,2025-04-08,Igor Resende,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-199,2025-04-09 00:00:00,2025-04-09,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
-572,2025-04-09 00:00:00,2025-04-09,Aline Peixoto,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
+569,2025-04-08 00:00:00,2025-04-08,Enzo Silva,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 571,2025-04-09 00:00:00,2025-04-09,Daniel Ribeiro,São Paulo,SP,Nebulizador e Inalador Portátil a Pilha,Equipamentos Médicos,1,250.00
-573,2025-04-10 00:00:00,2025-04-10,Rafael Nogueira,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-26,2025-04-10 00:00:00,2025-04-10,Rodrigo Santos,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,1,25.40
+572,2025-04-09 00:00:00,2025-04-09,Aline Peixoto,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
 346,2025-04-10 00:00:00,2025-04-10,Guilherme Cavalcanti,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
+573,2025-04-10 00:00:00,2025-04-10,Rafael Nogueira,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 574,2025-04-10 00:00:00,2025-04-10,André Morais,Rio de Janeiro,RJ,Lubrificante Íntimo à Base de Água 50g,Saúde do Homem,1,20.00
 575,2025-04-11 00:00:00,2025-04-11,Esther Lima,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-200,2025-04-11 00:00:00,2025-04-11,Paulo Cordeiro,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 576,2025-04-11 00:00:00,2025-04-11,Cristiane Andrade,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
-108,2025-04-12 00:00:00,2025-04-12,Clarice Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 577,2025-04-12 00:00:00,2025-04-12,Amanda Correia,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
 578,2025-04-12 00:00:00,2025-04-12,Cintia Arruda,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,4,183.60
-201,2025-04-13 00:00:00,2025-04-13,Emanuel Pereira,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 580,2025-04-13 00:00:00,2025-04-13,Juliana Dias,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 579,2025-04-13 00:00:00,2025-04-13,Maria Clara Rodrigues,Rio de Janeiro,RJ,Tala para Punho Ajustável,Produtos Ortopédicos,1,55.80
+347,2025-04-14 00:00:00,2025-04-14,Aline Peixoto,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 582,2025-04-14 00:00:00,2025-04-14,Leonardo Paiva,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 581,2025-04-14 00:00:00,2025-04-14,Sarah Rodrigues,São Paulo,SP,Sérum Facial com Vitamina C Pura,Cuidados Faciais,1,120.00
-347,2025-04-14 00:00:00,2025-04-14,Aline Peixoto,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-27,2025-04-14 00:00:00,2025-04-14,Ana Júlia Oliveira,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
-202,2025-04-15 00:00:00,2025-04-15,Sofia Lima,Município Genérico 23,RR,Tylenol Sinus 24cp,Analgesicos,1,29.90
 583,2025-04-15 00:00:00,2025-04-15,Rodrigo Santos,São Paulo,SP,Complexo B 100 cápsulas,Vitaminas,2,90.00
 584,2025-04-15 00:00:00,2025-04-15,Jonas Magalhães,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,3,137.25
-585,2025-04-16 00:00:00,2025-04-16,Lívia Mendes,Rio de Janeiro,RJ,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,1,15.00
-203,2025-04-16 00:00:00,2025-04-16,Vanessa Neves,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 586,2025-04-16 00:00:00,2025-04-16,Carolina Macedo,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+203,2025-04-16 00:00:00,2025-04-16,Vanessa Neves,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+585,2025-04-16 00:00:00,2025-04-16,Lívia Mendes,Rio de Janeiro,RJ,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,1,15.00
+204,2025-04-17 00:00:00,2025-04-17,Rafael Nogueira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 587,2025-04-17 00:00:00,2025-04-17,Isaac Barbosa,São Paulo,SP,Atadura Elástica de Compressão 10cm,Primeiros Socorros,1,17.00
 588,2025-04-17 00:00:00,2025-04-17,Alexandre Viana,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Vitaminas,2,57.00
-204,2025-04-17 00:00:00,2025-04-17,Rafael Nogueira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 589,2025-04-18 00:00:00,2025-04-18,Vinicius Cardoso,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 590,2025-04-18 00:00:00,2025-04-18,Tiago Tavares,Rio de Janeiro,RJ,Creme Esfoliante Facial Suave,Cuidados Faciais,1,38.00
-28,2025-04-18 00:00:00,2025-04-18,Valentina Ribeiro,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
-348,2025-04-19 00:00:00,2025-04-19,Helena Martins,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 592,2025-04-19 00:00:00,2025-04-19,Diego Pinto,Rio de Janeiro,RJ,Creme Dental Branqueador,Higiene Bucal Avançada,3,28.50
-591,2025-04-19 00:00:00,2025-04-19,Isabella Santos,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
+348,2025-04-19 00:00:00,2025-04-19,Helena Martins,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 205,2025-04-19 00:00:00,2025-04-19,Renata Brandão,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,3,26.70
+591,2025-04-19 00:00:00,2025-04-19,Isabella Santos,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
 594,2025-04-20 00:00:00,2025-04-20,Sérgio Siqueira,Rio de Janeiro,RJ,Creme Dental Branqueador,Higiene Bucal Avançada,4,38.00
-206,2025-04-20 00:00:00,2025-04-20,Sebastião Costa,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 593,2025-04-20 00:00:00,2025-04-20,Ana Júlia Oliveira,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
+206,2025-04-20 00:00:00,2025-04-20,Sebastião Costa,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+207,2025-04-21 00:00:00,2025-04-21,Marcos Valente,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,2,14.40
 595,2025-04-21 00:00:00,2025-04-21,Clarice Souza,São Paulo,SP,Barra de Proteína Chocolate,Nutrição Esportiva,1,9.00
 596,2025-04-21 00:00:00,2025-04-21,Roberto Salgado,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-207,2025-04-21 00:00:00,2025-04-21,Marcos Valente,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,2,14.40
-29,2025-04-22 00:00:00,2025-04-22,Leandro Teixeira,Rio de Janeiro,RJ,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
-597,2025-04-22 00:00:00,2025-04-22,Davi Nogueira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 598,2025-04-22 00:00:00,2025-04-22,Leandro Teixeira,Rio de Janeiro,RJ,Creme para Tratamento de Hemorroidas,Saúde Digestiva,1,42.00
-599,2025-04-23 00:00:00,2025-04-23,Melissa Costa,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
-208,2025-04-23 00:00:00,2025-04-23,Pedro Souza,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-349,2025-04-23 00:00:00,2025-04-23,Larissa Monteiro,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
+597,2025-04-22 00:00:00,2025-04-22,Davi Nogueira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 600,2025-04-23 00:00:00,2025-04-23,Débora Moreira,São Paulo,SP,Analgésico Infantil em Gotas,Saúde Infantil,3,59.40
-96,2025-04-24 00:00:00,2025-04-24,Arthur Rodrigues,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+599,2025-04-23 00:00:00,2025-04-23,Melissa Costa,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
+349,2025-04-23 00:00:00,2025-04-23,Larissa Monteiro,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
+208,2025-04-23 00:00:00,2025-04-23,Pedro Souza,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 602,2025-04-24 00:00:00,2025-04-24,Marcos Valente,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 601,2025-04-24 00:00:00,2025-04-24,Sebastião Costa,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-209,2025-04-25 00:00:00,2025-04-25,Márcia Freitas,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 603,2025-04-25 00:00:00,2025-04-25,Luiza Costa,São Paulo,SP,Sulfato Ferroso + Ácido Fólico,Vitaminas,1,23.50
 604,2025-04-25 00:00:00,2025-04-25,Ricardo Vieira,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
+209,2025-04-25 00:00:00,2025-04-25,Márcia Freitas,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 606,2025-04-26 00:00:00,2025-04-26,Daniela Borges,São Paulo,SP,Desodorante Aerosol Sem Perfume,Higiene Pessoal,1,16.50
 605,2025-04-26 00:00:00,2025-04-26,Cauã Almeida,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-30,2025-04-26 00:00:00,2025-04-26,Lucas Ferreira,Rio de Janeiro,RJ,Álcool em Gel 70% 500ml,Higiene Pessoal,2,36.00
-607,2025-04-27 00:00:00,2025-04-27,Antonella Cavalcanti,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-210,2025-04-27 00:00:00,2025-04-27,Bruno Souza,São Paulo,SP,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,2,179.80
 608,2025-04-27 00:00:00,2025-04-27,Adriana Dantas,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,3,56.70
-610,2025-04-28 00:00:00,2025-04-28,André Morais,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Saúde Infantil,4,79.20
+210,2025-04-27 00:00:00,2025-04-27,Bruno Souza,São Paulo,SP,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,2,179.80
+607,2025-04-27 00:00:00,2025-04-27,Antonella Cavalcanti,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
 609,2025-04-28 00:00:00,2025-04-28,Mariana Ribeiro,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,1,18.90
+610,2025-04-28 00:00:00,2025-04-28,André Morais,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Saúde Infantil,4,79.20
 350,2025-04-28 00:00:00,2025-04-28,Luiza Costa,São Paulo,SP,Tiras para Glicosímetro (50 un),Equipamentos Médicos,2,130.00
-120,2025-04-28 00:00:00,2025-04-28,Manuela Barbosa,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
-611,2025-04-29 00:00:00,2025-04-29,Rebeca Gonçalves,São Paulo,SP,Sabonete Líquido Antisséptico,Higiene Pessoal,1,12.30
-211,2025-04-29 00:00:00,2025-04-29,Eliane Xavier,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
 612,2025-04-29 00:00:00,2025-04-29,Fernando Queiroz,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+211,2025-04-29 00:00:00,2025-04-29,Eliane Xavier,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
+611,2025-04-29 00:00:00,2025-04-29,Rebeca Gonçalves,São Paulo,SP,Sabonete Líquido Antisséptico,Higiene Pessoal,1,12.30
 614,2025-04-30 00:00:00,2025-04-30,José Padilha,Rio de Janeiro,RJ,Comprimido para Enjoo e Vômito (Dramin),Saúde Digestiva,1,9.80
 613,2025-04-30 00:00:00,2025-04-30,Larissa Monteiro,São Paulo,SP,"Esmalte de Unha Hipoalergênico Cor ""Vinho""",Cosméticos,1,9.90
 212,2025-04-30 00:00:00,2025-04-30,Lucas Ferreira,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
-31,2025-04-30 00:00:00,2025-04-30,Cauã Almeida,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
 213,2025-05-01 00:00:00,2025-05-01,Vitor Drumond,Rio de Janeiro,RJ,Cortador de Unha Aço Inox,Higiene Pessoal,2,22.40
 615,2025-05-01 00:00:00,2025-05-01,Júlia Oliveira,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
 616,2025-05-01 00:00:00,2025-05-01,Marcelo Rocha,Rio de Janeiro,RJ,Sérum Facial com Vitamina C Pura,Cuidados Faciais,3,360.00
-214,2025-05-02 00:00:00,2025-05-02,Felipe Barros,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-618,2025-05-02 00:00:00,2025-05-02,Vitor Drumond,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-617,2025-05-02 00:00:00,2025-05-02,Emanuel Pereira,São Paulo,SP,Kit de Curativos Avançado,Primeiros Socorros,1,25.00
 351,2025-05-02 00:00:00,2025-05-02,Anderson Melo,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
-215,2025-05-03 00:00:00,2025-05-03,Isabella Santos,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+617,2025-05-02 00:00:00,2025-05-02,Emanuel Pereira,São Paulo,SP,Kit de Curativos Avançado,Primeiros Socorros,1,25.00
+618,2025-05-02 00:00:00,2025-05-02,Vitor Drumond,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+214,2025-05-02 00:00:00,2025-05-02,Felipe Barros,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 620,2025-05-03 00:00:00,2025-05-03,Eliane Xavier,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
+215,2025-05-03 00:00:00,2025-05-03,Isabella Santos,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 619,2025-05-03 00:00:00,2025-05-03,Benjamin Oliveira,São Paulo,SP,Mamadeira Anti-Cólica 260ml,Saúde Infantil,1,45.00
 621,2025-05-04 00:00:00,2025-05-04,Guilherme Cavalcanti,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-32,2025-05-04 00:00:00,2025-05-04,Arthur Rodrigues,Rio de Janeiro,RJ,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,1,12.50
 622,2025-05-04 00:00:00,2025-05-04,Tatiane Lopes,São Paulo,SP,Talco Antisséptico para os Pés,Cuidados com os Pés,1,13.90
-624,2025-05-05 00:00:00,2025-05-05,Daniela Borges,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,3,85.50
 623,2025-05-05 00:00:00,2025-05-05,Isaac Barbosa,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+624,2025-05-05 00:00:00,2025-05-05,Daniela Borges,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,3,85.50
 216,2025-05-05 00:00:00,2025-05-05,Gisele Bezerra,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-625,2025-05-06 00:00:00,2025-05-06,Diego Pinto,Rio de Janeiro,RJ,Creatina Monohidratada 300g,Nutrição Esportiva,1,99.90
 626,2025-05-06 00:00:00,2025-05-06,Paula Franco,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,4,600.00
 217,2025-05-06 00:00:00,2025-05-06,Nicolas Gonçalves,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,2,59.80
-627,2025-05-07 00:00:00,2025-05-07,Pedro Souza,São Paulo,SP,Cálcio + Vitamina D3,Vitaminas,1,38.00
-33,2025-05-07 00:00:00,2025-05-07,Daniel Ribeiro,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,3,59.40
+625,2025-05-06 00:00:00,2025-05-06,Diego Pinto,Rio de Janeiro,RJ,Creatina Monohidratada 300g,Nutrição Esportiva,1,99.90
 352,2025-05-07 00:00:00,2025-05-07,Isaac Barbosa,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
+627,2025-05-07 00:00:00,2025-05-07,Pedro Souza,São Paulo,SP,Cálcio + Vitamina D3,Vitaminas,1,38.00
 628,2025-05-07 00:00:00,2025-05-07,Patrícia Duarte,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,2,27.80
-629,2025-05-08 00:00:00,2025-05-08,Esther Lima,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
-630,2025-05-08 00:00:00,2025-05-08,Alexandre Viana,Rio de Janeiro,RJ,Pastilhas para Garganta Sabor Mel e Limão,Higiene Bucal Avançada,1,12.00
 218,2025-05-08 00:00:00,2025-05-08,Patrícia Duarte,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
+630,2025-05-08 00:00:00,2025-05-08,Alexandre Viana,Rio de Janeiro,RJ,Pastilhas para Garganta Sabor Mel e Limão,Higiene Bucal Avançada,1,12.00
+629,2025-05-08 00:00:00,2025-05-08,Esther Lima,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 632,2025-05-09 00:00:00,2025-05-09,Paulo Cordeiro,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Saúde Infantil,3,59.40
-133,2025-05-09 00:00:00,2025-05-09,Patrícia Duarte,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 631,2025-05-09 00:00:00,2025-05-09,Calebe Mendes,São Paulo,SP,Fraldas Infantis Pacote G,Fraldas e Lenços Umedecidos,2,91.50
-633,2025-05-10 00:00:00,2025-05-10,Letícia Santos,São Paulo,SP,Protetor Labial com Manteiga de Cacau,Cuidados Corporais,1,8.50
-219,2025-05-10 00:00:00,2025-05-10,Cauã Almeida,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 634,2025-05-10 00:00:00,2025-05-10,Raul Ramos,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-34,2025-05-11 00:00:00,2025-05-11,Nicolas Gonçalves,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+219,2025-05-10 00:00:00,2025-05-10,Cauã Almeida,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
+633,2025-05-10 00:00:00,2025-05-10,Letícia Santos,São Paulo,SP,Protetor Labial com Manteiga de Cacau,Cuidados Corporais,1,8.50
+353,2025-05-11 00:00:00,2025-05-11,Eduardo Cunha,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,2,37.80
 636,2025-05-11 00:00:00,2025-05-11,Aline Peixoto,São Paulo,SP,Creatina Monohidratada 300g,Nutrição Esportiva,2,199.80
 635,2025-05-11 00:00:00,2025-05-11,Elisa Nogueira,São Paulo,SP,Creme Anti-idade Noturno Revitalizante,Cuidados Faciais,1,95.00
-353,2025-05-11 00:00:00,2025-05-11,Eduardo Cunha,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,2,37.80
-638,2025-05-12 00:00:00,2025-05-12,Vanessa Neves,São Paulo,SP,Pomada para Assadura de Uso Diário,Saúde Infantil,1,29.50
 220,2025-05-12 00:00:00,2025-05-12,José Padilha,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 637,2025-05-12 00:00:00,2025-05-12,Nicolas Gonçalves,Rio de Janeiro,RJ,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,1,15.00
-639,2025-05-13 00:00:00,2025-05-13,Cauã Almeida,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
-640,2025-05-13 00:00:00,2025-05-13,Leonardo Paiva,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,3,56.70
+638,2025-05-12 00:00:00,2025-05-12,Vanessa Neves,São Paulo,SP,Pomada para Assadura de Uso Diário,Saúde Infantil,1,29.50
 221,2025-05-13 00:00:00,2025-05-13,Elisa Nogueira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+640,2025-05-13 00:00:00,2025-05-13,Leonardo Paiva,Rio de Janeiro,RJ,Loratadina 10mg 12cp,Antialérgicos,3,56.70
+639,2025-05-13 00:00:00,2025-05-13,Cauã Almeida,São Paulo,SP,Vitamina C Efervescente 1g,Vitaminas,2,57.00
 641,2025-05-14 00:00:00,2025-05-14,Felipe Barros,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 642,2025-05-14 00:00:00,2025-05-14,Cláudia Chaves,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,4,24.00
-109,2025-05-14 00:00:00,2025-05-14,Sophia Mendes,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,1,6.00
-35,2025-05-15 00:00:00,2025-05-15,Juliana Dias,São Paulo,SP,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,1,35.00
 643,2025-05-15 00:00:00,2025-05-15,Theo Cavalcanti,São Paulo,SP,Melatonina 0.21mg,Suplementos Alimentares,1,45.00
 222,2025-05-16 00:00:00,2025-05-16,Alexandre Viana,Rio de Janeiro,RJ,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
 354,2025-05-16 00:00:00,2025-05-16,Mariana Ribeiro,Rio de Janeiro,RJ,Creme Dental Branqueador,Higiene Bucal Avançada,3,28.50
 223,2025-05-17 00:00:00,2025-05-17,Vinicius Cardoso,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 224,2025-05-18 00:00:00,2025-05-18,Cintia Arruda,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,2,36.00
-36,2025-05-19 00:00:00,2025-05-19,Lorenzo Silva,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 225,2025-05-20 00:00:00,2025-05-20,Miguel Pereira,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
 355,2025-05-20 00:00:00,2025-05-20,Cristiane Andrade,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 226,2025-05-21 00:00:00,2025-05-21,Marcelo Rocha,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 227,2025-05-22 00:00:00,2025-05-22,Enzo Silva,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
-37,2025-05-23 00:00:00,2025-05-23,Emanuel Pereira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 228,2025-05-24 00:00:00,2025-05-24,Fernando Queiroz,Rio de Janeiro,RJ,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,1,2.50
 356,2025-05-25 00:00:00,2025-05-25,Antonella Cavalcanti,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
-121,2025-05-25 00:00:00,2025-05-25,Daniel Ribeiro,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 229,2025-05-26 00:00:00,2025-05-26,Benjamin Oliveira,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-38,2025-05-27 00:00:00,2025-05-27,Heitor Lima,Rio de Janeiro,RJ,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
 230,2025-05-28 00:00:00,2025-05-28,Carolina Macedo,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 231,2025-05-29 00:00:00,2025-05-29,Davi Nogueira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-97,2025-05-30 00:00:00,2025-05-30,Esther Lima,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 357,2025-05-30 00:00:00,2025-05-30,Marcos Valente,Rio de Janeiro,RJ,Termômetro Digital Infravermelho,Equipamentos Médicos,1,99.90
 232,2025-05-31 00:00:00,2025-05-31,Débora Moreira,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,1,8.90
 233,2025-06-01 00:00:00,2025-06-01,Rodrigo Santos,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
-39,2025-06-02 00:00:00,2025-06-02,Benjamin Oliveira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 234,2025-06-03 00:00:00,2025-06-03,Maria Clara Rodrigues,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 358,2025-06-03 00:00:00,2025-06-03,Matheus Lima,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 235,2025-06-04 00:00:00,2025-06-04,Roberto Salgado,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,2,91.50
-40,2025-06-05 00:00:00,2025-06-05,Luiza Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,3,70.50
 236,2025-06-06 00:00:00,2025-06-06,Amanda Correia,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 237,2025-06-07 00:00:00,2025-06-07,Letícia Santos,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,3,37.50
 238,2025-06-08 00:00:00,2025-06-08,Cláudia Chaves,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
 359,2025-06-08 00:00:00,2025-06-08,Tatiane Lopes,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,1,9.50
-41,2025-06-09 00:00:00,2025-06-09,Larissa Monteiro,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-134,2025-06-10 00:00:00,2025-06-10,Mariana Ribeiro,Rio de Janeiro,RJ,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,2,25.00
 239,2025-06-11 00:00:00,2025-06-11,Manuela Barbosa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
-360,2025-06-12 00:00:00,2025-06-12,Sophia Mendes,São Paulo,SP,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,2,30.00
 240,2025-06-12 00:00:00,2025-06-12,André Morais,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-42,2025-06-13 00:00:00,2025-06-13,Letícia Santos,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+360,2025-06-12 00:00:00,2025-06-12,Sophia Mendes,São Paulo,SP,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,2,30.00
 241,2025-06-14 00:00:00,2025-06-14,Daniel Ribeiro,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
 242,2025-06-15 00:00:00,2025-06-15,Aline Peixoto,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,2,12.00
-110,2025-06-16 00:00:00,2025-06-16,Marcelo Rocha,Rio de Janeiro,RJ,Curativo Adesivo à Prova D'água,Primeiros Socorros,2,27.80
 361,2025-06-17 00:00:00,2025-06-17,Amanda Correia,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-43,2025-06-17 00:00:00,2025-06-17,Bernardo Gonçalves,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 243,2025-06-17 00:00:00,2025-06-17,Helena Martins,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 244,2025-06-18 00:00:00,2025-06-18,Bruna Campos,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
-98,2025-06-19 00:00:00,2025-06-19,Isabella Santos,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
 245,2025-06-20 00:00:00,2025-06-20,Melissa Costa,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-44,2025-06-21 00:00:00,2025-06-21,Rebeca Gonçalves,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,4,380.00
 362,2025-06-21 00:00:00,2025-06-21,Alice Ferreira,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
 246,2025-06-22 00:00:00,2025-06-22,Sandra Fogaça,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,2,27.80
 247,2025-06-23 00:00:00,2025-06-23,Sebastião Costa,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 248,2025-06-24 00:00:00,2025-06-24,Anderson Melo,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-45,2025-06-25 00:00:00,2025-06-25,Júlia Oliveira,São Paulo,SP,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
 249,2025-06-26 00:00:00,2025-06-26,Lucas Ferreira,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
 363,2025-06-26 00:00:00,2025-06-26,Roberto Salgado,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
-122,2025-06-27 00:00:00,2025-06-27,Maria Clara Rodrigues,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,2,179.80
 250,2025-06-27 00:00:00,2025-06-27,Raul Ramos,Rio de Janeiro,RJ,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
 251,2025-06-28 00:00:00,2025-06-28,Sophia Mendes,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,3,89.70
-46,2025-06-29 00:00:00,2025-06-29,Felipe Barros,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
 252,2025-06-30 00:00:00,2025-06-30,Jonas Magalhães,Rio de Janeiro,RJ,Pomada para Picada de Inseto,Primeiros Socorros,1,25.40
-364,2025-07-01 00:00:00,2025-07-01,Emanuel Pereira,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
 253,2025-07-01 00:00:00,2025-07-01,Larissa Monteiro,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
+364,2025-07-01 00:00:00,2025-07-01,Emanuel Pereira,São Paulo,SP,Whey Protein Concentrado 900g,Suplementos Alimentares,2,300.00
 254,2025-07-02 00:00:00,2025-07-02,Mariana Ribeiro,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-47,2025-07-03 00:00:00,2025-07-03,Beatriz Almeida,Rio de Janeiro,RJ,Sal de Frutas (Antiácido),Saúde Digestiva,1,8.90
 255,2025-07-04 00:00:00,2025-07-04,Sérgio Siqueira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-365,2025-07-05 00:00:00,2025-07-05,Renata Brandão,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 256,2025-07-05 00:00:00,2025-07-05,Arthur Rodrigues,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+365,2025-07-05 00:00:00,2025-07-05,Renata Brandão,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 257,2025-07-06 00:00:00,2025-07-06,Fernanda Guerra,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
-48,2025-07-07 00:00:00,2025-07-07,Antonella Cavalcanti,São Paulo,SP,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,3,7.50
 258,2025-07-08 00:00:00,2025-07-08,Isaac Barbosa,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
 259,2025-07-09 00:00:00,2025-07-09,Vanessa Neves,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-366,2025-07-10 00:00:00,2025-07-10,Pedro Souza,São Paulo,SP,Protetor Labial com Manteiga de Cacau,Cuidados Corporais,1,8.50
 260,2025-07-10 00:00:00,2025-07-10,Júlia Oliveira,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,2,91.50
-49,2025-07-11 00:00:00,2025-07-11,Gabriel Pereira,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
-135,2025-07-12 00:00:00,2025-07-12,Isaac Barbosa,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,1,18.00
+366,2025-07-10 00:00:00,2025-07-10,Pedro Souza,São Paulo,SP,Protetor Labial com Manteiga de Cacau,Cuidados Corporais,1,8.50
 261,2025-07-13 00:00:00,2025-07-13,Simone Pimenta,São Paulo,SP,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,3,7.50
 262,2025-07-14 00:00:00,2025-07-14,Calebe Mendes,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-50,2025-07-15 00:00:00,2025-07-15,Diego Pinto,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,2,19.00
 367,2025-07-15 00:00:00,2025-07-15,Juliana Dias,São Paulo,SP,Creme Dental Branqueador,Higiene Bucal Avançada,2,19.00
 263,2025-07-16 00:00:00,2025-07-16,Cintia Arruda,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,2,91.50
 264,2025-07-17 00:00:00,2025-07-17,Guilherme Cavalcanti,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,1,18.00
-111,2025-07-17 00:00:00,2025-07-17,Nicolas Gonçalves,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 265,2025-07-18 00:00:00,2025-07-18,Cristiane Andrade,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-51,2025-07-19 00:00:00,2025-07-19,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 266,2025-07-20 00:00:00,2025-07-20,Felipe Barros,Rio de Janeiro,RJ,Analgésico Infantil em Gotas,Analgesicos,3,59.40
 368,2025-07-20 00:00:00,2025-07-20,Bernardo Gonçalves,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,3,56.70
 267,2025-07-21 00:00:00,2025-07-21,Yasmin Barbosa,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
 268,2025-07-22 00:00:00,2025-07-22,Ricardo Vieira,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
-52,2025-07-23 00:00:00,2025-07-23,Alice Ferreira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,5,142.50
 269,2025-07-24 00:00:00,2025-07-24,Valentina Ribeiro,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 369,2025-07-25 00:00:00,2025-07-25,José Padilha,Rio de Janeiro,RJ,Whey Protein Concentrado 900g,Suplementos Alimentares,1,150.00
-99,2025-07-25 00:00:00,2025-07-25,Benjamin Oliveira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 270,2025-07-26 00:00:00,2025-07-26,Renata Brandão,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-53,2025-07-27 00:00:00,2025-07-27,Sarah Rodrigues,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 271,2025-07-28 00:00:00,2025-07-28,Cauã Almeida,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-123,2025-07-29 00:00:00,2025-07-29,Diego Pinto,Rio de Janeiro,RJ,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,1,35.00
 272,2025-07-29 00:00:00,2025-07-29,Carlos Santana,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,1,9.50
-273,2025-07-30 00:00:00,2025-07-30,Theo Cavalcanti,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 370,2025-07-30 00:00:00,2025-07-30,Letícia Santos,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,2,91.80
-54,2025-08-01 00:00:00,2025-08-01,Clarice Souza,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,2,25.00
+273,2025-07-30 00:00:00,2025-07-30,Theo Cavalcanti,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 274,2025-08-01 00:00:00,2025-08-01,Márcia Freitas,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 275,2025-08-02 00:00:00,2025-08-02,Ana Júlia Oliveira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
 276,2025-08-03 00:00:00,2025-08-03,Paula Franco,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
-55,2025-08-04 00:00:00,2025-08-04,Sophia Mendes,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-371,2025-08-05 00:00:00,2025-08-05,Sandra Fogaça,São Paulo,SP,Relaxante Muscular 20cp,Relaxantes Musculares,1,18.50
 277,2025-08-05 00:00:00,2025-08-05,Gabriela Azevedo,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
+371,2025-08-05 00:00:00,2025-08-05,Sandra Fogaça,São Paulo,SP,Relaxante Muscular 20cp,Relaxantes Musculares,1,18.50
 278,2025-08-06 00:00:00,2025-08-06,Matheus Lima,Rio de Janeiro,RJ,Cortador de Unha Aço Inox,Higiene Pessoal,2,22.40
 279,2025-08-07 00:00:00,2025-08-07,Daniela Borges,São Paulo,SP,Algodão em Bolas 100g,Primeiros Socorros,3,21.60
-56,2025-08-08 00:00:00,2025-08-08,Bruno Souza,São Paulo,SP,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,3,269.70
 280,2025-08-09 00:00:00,2025-08-09,Gabriel Pereira,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 281,2025-08-10 00:00:00,2025-08-10,Adriana Dantas,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 282,2025-08-11 00:00:00,2025-08-11,Elisa Nogueira,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 372,2025-08-11 00:00:00,2025-08-11,Sebastião Costa,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-57,2025-08-12 00:00:00,2025-08-12,Marcelo Rocha,Rio de Janeiro,RJ,Álcool em Gel 70% 500ml,Higiene Pessoal,1,18.00
 283,2025-08-13 00:00:00,2025-08-13,Heitor Lima,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,5,142.50
-136,2025-08-13 00:00:00,2025-08-13,Vinicius Cardoso,Rio de Janeiro,RJ,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
-100,2025-08-14 00:00:00,2025-08-14,Bernardo Gonçalves,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 284,2025-08-15 00:00:00,2025-08-15,Tiago Tavares,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-58,2025-08-16 00:00:00,2025-08-16,Mariana Ribeiro,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
 285,2025-08-17 00:00:00,2025-08-17,Enzo Silva,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-112,2025-08-18 00:00:00,2025-08-18,Rebeca Gonçalves,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
 373,2025-08-18 00:00:00,2025-08-18,Valentina Ribeiro,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,1,28.50
 286,2025-08-19 00:00:00,2025-08-19,Carolina Macedo,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
-59,2025-08-20 00:00:00,2025-08-20,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 287,2025-08-21 00:00:00,2025-08-21,Davi Nogueira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,3,89.70
 288,2025-08-22 00:00:00,2025-08-22,Eliane Xavier,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 289,2025-08-23 00:00:00,2025-08-23,Emanuel Pereira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-60,2025-08-24 00:00:00,2025-08-24,Esther Lima,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 290,2025-08-25 00:00:00,2025-08-25,William Farias,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,1,89.90
 374,2025-08-26 00:00:00,2025-08-26,André Morais,Rio de Janeiro,RJ,Preservativo Pacote Leve 8 Pague 6,Saúde do Homem,2,30.00
 291,2025-08-26 00:00:00,2025-08-26,Leandro Teixeira,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 292,2025-08-27 00:00:00,2025-08-27,Lívia Mendes,Rio de Janeiro,RJ,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,2,70.00
-61,2025-08-28 00:00:00,2025-08-28,Isabella Santos,São Paulo,SP,Cortador de Unha Aço Inox,Higiene Pessoal,1,11.20
 293,2025-08-29 00:00:00,2025-08-29,Débora Moreira,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,3,167.70
 294,2025-08-30 00:00:00,2025-08-30,Lavínia Pereira,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
-124,2025-08-30 00:00:00,2025-08-30,Miguel Pereira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,5,142.50
 295,2025-08-31 00:00:00,2025-08-31,José Padilha,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
 296,2025-09-01 00:00:00,2025-09-01,Lorenzo Silva,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
-62,2025-09-02 00:00:00,2025-09-02,Calebe Mendes,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
 297,2025-09-02 00:00:00,2025-09-02,Tatiane Lopes,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 298,2025-09-03 00:00:00,2025-09-03,Rebeca Gonçalves,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 375,2025-09-04 00:00:00,2025-09-04,Cauã Almeida,São Paulo,SP,Loratadina 10mg 12cp,Antialérgicos,1,18.90
 299,2025-09-04 00:00:00,2025-09-04,Gisele Bezerra,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
-63,2025-09-05 00:00:00,2025-09-05,Matheus Lima,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
 300,2025-09-05 00:00:00,2025-09-05,Luiza Costa,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
 301,2025-09-06 00:00:00,2025-09-06,Eduardo Cunha,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 302,2025-09-07 00:00:00,2025-09-07,Bruno Souza,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 303,2025-09-08 00:00:00,2025-09-08,Alexandre Viana,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
-64,2025-09-09 00:00:00,2025-09-09,Patrícia Duarte,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,3,540.00
 304,2025-09-09 00:00:00,2025-09-09,Laura Almeida,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
 305,2025-09-10 00:00:00,2025-09-10,Marcelo Rocha,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
 306,2025-09-11 00:00:00,2025-09-11,Rafael Nogueira,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,2,12.00
 307,2025-09-12 00:00:00,2025-09-12,Leonardo Paiva,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,3,70.50
 308,2025-09-13 00:00:00,2025-09-13,Antonella Cavalcanti,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,1,29.90
-65,2025-09-13 00:00:00,2025-09-13,Enzo Silva,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
 309,2025-09-14 00:00:00,2025-09-14,Regina Bastos,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 376,2025-09-15 00:00:00,2025-09-15,Felipe Barros,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
 310,2025-09-15 00:00:00,2025-09-15,Beatriz Almeida,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,1,45.75
 311,2025-09-16 00:00:00,2025-09-16,Pedro Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
 312,2025-09-17 00:00:00,2025-09-17,Igor Resende,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
-66,2025-09-17 00:00:00,2025-09-17,Manuela Barbosa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
 313,2025-09-18 00:00:00,2025-09-18,Sarah Rodrigues,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
 314,2025-09-19 00:00:00,2025-09-19,Fernando Queiroz,Rio de Janeiro,RJ,Absorvente Noturno Suave (16 un),Cuidados Femininos,1,14.80
 315,2025-09-20 00:00:00,2025-09-20,Isabella Santos,São Paulo,SP,Fraldas Infantis Pacote G,Saúde Infantil,3,137.25
-67,2025-09-21 00:00:00,2025-09-21,Sebastião Costa,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
 316,2025-09-21 00:00:00,2025-09-21,Fábio Pires,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
-319,2025-09-22 00:00:00,2025-09-22,Diego Pinto,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
-318,2025-09-22 00:00:00,2025-09-22,Paulo Cordeiro,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
 317,2025-09-22 00:00:00,2025-09-22,Esther Lima,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,2,111.80
+318,2025-09-22 00:00:00,2025-09-22,Paulo Cordeiro,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
+319,2025-09-22 00:00:00,2025-09-22,Diego Pinto,Rio de Janeiro,RJ,Tylenol Sinus 24cp,Analgesicos,1,29.90
+320,2025-09-23 00:00:00,2025-09-23,Sofia Lima,Município Genérico 23,RR,Cortador de Unha Aço Inox,Higiene Pessoal,2,22.40
+321,2025-09-23 00:00:00,2025-09-23,Isabelly Silva,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,3,37.50
 322,2025-09-23 00:00:00,2025-09-23,Marcos Valente,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
 323,2025-09-23 00:00:00,2025-09-23,Nicolas Gonçalves,Rio de Janeiro,RJ,Fraldas Infantis Pacote G,Saúde Infantil,2,91.50
 324,2025-09-23 00:00:00,2025-09-23,Vitor Drumond,Rio de Janeiro,RJ,Sal de Frutas (Antiácido),Saúde Digestiva,1,8.90
 325,2025-09-23 00:00:00,2025-09-23,Alice Ferreira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-69,2025-09-23 00:00:00,2025-09-23,Amanda Correia,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
-101,2025-09-23 00:00:00,2025-09-23,Eduardo Cunha,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
-113,2025-09-23 00:00:00,2025-09-23,Júlia Oliveira,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,1,25.40
 326,2025-09-23 00:00:00,2025-09-23,Patrícia Duarte,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
-125,2025-09-23 00:00:00,2025-09-23,Cauã Almeida,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,1,14.80
-137,2025-09-23 00:00:00,2025-09-23,Theo Cavalcanti,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
-68,2025-09-23 00:00:00,2025-09-23,Helena Martins,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
-320,2025-09-23 00:00:00,2025-09-23,Sofia Lima,Município Genérico 23,RR,Cortador de Unha Aço Inox,Higiene Pessoal,2,22.40
-321,2025-09-23 00:00:00,2025-09-23,Isabelly Silva,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,3,37.50
+1,2026-01-05 00:00:00,2026-01-05,Isabella Santos,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,2,39.60
+2,2026-01-08 00:00:00,2026-01-08,Isabelly Silva,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
+3,2026-01-12 00:00:00,2026-01-12,Matheus Lima,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,3,70.50
+4,2026-01-15 00:00:00,2026-01-15,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+5,2026-01-18 00:00:00,2026-01-18,Amanda Correia,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,2,57.00
+6,2026-01-21 00:00:00,2026-01-21,Melissa Costa,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
+7,2026-01-24 00:00:00,2026-01-24,Maria Clara Rodrigues,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,4,38.00
+8,2026-01-28 00:00:00,2026-01-28,Sebastião Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+9,2026-02-02 00:00:00,2026-02-02,Manuela Barbosa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+10,2026-02-05 00:00:00,2026-02-05,Ricardo Vieira,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,1,89.90
+11,2026-02-09 00:00:00,2026-02-09,Miguel Pereira,Rio de Janeiro,RJ,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,1,35.00
+12,2026-02-13 00:00:00,2026-02-13,Elisa Nogueira,São Paulo,SP,Dorflex 36cp,Analgesicos,3,70.50
+13,2026-02-17 00:00:00,2026-02-17,Guilherme Cavalcanti,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
+14,2026-02-20 00:00:00,2026-02-20,Helena Martins,Rio de Janeiro,RJ,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+15,2026-02-24 00:00:00,2026-02-24,Vinicius Cardoso,Rio de Janeiro,RJ,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,1,2.50
+16,2026-03-01 00:00:00,2026-03-01,Isaac Barbosa,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,2,17.80
+17,2026-03-04 00:00:00,2026-03-04,Pedro Souza,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+18,2026-03-08 00:00:00,2026-03-08,Lavínia Pereira,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+19,2026-03-12 00:00:00,2026-03-12,Yasmin Barbosa,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+20,2026-03-16 00:00:00,2026-03-16,Bruna Campos,São Paulo,SP,Cortador de Unha Aço Inox,Higiene Pessoal,2,22.40
+21,2026-03-19 00:00:00,2026-03-19,Davi Nogueira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+22,2026-03-23 00:00:00,2026-03-23,Alice Ferreira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+23,2026-03-27 00:00:00,2026-03-27,Gabriela Azevedo,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,1,6.00
+24,2026-04-03 00:00:00,2026-04-03,Rafael Nogueira,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,2,14.40
+25,2026-04-06 00:00:00,2026-04-06,Theo Cavalcanti,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+26,2026-04-10 00:00:00,2026-04-10,Rodrigo Santos,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,1,25.40
+27,2026-04-14 00:00:00,2026-04-14,Ana Júlia Oliveira,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+28,2026-04-18 00:00:00,2026-04-18,Valentina Ribeiro,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
+29,2026-04-22 00:00:00,2026-04-22,Leandro Teixeira,Rio de Janeiro,RJ,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
+30,2026-04-26 00:00:00,2026-04-26,Lucas Ferreira,Rio de Janeiro,RJ,Álcool em Gel 70% 500ml,Higiene Pessoal,2,36.00
+31,2026-04-30 00:00:00,2026-04-30,Cauã Almeida,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
+32,2026-05-04 00:00:00,2026-05-04,Arthur Rodrigues,Rio de Janeiro,RJ,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,1,12.50
+33,2026-05-07 00:00:00,2026-05-07,Daniel Ribeiro,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,3,59.40
+34,2026-05-11 00:00:00,2026-05-11,Nicolas Gonçalves,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+35,2027-05-15 00:00:00,2027-05-15,Juliana Dias,São Paulo,SP,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,1,35.00
+36,2027-05-19 00:00:00,2027-05-19,Lorenzo Silva,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+37,2027-05-23 00:00:00,2027-05-23,Emanuel Pereira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+38,2027-05-27 00:00:00,2027-05-27,Heitor Lima,Rio de Janeiro,RJ,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
+39,2027-06-02 00:00:00,2027-06-02,Benjamin Oliveira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+40,2027-06-05 00:00:00,2027-06-05,Luiza Costa,São Paulo,SP,Dorflex 36cp,Analgesicos,3,70.50
+41,2027-06-09 00:00:00,2027-06-09,Larissa Monteiro,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,1,45.90
+42,2027-06-13 00:00:00,2027-06-13,Letícia Santos,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+43,2027-06-17 00:00:00,2027-06-17,Bernardo Gonçalves,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+44,2027-06-21 00:00:00,2027-06-21,Rebeca Gonçalves,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,4,380.00
+45,2027-06-25 00:00:00,2027-06-25,Júlia Oliveira,São Paulo,SP,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
+46,2027-06-29 00:00:00,2027-06-29,Felipe Barros,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+47,2027-07-03 00:00:00,2027-07-03,Beatriz Almeida,Rio de Janeiro,RJ,Sal de Frutas (Antiácido),Saúde Digestiva,1,8.90
+48,2027-07-07 00:00:00,2027-07-07,Antonella Cavalcanti,São Paulo,SP,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,3,7.50
+49,2027-07-11 00:00:00,2027-07-11,Gabriel Pereira,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
+50,2027-07-15 00:00:00,2027-07-15,Diego Pinto,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,2,19.00
+51,2027-07-19 00:00:00,2027-07-19,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+52,2027-07-23 00:00:00,2027-07-23,Alice Ferreira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,5,142.50
+53,2027-07-27 00:00:00,2027-07-27,Sarah Rodrigues,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+54,2027-08-01 00:00:00,2027-08-01,Clarice Souza,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,2,25.00
+55,2027-08-04 00:00:00,2027-08-04,Sophia Mendes,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+56,2027-08-08 00:00:00,2027-08-08,Bruno Souza,São Paulo,SP,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,3,269.70
+57,2027-08-12 00:00:00,2027-08-12,Marcelo Rocha,Rio de Janeiro,RJ,Álcool em Gel 70% 500ml,Higiene Pessoal,1,18.00
+58,2027-08-16 00:00:00,2027-08-16,Mariana Ribeiro,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+59,2027-08-20 00:00:00,2027-08-20,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+60,2027-08-24 00:00:00,2027-08-24,Esther Lima,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+61,2027-08-28 00:00:00,2027-08-28,Isabella Santos,São Paulo,SP,Cortador de Unha Aço Inox,Higiene Pessoal,1,11.20
+62,2027-09-02 00:00:00,2027-09-02,Calebe Mendes,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
+63,2027-09-05 00:00:00,2027-09-05,Matheus Lima,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+93,2028-01-11 00:00:00,2028-01-11,Daniel Ribeiro,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+94,2028-02-15 00:00:00,2028-02-15,Beatriz Almeida,Rio de Janeiro,RJ,Gase Estéril Pacote (10 un),Primeiros Socorros,2,19.00
+95,2028-03-21 00:00:00,2028-03-21,Felipe Barros,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+96,2028-04-24 00:00:00,2028-04-24,Arthur Rodrigues,Rio de Janeiro,RJ,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+97,2028-05-30 00:00:00,2028-05-30,Esther Lima,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+98,2028-06-19 00:00:00,2028-06-19,Isabella Santos,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,2,29.60
+99,2028-07-25 00:00:00,2028-07-25,Benjamin Oliveira,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+100,2028-08-14 00:00:00,2028-08-14,Bernardo Gonçalves,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+64,2028-09-09 00:00:00,2028-09-09,Patrícia Duarte,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,3,540.00
+65,2028-09-13 00:00:00,2028-09-13,Enzo Silva,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+66,2028-09-17 00:00:00,2028-09-17,Manuela Barbosa,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+67,2028-09-21 00:00:00,2028-09-21,Sebastião Costa,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
+69,2028-09-23 00:00:00,2028-09-23,Amanda Correia,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
+68,2028-09-23 00:00:00,2028-09-23,Helena Martins,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+101,2028-09-23 00:00:00,2028-09-23,Eduardo Cunha,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+70,2028-10-01 00:00:00,2028-10-01,Maria Clara Rodrigues,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,2,47.00
+71,2028-10-04 00:00:00,2028-10-04,Melissa Costa,São Paulo,SP,Protetor Solar Facial FPS 50,Proteção Solar,1,55.90
+72,2028-10-08 00:00:00,2028-10-08,Isabelly Silva,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+73,2028-10-12 00:00:00,2028-10-12,Miguel Pereira,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+74,2028-10-16 00:00:00,2028-10-16,Ricardo Vieira,Rio de Janeiro,RJ,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,2,70.00
+102,2028-10-18 00:00:00,2028-10-18,Luiza Costa,São Paulo,SP,Analgésico Infantil em Gotas,Analgesicos,1,19.80
+75,2028-10-20 00:00:00,2028-10-20,Guilherme Cavalcanti,São Paulo,SP,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
+76,2028-10-24 00:00:00,2028-10-24,Elisa Nogueira,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,4,35.60
+77,2028-10-28 00:00:00,2028-10-28,Pedro Souza,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+78,2028-11-02 00:00:00,2028-11-02,Vinicius Cardoso,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,2,179.80
+79,2028-11-05 00:00:00,2028-11-05,Yasmin Barbosa,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+80,2028-11-09 00:00:00,2028-11-09,Isaac Barbosa,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
+81,2028-11-13 00:00:00,2028-11-13,Bruna Campos,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,3,41.70
+82,2028-11-17 00:00:00,2028-11-17,Davi Nogueira,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+83,2028-11-21 00:00:00,2028-11-21,Lavínia Pereira,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,1,15.00
+103,2028-11-23 00:00:00,2028-11-23,Antonella Cavalcanti,São Paulo,SP,Cortador de Unha Aço Inox,Higiene Pessoal,3,33.60
+84,2028-11-25 00:00:00,2028-11-25,Rafael Nogueira,Rio de Janeiro,RJ,Máscara de Proteção N95,Proteção e Segurança,1,6.00
+85,2028-11-29 00:00:00,2028-11-29,Theo Cavalcanti,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+86,2028-12-03 00:00:00,2028-12-03,Gabriela Azevedo,São Paulo,SP,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,2,25.00
+87,2028-12-07 00:00:00,2028-12-07,Lucas Ferreira,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+88,2028-12-11 00:00:00,2028-12-11,Cauã Almeida,São Paulo,SP,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,1,2.50
+89,2028-12-15 00:00:00,2028-12-15,Rodrigo Santos,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,3,76.20
+90,2028-12-19 00:00:00,2028-12-19,Valentina Ribeiro,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+91,2028-12-23 00:00:00,2028-12-23,Leandro Teixeira,Rio de Janeiro,RJ,Álcool em Gel 70% 500ml,Higiene Pessoal,1,18.00
+92,2028-12-28 00:00:00,2028-12-28,Lorenzo Silva,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,5,142.50
+129,2029-01-02 00:00:00,2029-01-02,Beatriz Almeida,Rio de Janeiro,RJ,Algodão em Bolas 100g,Primeiros Socorros,1,7.20
+138,2029-01-03 00:00:00,2029-01-03,Débora Moreira,São Paulo,SP,Tylenol Sinus 24cp,Analgesicos,2,59.80
+117,2029-01-26 00:00:00,2029-01-26,Gabriel Pereira,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,1,22.90
+105,2029-01-30 00:00:00,2029-01-30,Larissa Monteiro,São Paulo,SP,Enxaguante Bucal Sem Álcool,Higiene Bucal Avançada,2,45.80
+130,2029-02-03 00:00:00,2029-02-03,Emanuel Pereira,São Paulo,SP,Sal de Frutas (Antiácido),Saúde Digestiva,2,17.80
+118,2029-02-26 00:00:00,2029-02-26,Bruna Campos,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+106,2029-02-28 00:00:00,2029-02-28,Letícia Santos,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+131,2029-03-06 00:00:00,2029-03-06,Benjamin Oliveira,São Paulo,SP,Curativo Adesivo à Prova D'água,Primeiros Socorros,1,13.90
+107,2029-03-10 00:00:00,2029-03-10,Sarah Rodrigues,São Paulo,SP,Aparelho de Pressão Digital de Pulso,Equipamentos Médicos,1,180.00
+119,2029-03-26 00:00:00,2029-03-26,Lívia Mendes,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+132,2029-04-07 00:00:00,2029-04-07,Davi Nogueira,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+108,2029-04-12 00:00:00,2029-04-12,Clarice Souza,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+120,2029-04-28 00:00:00,2029-04-28,Manuela Barbosa,São Paulo,SP,Teste de Gravidez Digital,Testes e Diagnósticos,3,137.70
+133,2029-05-09 00:00:00,2029-05-09,Patrícia Duarte,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+109,2029-05-14 00:00:00,2029-05-14,Sophia Mendes,São Paulo,SP,Máscara de Proteção N95,Proteção e Segurança,1,6.00
+121,2029-05-25 00:00:00,2029-05-25,Daniel Ribeiro,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50
+134,2029-06-10 00:00:00,2029-06-10,Mariana Ribeiro,Rio de Janeiro,RJ,Pasta de Dente Gengivas Sensíveis,Higiene Bucal Avançada,2,25.00
+110,2029-06-16 00:00:00,2029-06-16,Marcelo Rocha,Rio de Janeiro,RJ,Curativo Adesivo à Prova D'água,Primeiros Socorros,2,27.80
+122,2029-06-27 00:00:00,2029-06-27,Maria Clara Rodrigues,Rio de Janeiro,RJ,Ômega 3 1000mg 120 cápsulas,Suplementos Alimentares,2,179.80
+135,2029-07-12 00:00:00,2029-07-12,Isaac Barbosa,São Paulo,SP,Álcool em Gel 70% 500ml,Higiene Pessoal,1,18.00
+111,2029-07-17 00:00:00,2029-07-17,Nicolas Gonçalves,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+123,2029-07-29 00:00:00,2029-07-29,Diego Pinto,Rio de Janeiro,RJ,Bolsa Térmica Gel Quente/Fria,Produtos Ortopédicos,1,35.00
+136,2029-08-13 00:00:00,2029-08-13,Vinicius Cardoso,Rio de Janeiro,RJ,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
+112,2029-08-18 00:00:00,2029-08-18,Rebeca Gonçalves,São Paulo,SP,Lenços Umedecidos Antissépticos,Higiene Pessoal,3,45.00
+124,2029-08-30 00:00:00,2029-08-30,Miguel Pereira,Rio de Janeiro,RJ,Vitamina C Efervescente 1g,Suplementos Alimentares,5,142.50
+137,2029-09-23 00:00:00,2029-09-23,Theo Cavalcanti,São Paulo,SP,Coenzima Q10 100mg,Suplementos Alimentares,1,95.00
+125,2029-09-23 00:00:00,2029-09-23,Cauã Almeida,São Paulo,SP,Absorvente Noturno Suave (16 un),Cuidados Femininos,1,14.80
+113,2029-09-23 00:00:00,2029-09-23,Júlia Oliveira,São Paulo,SP,Pomada para Picada de Inseto,Primeiros Socorros,1,25.40
+114,2029-10-26 00:00:00,2029-10-26,Lavínia Pereira,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+126,2029-10-30 00:00:00,2029-10-30,Isabelly Silva,São Paulo,SP,Dorflex 36cp,Analgesicos,2,47.00
+127,2029-11-01 00:00:00,2029-11-01,Laura Almeida,Rio de Janeiro,RJ,Dorflex 36cp,Analgesicos,1,23.50
+115,2029-11-15 00:00:00,2029-11-15,Heitor Lima,Rio de Janeiro,RJ,Seringa Descartável 5ml com Agulha,Equipamentos Médicos,1,2.50
+128,2029-12-02 00:00:00,2029-12-02,Juliana Dias,São Paulo,SP,Gase Estéril Pacote (10 un),Primeiros Socorros,3,28.50
+116,2029-12-17 00:00:00,2029-12-17,Calebe Mendes,São Paulo,SP,Vitamina C Efervescente 1g,Suplementos Alimentares,4,114.00
+104,2029-12-26 00:00:00,2029-12-26,Bruno Souza,São Paulo,SP,Dorflex 36cp,Analgesicos,1,23.50

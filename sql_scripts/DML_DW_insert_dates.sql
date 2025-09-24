@@ -40,6 +40,6 @@ FROM
     -- Gera uma série de datas, do início ao fim, com intervalo de 1 dia
     generate_series(
         '2010-01-01'::DATE,
-        '2025-09-24'::DATE,
+        '2030-12-31'::DATE,
         '1 day'::INTERVAL
     ) AS s(dt); --alias
