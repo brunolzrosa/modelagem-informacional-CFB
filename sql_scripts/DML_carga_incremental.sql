@@ -146,10 +146,6 @@ INSERT INTO public.Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMun
 ('William Farias', 'william.farias@email.com', 'senha123', 'Rua Uruguai, 9898', 'Tijuca', 35),
 ('Cintia Arruda', 'cintia.arruda@email.com', 'senha123', 'Rua Itapura, 9999', 'Tatuapé', 48)
 ON CONFLICT (EmailCliente) DO NOTHING;
-
--- ===================================================================
--- DML - Inserção em Massa de 200 Clientes com IDMunicipio Variado
--- ===================================================================
 INSERT INTO public.Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMunicipio) VALUES
 ('Sofia Lima', 'sofia.lima@email.com', 'senha123', 'Rua da Paz, 101', 'Centro', 23),
 ('Davi Santos', 'davi.santos@email.com', 'senha123', 'Avenida Central, 202', 'Vila Nova', 41),
