@@ -1,307 +1,139 @@
--- estados e uf
+-- ===================================================================
+-- SCRIPT DML INICIAL 
+-- ===================================================================
 
-INSERT INTO UF (IDUF, NomeUF) VALUES
-('AC', 'Acre'),
-('AL', 'Alagoas'),
-('AP', 'Amapá'),
-('AM', 'Amazonas'),
-('BA', 'Bahia'),
-('CE', 'Ceará'),
-('DF', 'Distrito Federal'),
-('ES', 'Espírito Santo'),
-('GO', 'Goiás'),
-('MA', 'Maranhão'),
-('MT', 'Mato Grosso'),
-('MS', 'Mato Grosso do Sul'),
-('MG', 'Minas Gerais'),
-('PA', 'Pará'),
-('PB', 'Paraíba'),
-('PR', 'Paraná'),
-('PE', 'Pernambuco'),
-('PI', 'Piauí'),
-('RJ', 'Rio de Janeiro'),
-('RN', 'Rio Grande do Norte'),
-('RS', 'Rio Grande do Sul'),
-('RO', 'Rondônia'),
-('RR', 'Roraima'),
-('SC', 'Santa Catarina'),
-('SP', 'São Paulo'),
-('SE', 'Sergipe'),
-('TO', 'Tocantins');
+-- Bloco 1: Tabelas independentes
+INSERT INTO public.UF (IDUF, NomeUF) VALUES
+('AC', 'Acre'), ('AL', 'Alagoas'), ('AP', 'Amapá'), ('AM', 'Amazonas'), ('BA', 'Bahia'), ('CE', 'Ceará'), ('DF', 'Distrito Federal'), ('ES', 'Espírito Santo'), ('GO', 'Goiás'), ('MA', 'Maranhão'), ('MT', 'Mato Grosso'), ('MS', 'Mato Grosso do Sul'), ('MG', 'Minas Gerais'), ('PA', 'Pará'), ('PB', 'Paraíba'), ('PR', 'Paraná'), ('PE', 'Pernambuco'), ('PI', 'Piauí'), ('RJ', 'Rio de Janeiro'), ('RN', 'Rio Grande do Norte'), ('RS', 'Rio Grande do Sul'), ('RO', 'Rondônia'), ('RR', 'Roraima'), ('SC', 'Santa Catarina'), ('SP', 'São Paulo'), ('SE', 'Sergipe'), ('TO', 'Tocantins');
 
-DO $$
-BEGIN
-  RAISE NOTICE 'UFs adicionados com sucesso';
-END;
-$$;
+INSERT INTO public.municipio (NomeMunicipio, IDUF) VALUES
+-- SÃO PAULO (SP)
+('São Paulo', 'SP'), ('Guarulhos', 'SP'), ('Campinas', 'SP'), ('São Bernardo do Campo', 'SP'),
+('Santo André', 'SP'), ('Osasco', 'SP'), ('São José dos Campos', 'SP'), ('Sorocaba', 'SP'),
+('Ribeirão Preto', 'SP'), ('Santos', 'SP'), ('São Carlos', 'SP'),
 
--- municipios de exemplo
-INSERT INTO Municipio (NomeMunicipio, IDUF) VALUES
-('Rio Branco', 'AC'),
-('Cruzeiro do Sul', 'AC'),
-('Maceió', 'AL'),
-('Arapiraca', 'AL'),
-('Macapá', 'AP'),
-('Santana', 'AP'),
-('Manaus', 'AM'),
-('Parintins', 'AM'),
-('Salvador', 'BA'),
-('Feira de Santana', 'BA'),
-('Fortaleza', 'CE'),
-('Caucaia', 'CE'),
-('Brasília', 'DF'),
-('Vitória', 'ES'),
-('Goiânia', 'GO'),
-('Aparecida de Goiânia', 'GO'),
-('São Luís', 'MA'),
-('Imperatriz', 'MA'),
-('Cuiabá', 'MT'),
-('Várzea Grande', 'MT'),
-('Campo Grande', 'MS'),
-('Dourados', 'MS'),
-('Belo Horizonte', 'MG'),
-('Uberlândia', 'MG'),
-('Belém', 'PA'),
-('Ananindeua', 'PA'),
-('João Pessoa', 'PB'),
-('Campina Grande', 'PB'),
-('Curitiba', 'PR'),
-('Londrina', 'PR'),
-('Recife', 'PE'),
-('Olinda', 'PE'),
-('Teresina', 'PI'),
-('Parnaíba', 'PI'),
-('Rio de Janeiro', 'RJ'),
-('Niterói', 'RJ'),
-('Natal', 'RN'),
-('Mossoró', 'RN'),
-('Porto Alegre', 'RS'),
-('Caxias do Sul', 'RS'),
-('Porto Velho', 'RO'),
-('Ji-Paraná', 'RO'),
-('Boa Vista', 'RR'),
-('Rorainópolis', 'RR'),
-('Florianópolis', 'SC'),
-('Joinville', 'SC'),
-('São Paulo', 'SP'),
-('Campinas', 'SP'),
-('Aracaju', 'SE'),
-('Nossa Senhora do Socorro', 'SE'),
-('Palmas', 'TO'),
-('Araguaína', 'TO');
+-- RIO DE JANEIRO (RJ)
+('Rio de Janeiro', 'RJ'), ('São Gonçalo', 'RJ'), ('Duque de Caxias', 'RJ'), ('Nova Iguaçu', 'RJ'),
+('Niterói', 'RJ'), ('Belford Roxo', 'RJ'), ('Campos dos Goytacazes', 'RJ'), ('Petrópolis', 'RJ'),
+('Volta Redonda', 'RJ'),
+
+-- MINAS GERAIS (MG)
+('Belo Horizonte', 'MG'), ('Uberlândia', 'MG'), ('Contagem', 'MG'), ('Juiz de Fora', 'MG'),
+('Betim', 'MG'), ('Montes Claros', 'MG'), ('Uberaba', 'MG'), ('Governador Valadares', 'MG'),
+('Varginha', 'MG'),
+
+-- ESPÍRITO SANTO (ES)
+('Vitória', 'ES'), ('Vila Velha', 'ES'), ('Serra', 'ES'), ('Cariacica', 'ES'),
+('Guarapari', 'ES'),
+
+-- PARANÁ (PR)
+('Curitiba', 'PR'), ('Londrina', 'PR'), ('Maringá', 'PR'), ('Ponta Grossa', 'PR'),
+('Cascavel', 'PR'), ('Foz do Iguaçu', 'PR'),
+
+-- SANTA CATARINA (SC)
+('Florianópolis', 'SC'), ('Joinville', 'SC'), ('Blumenau', 'SC'), ('São José', 'SC'),
+('Chapecó', 'SC'), ('Criciúma', 'SC'),
+
+-- RIO GRANDE DO SUL (RS)
+('Porto Alegre', 'RS'), ('Caxias do Sul', 'RS'), ('Canoas', 'RS'), ('Pelotas', 'RS'),
+('Santa Maria', 'RS'), ('Gravataí', 'RS');
+
+INSERT INTO public.Categoria (NomeCategoria) VALUES ('Analgesicos'), ('Antibióticos'), ('Vacinas');
+INSERT INTO public.Enfermidades (NomeEnferm, DescrEnferm) VALUES ('Hipertensão', 'Pressão arterial elevada'), ('Diabetes', 'Controle de glicose elevado');
 
 
-DO $$
-BEGIN
-  RAISE NOTICE 'Municípios adicionados com sucesso';
-END;
-$$;
-
--- CLIENTES DE TESTE
-INSERT INTO Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMunicipio, IDUF) VALUES
-('Anderson Silva', 'anderson.silva@email.com', 'senha123', 'Rua das Flores, 100', 'Centro', 1, 'AC'),
-('Ana Souza', 'ana.souza@email.com', 'senha123', 'Avenida Brasil, 250', 'Jardim', 3, 'AL'),
-('Carlos Pereira', 'carlos.pereira@email.com', 'senha123', 'Rua do Sol, 75', 'Boa Vista', 5, 'AP'),
-('Fernanda Lima', 'fernanda.lima@email.com', 'senha123', 'Travessa Verde, 42', 'Centro', 7, 'AM'),
-('Lucas Oliveira', 'lucas.oliveira@email.com', 'senha123', 'Rua das Acácias, 180', 'Jardim América', 9, 'BA'),
-('Mariana Costa', 'mariana.costa@email.com', 'senha123', 'Avenida das Palmeiras, 12', 'Cidade Alta', 11, 'CE'),
-('Pedro Santos', 'pedro.santos@email.com', 'senha123', 'Rua Nova, 33', 'Centro', 13, 'DF'),
-('Juliana Ribeiro', 'juliana.ribeiro@email.com', 'senha123', 'Rua do Lago, 88', 'Bairro Alto', 15, 'GO'),
-('Thiago Martins', 'thiago.martins@email.com', 'senha123', 'Avenida Central, 500', 'Centro', 17, 'MA'),
-('Camila Fernandes', 'camila.fernandes@email.com', 'senha123', 'Rua do Comércio, 210', 'Centro', 19, 'MT');
-
-
-DO $$
-BEGIN
-  RAISE NOTICE 'primeiros clientes adicionados com sucesso';
-END;
-$$;
---estoque
-
-INSERT INTO Estoque (Prateleira, Quantidade) VALUES
-('Prateleira A1', 50),('Prateleira B2', 100),('Prateleira C3', 75);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Estoques adicionados com sucesso';
-END;
-$$;
-
---fornecedor
-INSERT INTO Fornecedor (CNPJ, NomeFornecedor) VALUES
-('12.345.678/0001-90', 'Farmácia Central'),
-('98.765.432/0001-12', 'Distribuidora Saúde');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Fornecedores adicionados com sucesso';
-END;
-$$;
-
---categorias
-INSERT INTO Categoria (NomeCategoria) VALUES
-('Analgesicos'),('Antibióticos'),('Vacinas');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Categorias adicionadas com sucesso';
-END;
-$$;
-
---produtos
-
-INSERT INTO Produto (NomeProduto, DescrProd, PrecVenda, DtValidade, IDEstoque) VALUES
-('Paracetamol 500mg', 'Comprimidos para dor e febre', 5.50, '2026-12-31', 1),
-('Amoxicilina 500mg', 'Antibiótico para infecções bacterianas', 12.75, '2025-10-30', 2),
-('Vacina Influenza 2025', 'Vacina contra gripe sazonal', 50.00, '2026-03-31', 3);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Produtos adicionados com sucesso';
-END;
-$$;
-
--- medicamentos
-
-INSERT INTO Medicamento (IDProduto, Indicacao, Contraindicacao) VALUES
-(1, 'Dor de cabeça, febre', 'Alergia ao paracetamol'),
-(2, 'Infecções bacterianas', 'Alergia a penicilinas');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Medicamentos adicionados com sucesso';
-END;
-$$;
-
---vacinas
-
-INSERT INTO Vacina (IDProduto, FabricanteVac, IDCliente) VALUES
-(3, 'Laboratório Vida', 3);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Vacinas adicionadas com sucesso';
-END;
-$$;
-
-
---CliCompraProd
-INSERT INTO CliCompraProd (DataCompra, Quantidade, IDCliente, IDProduto) VALUES
-('2025-09-01', 2, 1, 1),
-('2025-09-02', 1, 2, 2),
-('2025-09-03', 1, 3, 3);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Compras de clientes adicionadas com sucesso';
-END;
-$$;
-
---FornEstoque
+WITH novos_clientes AS (
+    INSERT INTO Cliente (NomeCliente, EmailCliente, Senha, Rua, Bairro, IDMunicipio) VALUES
+    ('Anderson Silva', 'anderson.silva@email.com', 'senha123', 'Rua das Flores, 100', 'Centro', 1),
+    ('Ana Souza', 'ana.souza@email.com', 'senha123', 'Avenida Brasil, 250', 'Jardim', 3),
+    ('Carlos Pereira', 'carlos.pereira@email.com', 'senha123', 'Rua do Sol, 75', 'Boa Vista', 5)
+    RETURNING IDCliente, NomeCliente
+),
+telefones_clientes AS (
+    INSERT INTO Cliente_TelefoneCliente (IDCliente, TelefoneCliente)
+    SELECT nc.IDCliente, CASE nc.NomeCliente WHEN 'Anderson Silva' THEN '11999990001' WHEN 'Ana Souza' THEN '11999990002' WHEN 'Carlos Pereira' THEN '11999990003' END
+    FROM novos_clientes nc
+),
+enfermidades_clientes AS (
+    INSERT INTO CliEnferm (IDCliente, IDEnfermidade, DtCadEnferm)
+    SELECT nc.IDCliente, e.IDEnfermidade, '2025-01-15'::date
+    FROM novos_clientes nc, Enfermidades e
+    WHERE (nc.NomeCliente = 'Anderson Silva' AND e.NomeEnferm = 'Hipertensão') OR (nc.NomeCliente = 'Ana Souza' AND e.NomeEnferm = 'Diabetes')
+),
+novos_fornecedores AS (
+    INSERT INTO Fornecedor (NomeFornecedor, CNPJ) VALUES ('Farmácia Central', '12.345.678/0001-90'), ('Distribuidora Saúde', '98.765.432/0001-12')
+    RETURNING IDFornecedor, NomeFornecedor
+),
+telefones_fornecedores AS (
+    INSERT INTO Fornecedor_Telefone (IDFornecedor, Telefone)
+    SELECT nf.IDFornecedor, CASE nf.NomeFornecedor WHEN 'Farmácia Central' THEN '1133334444' WHEN 'Distribuidora Saúde' THEN '1144445555' END
+    FROM novos_fornecedores nf
+),
+novos_estoques AS (
+    INSERT INTO Estoque (IDMunicipio) VALUES (1), (3), (5) RETURNING IDEstoque
+)
 INSERT INTO FornEstoque (IDFornecedor, IDEstoque, PrecoCompra) VALUES
-(1, 1, 3.50),
-(2, 2, 8.00),
-(1, 3, 30.00);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Relações fornecedor-estoque adicionadas com sucesso';
-END;
-$$;
+(1, 1, 3.50), (2, 2, 8.00), (1, 3, 30.00);
 
 
---ProdCategoria
+WITH novos_produtos AS (
+    INSERT INTO Produto (NomeProduto, DescrProd, PrecVenda, DtValidade, IDEstoque) VALUES
+    ('Paracetamol 500mg', 'Comprimidos para dor e febre', 5.50, '2026-12-31', 1),
+    ('Amoxicilina 500mg', 'Antibiótico para infecções bacterianas', 12.75, '2025-10-30', 2),
+    ('Vacina Influenza 2025', 'Vacina contra gripe sazonal', 50.00, '2026-03-31', 3)
+    RETURNING IDProduto, NomeProduto, IDEstoque
+),
+novos_medicamentos AS (
+    INSERT INTO Medicamento (IDProduto, Indicacao, Contraindicacao)
+    SELECT np.IDProduto,
+        CASE np.NomeProduto WHEN 'Paracetamol 500mg' THEN 'Dor de cabeça, febre' WHEN 'Amoxicilina 500mg' THEN 'Infecções bacterianas' END,
+        CASE np.NomeProduto WHEN 'Paracetamol 500mg' THEN 'Alergia ao paracetamol' WHEN 'Amoxicilina 500mg' THEN 'Alergia a penicilinas' END
+    FROM novos_produtos np WHERE np.NomeProduto IN ('Paracetamol 500mg', 'Amoxicilina 500mg')
+),
+produtos_categorizados AS (
+    INSERT INTO ProdCateg (IDProduto, IDCategoria)
+    SELECT np.IDProduto, cat.IDCategoria
+    FROM novos_produtos np, Categoria cat
+    WHERE (np.NomeProduto = 'Paracetamol 500mg' AND cat.NomeCategoria = 'Analgesicos')
+       OR (np.NomeProduto = 'Amoxicilina 500mg' AND cat.NomeCategoria = 'Antibióticos')
+       OR (np.NomeProduto = 'Vacina Influenza 2025' AND cat.NomeCategoria = 'Vacinas')
+),
 
-INSERT INTO ProdCateg (IDProduto, IDCategoria) VALUES
-(1, 1),
-(2, 2),
-(3, 3);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Produtos categorizados adicionados com sucesso';
-END;
-$$;
-
-
---CliEnferm
-
-INSERT INTO Enfermidades (NomeEnferm, DescrEnferm) VALUES
-('Hipertensão', 'Pressão arterial elevada'),
-('Diabetes', 'Controle de glicose elevado');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Enfermidades adicionadas com sucesso';
-END;
-$$;
-
-INSERT INTO CliEnferm (IDCliente, IDEnfermidade, DtCadEnferm) VALUES
-(1, 1, '2025-01-15'),
-(2, 2, '2025-02-20');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Relações cliente-enfermidade adicionadas com sucesso';
-END;
-$$;
-
-
---telefone cliente
-
-INSERT INTO Cliente_TelefoneCliente (IDCliente, TelefoneCliente) VALUES
-(1, '11999990001'),
-(2, '11999990002'),
-(3, '11999990003'),
-(4, '21999999000'),
-(5, '21909090900'),
-(2, '10101000100');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Telefones de clientes adicionados com sucesso';
-END;
-$$;
-
---fornecedor telefone
-
-INSERT INTO Fornecedor_Telefone (IDFornecedor, Telefone) VALUES
-(1, '1133334444'),
-(2, '1144445555');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Telefones de fornecedores adicionados com sucesso';
-END;
-$$;
+novas_prateleiras AS (
+    INSERT INTO Prateleira (IDEstoque) VALUES
+    (1), (1),
+    (2), (2),
+    (3)      
+    RETURNING IDPrateleira, IDEstoque
+),
+produtos_na_prateleira AS (
+    INSERT INTO ProdutoPrateleira (IDProduto, IDPrateleira, QuantidadeProduto)
+    SELECT
+        p.IDProduto,
+        pr.IDPrateleira,
+        CASE p.NomeProduto
+            WHEN 'Paracetamol 500mg' THEN 200 
+            WHEN 'Amoxicilina 500mg' THEN 150 
+            WHEN 'Vacina Influenza 2025' THEN 50   
+        END
+    FROM novos_produtos p
+    JOIN (SELECT IDEstoque, MIN(IDPrateleira) as PrimeiraPrateleira FROM novas_prateleiras GROUP BY IDEstoque) pr_map
+      ON p.IDEstoque = pr_map.IDEstoque
+    JOIN novas_prateleiras pr ON pr.IDPrateleira = pr_map.PrimeiraPrateleira
+)
 
 
---interação medicamentosa 
-INSERT INTO InteracaoMedicamentosa (DescrInteracaoMedicam, IDProdutoX, IDProdutoY) VALUES
-('Não administrar juntos: risco de toxicidade', 1, 2);
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Interações medicamentosas adicionadas com sucesso';
-END;
-$$;
-
-
--- Lembretes de clientes com data de alarme
-INSERT INTO LembreteCliente (IDProduto, IDCliente, DataAlarme) VALUES
-(1, 1, '2025-09-10'),
-(2, 2, '2025-09-11'),
-(3, 3, '2025-09-12'),
-(1, 2, '2025-09-13'),
-(2, 3, '2025-09-14');
-
-DO $$
-BEGIN
-  RAISE NOTICE 'Lembretes de clientes adicionados com sucesso';
-END;
-$$;
-
-
-
-
-
+INSERT INTO CliCompraProd (DataCompra, Quantidade, IDCliente, IDProduto)
+SELECT
+    CASE c.NomeCliente
+        WHEN 'Anderson Silva' THEN '2025-09-01'::date
+        WHEN 'Ana Souza' THEN '2025-09-02'::date
+        WHEN 'Carlos Pereira' THEN '2025-09-03'::date
+    END,
+    CASE c.NomeCliente WHEN 'Anderson Silva' THEN 2 ELSE 1 END,
+    c.IDCliente,
+    p.IDProduto
+FROM Cliente c, Produto p
+WHERE (c.NomeCliente = 'Anderson Silva' AND p.NomeProduto = 'Paracetamol 500mg')
+   OR (c.NomeCliente = 'Ana Souza' AND p.NomeProduto = 'Amoxicilina 500mg')
+   OR (c.NomeCliente = 'Carlos Pereira' AND p.NomeProduto = 'Vacina Influenza 2025');
