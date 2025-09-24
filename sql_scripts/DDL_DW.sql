@@ -1,6 +1,6 @@
 /*
 ===========================
-==  DATA WAREHOUSE v2.0  ==
+==  DATA WAREHOUSE v2.1  ==
 ===========================
 */
 
@@ -15,7 +15,7 @@ CREATE SCHEMA IF NOT EXISTS dw;
 =================
 */
 CREATE TABLE dw.DimCalendario (
-    KeyCalendario INT PRIMARY KEY,
+    KeyCalendario INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     DataCompleta DATE NOT NULL UNIQUE,
     DiaDaSemana VARCHAR(14) NOT NULL,
     DiaDoMes INT NOT NULL CHECK(DiaDoMes>=1 AND DiaDoMes<=31),
@@ -26,7 +26,7 @@ CREATE TABLE dw.DimCalendario (
 );
 
 CREATE TABLE dw.DimEnderecoCliente (
-    KeyEnderecoCliente INT PRIMARY KEY,
+    KeyEnderecoCliente INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     Logradouro VARCHAR(255) NOT NULL,
     Bairro VARCHAR(255) NOT NULL,
     Municipio VARCHAR(255) NOT NULL,
@@ -35,14 +35,14 @@ CREATE TABLE dw.DimEnderecoCliente (
 );
 
 CREATE TABLE dw.DimCliente (
-    KeyCliente INT PRIMARY KEY,
+    KeyCliente INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     IDCliente INT UNIQUE NOT NULL,
     NomeCliente VARCHAR(255),
     EmailCliente VARCHAR(255)
 );
 
 CREATE TABLE dw.DimProduto (
-    KeyProduto INT PRIMARY KEY,
+    KeyProduto INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     IDProduto INT UNIQUE NOT NULL,
     NomeProduto VARCHAR(255) NOT NULL,
     DescricaoProduto VARCHAR(511) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE dw.DimProduto (
 );
 
 CREATE TABLE dw.DimCategoria (
-    KeyCategoria INT PRIMARY KEY,
+    KeyCategoria INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     IDCategoria INT UNIQUE NOT NULL,
     NomeCategoria VARCHAR(255) NOT NULL
 );
@@ -67,7 +67,7 @@ CREATE TABLE dw.FatoReceitaAgregada (
     KeyCliente INT NOT NULL REFERENCES dw.DimCliente(KeyCliente),
     KeyProduto INT NOT NULL REFERENCES dw.DimProduto(KeyProduto),
     KeyCategoria INT NOT NULL REFERENCES dw.DimCategoria(KeyCategoria),
-    PRIMARY KEY (KeyCalendario, KeyCliente, KeyProduto)
+    PRIMARY KEY (KeyCalendario, KeyCliente, KeyProduto, KeyCategoria)
 )
 
 CREATE TABLE dw.FatoReceitaDetalhada (
