@@ -87,7 +87,7 @@ CREATE TABLE oper.CliCompraProd (
 	IDCliente INT NOT NULL,
 	IDProduto INT NOT NULL,
 	Quantidade INT NOT NULL,
-	DataCompra DATE NOT NULL,
+	DataHoraCompra TIMESTAMP NOT NULL,
 	FOREIGN KEY (IDCliente) REFERENCES oper.Cliente(IDCliente),
 	FOREIGN KEY (IDProduto) REFERENCES oper.Produto(IDProduto)
 );
